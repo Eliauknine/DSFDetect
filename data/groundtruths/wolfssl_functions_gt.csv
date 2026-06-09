@@ -1,0 +1,337 @@
+project,cve,cwe,commit_sha,is_file_vulnerable,is_function_vulnerable,file_name,function_name,function_start_line,function_end_line,function_nloc
+wolfssl/wolfssl,CVE-2018-12436,664,5180cf4cce6dde46237b9b6f62eb266049caa822,True,True,wolfcrypt/src/ecc.c,wc_ecc_sign_hash_ex,3434,3601,110
+wolfssl/wolfssl,CVE-2018-12436,664,68439d431759a379bdf77f4791e88f9e6bd125bb,True,True,wolfcrypt/src/ecc.c,wc_ecc_gen_k,2926,2971,25
+wolfssl/wolfssl,CVE-2018-12436,664,68439d431759a379bdf77f4791e88f9e6bd125bb,True,False,wolfcrypt/src/ecc.c,wc_ecc_encrypt,7071,7228,123
+wolfssl/wolfssl,CVE-2018-12436,664,68439d431759a379bdf77f4791e88f9e6bd125bb,True,False,wolfcrypt/src/ecc.c,wc_ecc_export_x963,4393,4473,48
+wolfssl/wolfssl,CVE-2018-12436,664,68439d431759a379bdf77f4791e88f9e6bd125bb,True,False,wolfcrypt/src/ecc.c,wc_ecc_decrypt,7234,7399,128
+wolfssl/wolfssl,CVE-2018-12436,664,68439d431759a379bdf77f4791e88f9e6bd125bb,True,False,wolfcrypt/src/ecc.c,wc_X963_KDF,7828,7925,63
+wolfssl/wolfssl,CVE-2018-12436,664,68439d431759a379bdf77f4791e88f9e6bd125bb,True,False,wolfcrypt/src/ecc.c,wc_ecc_export_point_der,4316,4389,43
+wolfssl/wolfssl,CVE-2018-12436,664,68439d431759a379bdf77f4791e88f9e6bd125bb,True,False,wolfcrypt/src/ecc.c,accel_fp_mul,6182,6327,101
+wolfssl/wolfssl,CVE-2018-12436,664,68439d431759a379bdf77f4791e88f9e6bd125bb,True,False,wolfcrypt/src/ecc.c,accel_fp_mul2add,6331,6563,171
+wolfssl/wolfssl,CVE-2018-12436,664,68439d431759a379bdf77f4791e88f9e6bd125bb,True,False,wolfcrypt/src/ecc.c,ecc_mul2add,3638,3841,148
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,wc_ecc_verify_hash_ex,3607,3789,115
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,wc_ecc_shared_secret_gen,2558,2581,18
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,ecc_check_privkey_gen,4191,4240,39
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,wc_ecc_curve_load_item,1053,1074,16
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,True,wolfcrypt/src/ecc.c,wc_ecc_sign_hash_ex,3113,3218,67
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,ecc_check_privkey_gen_helper,4245,4273,14
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,_wc_ecc_curve_free,1020,1042,19
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,wc_ecc_curve_load,1076,1156,59
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,wc_ecc_curve_cache_free,1159,1171,11
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,wc_ecc_curve_free,1044,1051,5
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,wc_ecc_shared_secret_gen_sync,2523,2555,27
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,wc_ecc_check_key,4306,4347,20
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,,-1,-1,-1
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,wc_ecc_import_x963_ex,4351,4498,94
+wolfssl/wolfssl,CVE-2018-12436,664,6cc1fd293e70023460fbb28bb97457e1ba488442,True,False,wolfcrypt/src/ecc.c,wc_ecc_make_key_ex,2711,2826,72
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_verify_hash_ex,3500,3682,116
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_make_key_ex,2604,2719,72
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_shared_secret_gen,2451,2474,18
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_sign_hash,2882,2993,77
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_mulmod_ex,1824,2169,239
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,True,wolfcrypt/src/ecc.c,wc_ecc_gen_k,2551,2601,27
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_shared_secret_gen_sync,2416,2448,27
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_check_key,4199,4240,20
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,ecc_check_privkey_gen,4084,4133,39
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,,-1,-1,-1
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,True,wolfcrypt/src/ecc.c,wc_ecc_sign_hash_ex,3006,3111,67
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,ecc_check_pubkey_order,4172,4193,18
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_free,3119,3144,16
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_verify_hash,3396,3486,62
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_shared_secret_ex,2485,2533,35
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_init_ex,2810,2862,31
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_export_x963,3891,3971,48
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_free_rs,2791,2807,13
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,ecc_check_privkey_gen_helper,4138,4166,14
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_curve_free,970,993,19
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_curve_load_item,995,1008,12
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_shared_secret,2355,2411,37
+wolfssl/wolfssl,CVE-2018-12436,664,f1ead309872c7f919bc1386d51f054a9d2644479,True,False,wolfcrypt/src/ecc.c,wc_ecc_curve_load,1010,1066,40
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,True,wolfcrypt/src/ecc.c,wc_ecc_sign_hash_ex,2477,2573,68
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_set_curve,748,781,27
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_init,2370,2410,24
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_import_raw,3877,3903,22
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_set_custom_curve,6311,6321,9
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_import_x963,3688,3691,4
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_import_raw_ex,3861,3866,5
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_import_x963_ex,3551,3686,91
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_import_raw_private,3789,3850,42
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,,-1,-1,-1
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_make_key_ex,2171,2297,82
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_shared_secret,2015,2084,51
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_get_oid,6268,6308,33
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_dump_oids,2302,2353,37
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_make_key,2364,2367,4
+wolfssl/wolfssl,CVE-2018-12436,664,7a1acc7e569df0c1954f6e958218aaf1a876c3ac,True,False,wolfcrypt/src/ecc.c,wc_ecc_export_x963_compressed,6236,6263,21
+wolfssl/wolfssl,CVE-2019-19962,693,6372c3d6e110a1fbdb277c0d045e367785575bff,True,True,wolfcrypt/src/signature.c,wc_SignatureGenerate,388,463,47
+wolfssl/wolfssl,CVE-2019-19962,693,6372c3d6e110a1fbdb277c0d045e367785575bff,True,False,wolfcrypt/src/signature.c,wc_SignatureDerEncode,52,70,16
+wolfssl/wolfssl,CVE-2019-19962,693,6372c3d6e110a1fbdb277c0d045e367785575bff,True,False,wolfcrypt/src/signature.c,wc_SignatureVerify,228,303,47
+wolfssl/wolfssl,CVE-2019-19962,693,fc02003f7654bb9e7880d8946f217fae054b3d0b,True,False,wolfcrypt/src/signature.c,wc_SignatureDerEncode,52,82,27
+wolfssl/wolfssl,CVE-2019-19962,693,fc02003f7654bb9e7880d8946f217fae054b3d0b,True,False,wolfcrypt/src/signature.c,wc_SignatureVerifyHash,132,238,81
+wolfssl/wolfssl,CVE-2019-19962,693,fc02003f7654bb9e7880d8946f217fae054b3d0b,True,False,wolfcrypt/src/signature.c,wc_SignatureVerify,240,301,44
+wolfssl/wolfssl,CVE-2019-19962,693,fc02003f7654bb9e7880d8946f217fae054b3d0b,True,True,wolfcrypt/src/signature.c,wc_SignatureGenerate,386,447,44
+wolfssl/wolfssl,CVE-2019-19962,693,fc02003f7654bb9e7880d8946f217fae054b3d0b,True,True,wolfcrypt/src/signature.c,wc_SignatureGenerateHash,304,384,56
+wolfssl/wolfssl,CVE-2019-19962,693,fc02003f7654bb9e7880d8946f217fae054b3d0b,True,False,wolfssl/wolfcrypt/signature.h,,-1,-1,-1
+wolfssl/wolfssl,CVE-2019-19962,693,b870bad63ea390f024c3cb0eecb60c3c30b5c345,True,False,wolfcrypt/src/signature.c,,-1,-1,-1
+wolfssl/wolfssl,CVE-2019-19962,693,b870bad63ea390f024c3cb0eecb60c3c30b5c345,True,False,wolfcrypt/src/signature.c,wc_SignatureGetSize,40,74,29
+wolfssl/wolfssl,CVE-2019-19962,693,b870bad63ea390f024c3cb0eecb60c3c30b5c345,True,True,wolfcrypt/src/signature.c,wc_SignatureGenerate,164,235,50
+wolfssl/wolfssl,CVE-2019-19962,693,b870bad63ea390f024c3cb0eecb60c3c30b5c345,True,False,wolfssl/wolfcrypt/signature.h,,-1,-1,-1
+wolfssl/wolfssl,CVE-2019-19962,693,b870bad63ea390f024c3cb0eecb60c3c30b5c345,True,False,wolfcrypt/src/signature.c,wc_SignatureVerify,76,162,63
+wolfssl/wolfssl,CVE-2019-19962,693,f692c8cefb850557bb635a891c57d1d878234396,True,False,wolfcrypt/src/signature.c,,-1,-1,-1
+wolfssl/wolfssl,CVE-2019-19962,693,f692c8cefb850557bb635a891c57d1d878234396,True,True,wolfcrypt/src/signature.c,wc_SignatureGenerate,139,204,48
+wolfssl/wolfssl,CVE-2019-19962,693,f692c8cefb850557bb635a891c57d1d878234396,True,False,wolfcrypt/src/signature.c,wc_SignatureVerify,70,137,49
+wolfssl/wolfssl,CVE-2019-19962,693,f692c8cefb850557bb635a891c57d1d878234396,True,False,wolfssl/wolfcrypt/signature.h,,-1,-1,-1
+wolfssl/wolfssl,CVE-2019-19962,693,f692c8cefb850557bb635a891c57d1d878234396,True,False,wolfcrypt/src/signature.c,wc_SignatureGetSize,38,68,25
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_sig_to_rs,6741,6802,44
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfssl/wolfcrypt/ecc.h,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_rs_raw_to_sig,6673,6729,39
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,ecc_check_privkey_gen_helper,6027,6057,16
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_sign_hash,4208,4318,68
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_check_key,6107,6229,60
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,ecc_check_privkey_gen,5957,6021,47
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_cmp_param,3185,3235,36
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,True,wolfcrypt/src/ecc.c,ecc_map,2268,2453,122
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_rs_to_sig,6606,6661,38
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,True,wolfcrypt/src/ecc.c,wc_ecc_make_pub_ex,3735,3860,76
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_verify_hash_ex,5167,5512,227
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_mulmod_ex,2476,2916,292
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_is_point,5843,5953,75
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,ecc_mul2add,4738,5019,193
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_make_key_ex,3880,3987,59
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_shared_secret_gen,3545,3582,29
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_verify_hash,5047,5153,65
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_import_x963_ex,6233,6388,102
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_sign_hash_ex,4331,4656,193
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,ecc_projective_dbl_point,1919,2258,236
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,wc_ecc_import_point_der,5517,5664,95
+wolfssl/wolfssl,CVE-2020-11735,693,e6c22fbd85e4cb78cdd290d10f5359bc5a08874b,True,False,wolfcrypt/src/ecc.c,ecc_projective_add_point,1524,1890,258
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,wc_ecc_check_key( ecc_key * key),5061,5153,48
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"wc_ecc_mulmod_ex( mp_int * k , ecc_point * G , ecc_point * R , mp_int * a , mp_int * modulus , int map , void * heap)",7095,7182,57
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"wc_ecc_verify_hash_ex( mp_int * r , mp_int * s , const byte * hash , word32 hashlen , int * res , ecc_key * key)",4246,4514,173
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"wc_ecc_shared_secret_gen_sync( ecc_key * private_key , ecc_point * point , byte * out , word32 * outlen , ecc_curve_spec * curve)",2788,2868,55
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"wc_ecc_mulmod_ex( mp_int * k , ecc_point * G , ecc_point * R , mp_int * a , mp_int * modulus , int map , void * heap)",2030,2379,244
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"wc_ecc_make_key_ex( WC_RNG * rng , int keysize , ecc_key * key , int curve_id)",3230,3327,54
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"wc_ecc_make_pub_ex( ecc_key * key , ecc_curve_spec * curveIn , ecc_point * pubOut)",3093,3210,73
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,wc_ecc_fp_free( void),7207,7228,13
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"ecc_map( ecc_point * P , mp_int * modulus , mp_digit mp)",1898,2007,73
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"wc_ecc_is_point( ecc_point * ecp , mp_int * a , mp_int * b , mp_int * prime)",4825,4911,61
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"wc_ecc_import_point_der( byte * in , word32 inLen , const int curve_idx , ecc_point * point)",4520,4645,82
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"ecc_check_pubkey_order( ecc_key * key , ecc_point * pubkey , mp_int * a , mp_int * prime , mp_int * order)",5017,5054,26
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"ecc_projective_dbl_point( ecc_point * P , ecc_point * R , mp_int * a , mp_int * modulus , mp_digit mp)",1639,1888,179
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"wc_ecc_import_x963_ex( const byte * in , word32 inLen , ecc_key * key , int curve_id)",5157,5304,96
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"ecc_projective_add_point( ecc_point * P , ecc_point * Q , ecc_point * R , mp_int * a , mp_int * modulus , mp_digit mp)",1333,1610,201
+wolfssl/wolfssl,CVE-2020-11735,693,a3a4f2d59cb9f36d56abdb88732382af98a5cd62,True,False,wolfcrypt/src/ecc.c,"wc_ecc_sign_hash_ex( const byte * in , word32 inlen , WC_RNG * rng , ecc_key * key , mp_int * r , mp_int * s)",3684,3872,118
+wolfssl/wolfssl,CVE-2020-11735,693,71f4d546a8131a83e5e441b24b2c7bff646ef359,True,False,wolfcrypt/src/ecc.c,wc_ecc_export_x963,4509,4592,50
+wolfssl/wolfssl,CVE-2020-11735,693,71f4d546a8131a83e5e441b24b2c7bff646ef359,True,False,wolfcrypt/src/ecc.c,wc_ecc_sign_hash_ex,3529,3695,109
+wolfssl/wolfssl,CVE-2020-11735,693,71f4d546a8131a83e5e441b24b2c7bff646ef359,True,False,wolfcrypt/src/ecc.c,wc_ecc_make_pub,3111,3116,5
+wolfssl/wolfssl,CVE-2020-11735,693,71f4d546a8131a83e5e441b24b2c7bff646ef359,True,False,wolfcrypt/src/ecc.c,wc_ecc_check_key,4812,4891,40
+wolfssl/wolfssl,CVE-2020-11735,693,71f4d546a8131a83e5e441b24b2c7bff646ef359,True,False,wolfcrypt/src/ecc.c,wc_ecc_import_private_key_ex,5206,5250,24
+wolfssl/wolfssl,CVE-2020-11735,693,71f4d546a8131a83e5e441b24b2c7bff646ef359,True,False,wolfssl/wolfcrypt/ecc.h,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,71f4d546a8131a83e5e441b24b2c7bff646ef359,True,False,wolfcrypt/src/ecc.c,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,71f4d546a8131a83e5e441b24b2c7bff646ef359,True,False,wolfcrypt/src/ecc.c,ecc_check_pubkey_order,4785,4806,18
+wolfssl/wolfssl,CVE-2020-11735,693,71f4d546a8131a83e5e441b24b2c7bff646ef359,True,False,wolfcrypt/src/ecc.c,wc_ecc_verify_hash_ex,4066,4304,156
+wolfssl/wolfssl,CVE-2020-11735,693,71f4d546a8131a83e5e441b24b2c7bff646ef359,True,False,wolfcrypt/src/ecc.c,wc_ecc_make_key_ex,3119,3196,42
+wolfssl/wolfssl,CVE-2020-11735,693,71f4d546a8131a83e5e441b24b2c7bff646ef359,True,False,wolfcrypt/src/ecc.c,wc_ecc_export_raw,5092,5178,55
+wolfssl/wolfssl,CVE-2020-11735,693,71f4d546a8131a83e5e441b24b2c7bff646ef359,True,True,wolfcrypt/src/ecc.c,wc_ecc_make_pub_ex,3004,3099,64
+wolfssl/wolfssl,CVE-2020-11735,693,90f8f67982df37ac0f415b065cee452977fa01c5,True,False,wolfcrypt/src/tfm.c,fp_to_unsigned_bin_at_pos,1929,1954,22
+wolfssl/wolfssl,CVE-2020-11735,693,90f8f67982df37ac0f415b065cee452977fa01c5,True,False,wolfcrypt/src/tfm.c,fp_read_radix,3133,3192,36
+wolfssl/wolfssl,CVE-2020-11735,693,90f8f67982df37ac0f415b065cee452977fa01c5,True,False,wolfcrypt/src/tfm.c,fp_read_radix_16,3089,3130,34
+wolfssl/wolfssl,CVE-2020-11735,693,90f8f67982df37ac0f415b065cee452977fa01c5,True,False,wolfcrypt/src/ecc.c,wc_ecc_verify_hash_ex,4124,4381,167
+wolfssl/wolfssl,CVE-2020-11735,693,90f8f67982df37ac0f415b065cee452977fa01c5,True,True,wolfcrypt/src/ecc.c,wc_ecc_make_pub_ex,3023,3134,72
+wolfssl/wolfssl,CVE-2020-11735,693,90f8f67982df37ac0f415b065cee452977fa01c5,True,False,wolfcrypt/src/ecc.c,wc_ecc_sign_hash_ex,3574,3753,114
+wolfssl/wolfssl,CVE-2020-11735,693,90f8f67982df37ac0f415b065cee452977fa01c5,True,False,wolfcrypt/src/ecc.c,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,90f8f67982df37ac0f415b065cee452977fa01c5,True,False,wolfcrypt/src/ecc.c,ecc_check_privkey_gen,4774,4835,45
+wolfssl/wolfssl,CVE-2020-11735,693,90f8f67982df37ac0f415b065cee452977fa01c5,True,True,wolfcrypt/src/ecc.c,wc_ecc_shared_secret_gen_sync,2728,2800,53
+wolfssl/wolfssl,CVE-2020-11735,693,90f8f67982df37ac0f415b065cee452977fa01c5,True,False,wolfcrypt/src/ecc.c,wc_ecc_make_key_ex,3154,3241,49
+wolfssl/wolfssl,CVE-2020-11735,693,90f8f67982df37ac0f415b065cee452977fa01c5,True,False,wolfssl/wolfcrypt/tfm.h,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,90f8f67982df37ac0f415b065cee452977fa01c5,True,False,wolfcrypt/src/ecc.c,ecc_check_pubkey_order,4874,4904,23
+wolfssl/wolfssl,CVE-2020-11735,693,90f8f67982df37ac0f415b065cee452977fa01c5,True,False,wolfcrypt/src/tfm.c,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/tfm.c,mp_addmod,2194,2197,4
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_export_x963_compressed( ecc_key * key , byte * out , word32 * outLen)",5604,5631,21
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"mp_jacobi( mp_int * a , mp_int * n , int * c)",5336,5427,63
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfssl/wolfcrypt/ecc.h,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_mulmod( mp_int * k , ecc_point * G , ecc_point * R , mp_int * a , mp_int * modulus , int map)",1307,1311,5
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_sign_hash_ex( const byte * in , word32 inlen , WC_RNG * rng , ecc_key * key , mp_int * r , mp_int * s)",1880,1973,67
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"ecc_check_privkey_gen( ecc_key * key , mp_int * a , mp_int * prime)",2798,2840,34
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_rs_to_sig( const char * r , const char * s , byte * out , word32 * outlen)",3145,3175,23
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,wc_ecc_check_key( ecc_key * key),2898,2939,28
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"ecc_map( ecc_point * P , mp_int * modulus , mp_digit mp)",824,917,62
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"accel_fp_mul( int idx , mp_int * k , ecc_point * R , mp_int * a , mp_int * modulus , mp_digit mp , int map)",4091,4243,109
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_shared_secret( ecc_key * private_key , ecc_key * public_key , byte * out , word32 * outlen)",1477,1542,49
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,ecc_check_privkey_gen_helper( ecc_key * key),2846,2866,15
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"build_lut( int idx , mp_int * a , mp_int * modulus , mp_digit mp , mp_int * mu)",3954,4088,98
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_import_point_der( byte * in , word32 inLen , const int curve_idx , ecc_point * point)",2446,2559,78
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_mulmod( mp_int * k , ecc_point * G , ecc_point * R , mp_int * a , mp_int * modulus , int map)",1140,1144,5
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"ecc_mul2add( ecc_point * A , mp_int * kA , ecc_point * B , mp_int * kB , ecc_point * C , mp_int * a , mp_int * modulus , void * heap)",4509,4619,76
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_verify_hash_ex( mp_int * r , mp_int * s , const byte * hash , word32 hashlen , int * stat , ecc_key * key)",2284,2441,106
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_shared_secret_ssh( ecc_key * private_key , ecc_point * point , byte * out , word32 * outlen)",1553,1611,44
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/tfm.c,mp_submod,2188,2191,4
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_make_key_ex( WC_RNG * rng , ecc_key * key , const ecc_set_type * dp)",1627,1748,80
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"ecc_mul2add( ecc_point * A , mp_int * kA , ecc_point * B , mp_int * kB , ecc_point * C , mp_int * a , mp_int * modulus , void * heap)",2010,2214,149
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"ecc_projective_add_point( ecc_point * P , ecc_point * Q , ecc_point * R , mp_int * a , mp_int * modulus , mp_digit mp)",285,554,197
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_mulmod( mp_int * k , ecc_point * G , ecc_point * R , mp_int * a , mp_int * modulus , int map)",4632,4636,5
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/tfm.c,fp_submod,1000,1012,11
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"ecc_projective_dbl_point( ecc_point * P , ecc_point * R , mp_int * a , mp_int * modulus , mp_digit mp)",583,814,166
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_mulmod_ex( mp_int * k , ecc_point * G , ecc_point * R , mp_int * modulus , int map , void * heap)",4648,4723,50
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_import_x963( const byte * in , word32 inLen , ecc_key * key)",2943,3085,99
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"accel_fp_mul2add( int idx1 , int idx2 , mp_int * kA , mp_int * kB , ecc_point * R , mp_int * a , mp_int * modulus , mp_digit mp)",4247,4495,192
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"mp_sqrtmod_prime( mp_int * n , mp_int * prime , mp_int * ret)",5430,5600,109
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfssl/wolfcrypt/tfm.h,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_mulmod_ex( mp_int * k , ecc_point * G , ecc_point * R , mp_int * a , mp_int * modulus , int map , void * heap)",1165,1303,102
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/tfm.c,fp_mulmod,985,997,11
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"ecc_check_pubkey_order( ecc_key * key , mp_int * a , mp_int * prime , mp_int * order)",2872,2894,19
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"ecc_is_point( const ecc_set_type * dp , ecc_point * ecp , mp_int * prime)",2716,2794,55
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/ecc.c,"wc_ecc_mulmod_ex( mp_int * k , ecc_point * G , ecc_point * R , mp_int * a , mp_int * modulus , int map , void * heap)",940,1137,143
+wolfssl/wolfssl,CVE-2020-11735,693,5703e5eadbbfab8d86167c9e56c02f46f601d62b,True,False,wolfcrypt/src/tfm.c,fp_addmod,1015,1027,11
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_to_unsigned_bin( mp_int * a , unsigned char * b)",1940,1944,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,fp_isprime( fp_int * a),2301,2325,21
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_invmod( fp_int * a , fp_int * b , fp_int * c)",834,919,51
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_make_key( RNG * rng , int keysize , ecc_key * key)",1475,1494,15
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_ctx_set_info( ecEncCtx * ctx , const byte * info , int sz)",4061,4070,8
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"accel_fp_mul( int idx , mp_int * k , ecc_point * R , mp_int * modulus , mp_digit * mp , int map)",3347,3494,105
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_sqrmod( mp_int * a , mp_int * b , mp_int * c)",2023,2026,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_div_2( fp_int * a , fp_int * b)",2505,2509,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,find_hole( void),3117,3147,27
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,fp_count_bits( fp_int * a),1687,1707,15
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_ctx_new( int flags , RNG * rng)",4167,4182,13
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,ecc_new_point( void),1347,1360,14
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_mod( fp_int * a , fp_int * b , fp_int * c)",683,698,15
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"s_is_power_of_two( fp_digit b , int * p)",2074,2090,14
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_cmp_d( fp_int * a , fp_digit b)",1419,1440,16
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_sub_d( fp_int * a , fp_digit b , fp_int * c)",1954,1958,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"ecc_mul2add( ecc_point * A , mp_int * kA , ecc_point * B , mp_int * kB , ecc_point * C , mp_int * modulus)",3746,3856,76
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_mod( mp_int * a , mp_int * b , mp_int * c)",1900,1903,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_lcm( fp_int * a , fp_int * b , fp_int * c)",2184,2188,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_copy( fp_int * a , fp_int * b)",1962,1966,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,mp_leading_bit( mp_int * a),1990,1993,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"ecc_projective_add_point( ecc_point * P , ecc_point * Q , ecc_point * R , mp_int * modulus , mp_digit * mp)",220,367,104
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,mp_count_bits( mp_int * a),1984,1987,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_prime_miller_rabin( fp_int * a , fp_int * b , int * result)",2205,2259,30
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfssl/wolfcrypt/ecc.h,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_add_d( fp_int * a , fp_digit b , fp_int * c)",2393,2398,6
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_make_key_ex( RNG * rng , ecc_key * key , const ecc_set_type * dp)",1496,1590,65
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_set( fp_int * a , fp_digit b)",1680,1685,6
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"mp_submod( mp_int * a , mp_int * b , mp_int * c , mp_int * d)",4815,4832,15
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_montgomery_setup( fp_int * a , fp_digit * rho)",1463,1493,15
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_invmod( mp_int * a , mp_int * b , mp_int * c)",1906,1909,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_read_unsigned_bin( fp_int * a , unsigned char * b , int c)",1607,1657,33
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"ecc_map( ecc_point * P , mp_int * modulus , mp_digit * mp)",910,958,35
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_div_2d( fp_int * a , int b , fp_int * c , fp_int * d)",642,680,28
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_add( mp_int * a , mp_int * b , mp_int * c)",1873,1877,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_set( fp_int * a , fp_digit b)",2478,2482,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_sign_hash( const byte * in , word32 inlen , byte * out , word32 * outlen , RNG * rng , ecc_key * key)",1616,1708,64
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_mod_2d( fp_int * a , int b , fp_int * c)",701,726,17
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,wc_ecc_size( ecc_key * key),2523,2528,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_decrypt( ecc_key * privKey , ecc_key * pubKey , const byte * msg , word32 msgSz , byte * out , word32 * outSz , ecEncCtx * ctx)",4381,4532,122
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_ctx_set_peer_salt( ecEncCtx * ctx , const byte * salt)",4075,4121,37
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"ecc_projective_dbl_point( ecc_point * P , ecc_point * R , mp_int * modulus , mp_digit * mp)",744,899,120
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_read_radix( fp_int * a , const char * str , int radix)",2415,2469,34
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,mp_iszero( mp_int * a),1977,1980,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_encrypt( ecc_key * privKey , ecc_key * pubKey , const byte * msg , word32 msgSz , byte * out , word32 * outSz , ecEncCtx * ctx)",4229,4375,117
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,fp_leading_bit( fp_int * a),1709,1726,15
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"mp_sqrtmod_prime( mp_int * n , mp_int * prime , mp_int * ret)",4627,4780,109
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_init_multi( mp_int * a , mp_int * b , mp_int * c , mp_int * d , mp_int * e , mp_int * f)",1854,1870,16
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_add( fp_int * a , fp_int * b , fp_int * c)",62,89,18
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_lcm( fp_int * a , fp_int * b , fp_int * c)",2329,2343,14
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,wc_ecc_fp_free_cache( void),3947,3963,17
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_gcd( fp_int * a , fp_int * b , fp_int * c)",2348,2386,30
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_add_d( fp_int * a , fp_digit b , fp_int * c)",2401,2405,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,get_digit_count( mp_int * a),189,195,6
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_montgomery_calc_normalization( fp_int * a , fp_int * b)",1498,1521,18
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"s_fp_sub( fp_int * a , fp_int * b , fp_int * c)",155,178,23
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"ecc_mulmod( mp_int * k , ecc_point * G , ecc_point * R , mp_int * modulus , int map)",1195,1338,111
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_lshd( fp_int * a , int x)",1728,1750,13
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_mul_2d( fp_int * a , int b , fp_int * c)",372,401,23
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_wc_ecc_export_x963_ex( ecc_key * key , byte * out , word32 * outLen , int compressed)",2224,2234,8
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_montgomery_calc_normalization( mp_int * a , mp_int * b)",2029,2033,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_cmp( fp_int * a , fp_int * b)",1401,1416,14
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"ecc_mulmod( mp_int * k , ecc_point * G , ecc_point * R , mp_int * modulus , int map)",980,1175,145
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,wc_ecc_sig_size( ecc_key * key),2533,2540,7
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"ecc_projective_dbl_point( ecc_point * P , ecc_point * R , mp_int * modulus , mp_digit * mp)",378,482,77
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,mp_cnt_lsb( fp_int * a),2521,2525,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_2expt( fp_int * a , int b)",1194,1215,14
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_mul( mp_int * a , mp_int * b , mp_int * c)",1887,1891,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"ecc_ctx_init( ecEncCtx * ctx , int flags)",4137,4152,14
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"ecc_projective_add_point( ecc_point * P , ecc_point * Q , ecc_point * R , mp_int * modulus , mp_digit * mp)",495,733,182
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,CheckRunTimeSettings( void),47,50,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_sub( fp_int * a , fp_int * b , fp_int * c)",120,152,18
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_exptmod( fp_int * G , fp_int * X , fp_int * P , fp_int * Y)",1160,1191,24
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_montgomery_reduce( fp_int * a , fp_int * m , fp_digit mp)",1529,1605,55
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"_fp_exptmod( fp_int * G , fp_int * X , fp_int * P , fp_int * Y)",936,995,37
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_exptmod( mp_int * G , mp_int * X , mp_int * P , mp_int * Y)",1916,1919,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,ecc_del_point( ecc_point * p),1365,1374,9
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"_fp_exptmod( fp_int * G , fp_int * X , fp_int * P , fp_int * Y)",1002,1156,91
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_export_x963_compressed( ecc_key * key , byte * out , word32 * outLen)",4784,4811,21
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_rshb( mp_int * a , int x)",1997,2000,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"add_entry( int idx , ecc_point * g)",3168,3204,30
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,mp_clear( mp_int * a),1848,1851,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_rs_to_sig( const char * r , const char * s , byte * out , word32 * outlen)",2419,2449,23
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_mul( fp_int * A , fp_int * B , fp_int * C)",181,292,71
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,,-1,-1,-1
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,wc_ecc_free( ecc_key * key),1715,1724,9
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_read_unsigned_bin( mp_int * a , const unsigned char * b , int c)",1947,1951,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_verify_hash( const byte * sig , word32 siglen , const byte * hash , word32 hashlen , int * stat , ecc_key * key)",1986,2151,109
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_gcd( fp_int * a , fp_int * b , fp_int * c)",2177,2181,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_ctx_reset( ecEncCtx * ctx , RNG * rng)",4156,4163,7
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"build_lut( int idx , mp_int * modulus , mp_digit * mp , mp_int * mu)",3211,3344,97
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"s_fp_add( fp_int * a , fp_int * b , fp_int * c)",92,117,23
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_mulmod( mp_int * a , mp_int * b , mp_int * c , mp_int * d)",1894,1897,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_sqr_comba( fp_int * A , fp_int * B)",1322,1399,44
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,ecc_is_valid_idx( int n),1381,1393,10
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_invmod_slow( fp_int * a , fp_int * b , fp_int * c)",728,831,64
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"mp_jacobi( mp_int * a , mp_int * p , int * c)",4543,4624,56
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,mp_unsigned_bin_size( mp_int * a),1934,1937,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_prime_is_prime( mp_int * a , int t , int * result)",2191,2196,6
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_mod_d( fp_int * a , fp_digit b , fp_digit * c)",2164,2167,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_sub( mp_int * a , mp_int * b , mp_int * c)",1880,1884,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,fp_unsigned_bin_size( fp_int * a),1674,1678,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_div_2( fp_int * a , fp_int * b)",603,639,23
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_montgomery_reduce( fp_int * a , fp_int * m , fp_digit mp)",2492,2496,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_sqr( fp_int * A , fp_int * B)",1218,1319,69
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,wc_ecc_fp_free( void),3966,3985,13
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,find_base( ecc_point * g),3150,3165,16
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,fp_cnt_lsb( fp_int * a),2045,2069,19
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,mp_isodd( mp_int * a),1970,1973,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_reverse( unsigned char * s , int len)",1811,1825,14
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"ecc_get_key_sizes( ecEncCtx * ctx , int * encKeySz , int * ivSz , int * keysLen , word32 * digestSz , word32 * blockSz)",4195,4222,25
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_shared_secret( ecc_key * private_key , ecc_key * public_key , byte * out , word32 * outlen)",1405,1462,44
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_sqr( fp_int * A , fp_int * B)",2485,2489,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_import_raw( ecc_key * key , const char * qx , const char * qy , const char * d , const char * curveName)",2460,2519,45
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_mod_d( fp_int * a , fp_digit b , fp_digit * c)",2159,2162,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"get_digit( mp_int * a , int n)",198,204,6
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_import_private_key( const byte * priv , word32 privSz , const byte * pub , word32 pubSz , ecc_key * key)",2399,2409,9
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_sqrmod( fp_int * a , fp_int * b , fp_int * c)",2014,2020,7
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_mul_comba( fp_int * A , fp_int * B , fp_int * C)",404,457,36
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_import_x963( const byte * in , word32 inLen , ecc_key * key)",2238,2370,89
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_init_copy( fp_int * a , fp_int * b)",2512,2516,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_sub_d( fp_int * a , fp_digit b , fp_int * c)",1829,1834,6
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"ecc_mul2add( ecc_point * A , mp_int * kA , ecc_point * B , mp_int * kB , ecc_point * C , mp_int * modulus)",1749,1959,154
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_div_2d( fp_int * a , int b , fp_int * c , fp_int * d)",2527,2531,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_set_int( fp_int * a , fp_digit b)",2004,2008,5
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_div( fp_int * a , fp_int * b , fp_int * c , fp_int * d)",460,600,92
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,CheckRunTimeFastMath( void),54,57,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"ecc_ctx_set_salt( ecEncCtx * ctx , int flags , RNG * rng)",4124,4134,8
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,wc_ecc_ctx_free( ecEncCtx * ctx),4186,4192,7
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_cmp( mp_int * a , mp_int * b)",1922,1925,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,wc_ecc_ctx_get_own_salt( ecEncCtx * ctx),4030,4057,26
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"accel_fp_mul2add( int idx1 , int idx2 , mp_int * kA , mp_int * kB , ecc_point * R , mp_int * modulus , mp_digit * mp)",3498,3734,183
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_to_unsigned_bin( fp_int * a , unsigned char * b)",1659,1672,12
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_div_d( fp_int * a , fp_digit b , fp_int * c , fp_digit * d)",2093,2155,50
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_mulmod( fp_int * a , fp_int * b , fp_int * c , fp_int * d)",922,928,7
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_rshb( fp_int * c , int x)",1754,1782,16
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,wc_ecc_init( ecc_key * key),1594,1604,8
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_mul_d( fp_int * a , fp_digit b , fp_int * c)",347,369,22
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_export_private_only( ecc_key * key , byte * out , word32 * outLen)",2375,2395,18
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_cmp_d( mp_int * a , mp_digit b)",1928,1931,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_montgomery_setup( fp_int * a , fp_digit * rho)",2500,2503,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_cmp_mag( fp_int * a , fp_int * b)",1442,1460,18
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"mp_read_radix( mp_int * a , const char * str , int radix)",2472,2475,4
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_rshd( fp_int * a , int x)",1785,1808,16
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"ecc_mulmod( mp_int * k , ecc_point * G , ecc_point * R , mp_int * modulus , int map)",3868,3943,50
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,"fp_mul_2( fp_int * a , fp_int * b)",294,344,26
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/tfm.c,mp_init( mp_int * a),1840,1845,6
+wolfssl/wolfssl,CVE-2020-11735,693,a5529b124db0de6ce3257f66180e93297ed925c5,True,False,wolfcrypt/src/ecc.c,"wc_ecc_export_x963( ecc_key * key , byte * out , word32 * outLen)",2155,2219,43

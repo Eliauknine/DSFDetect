@@ -1,0 +1,79 @@
+"f","col1"
+"AcquireAlignedMemory","Function Analysis for: AcquireAlignedMemory
+File: memory_.h
+Line: 38
+Return Type: void *
+
+Namespace: MagickCore
+
+Parameters:
+  0: const size_t (unnamed parameter 0)
+  1: const size_t (unnamed parameter 1)
+
+Function Calls:
+  No function calls found
+
+Callers:
+  Called from convolve at Image.cpp:2588
+    Arguments:
+      0: order_ (size_t)
+      1: ... * ... (unsigned long)
+
+Control Flow Information:
+  Control flow node at line 38
+
+Data Flow Information:
+  No data flow information found
+"
+"AcquireAlignedMemory","Function Analysis for: AcquireAlignedMemory
+File: memory_.h
+Line: 38
+Return Type: void *
+
+Namespace: MagickCore
+
+Parameters:
+  0: const size_t (unnamed parameter 0)
+  1: const size_t (unnamed parameter 1)
+
+Function Calls:
+  No function calls found
+
+Callers:
+  Called from colorMatrix at Image.cpp:2394
+    Arguments:
+      0: order_ (size_t)
+      1: ... * ... (unsigned long)
+
+Control Flow Information:
+  Control flow node at line 38
+
+Data Flow Information:
+  No data flow information found
+"
+"AcquireAlignedMemory","Function Analysis for: AcquireAlignedMemory
+File: memory_.h
+Line: 38
+Return Type: void *
+
+Namespace: 
+
+Parameters:
+  0: const size_t (unnamed parameter 0)
+  1: const size_t (unnamed parameter 1)
+
+Function Calls:
+  No function calls found
+
+Callers:
+  Called from AcquireContributionThreadSet at resize.c:2385
+    Arguments:
+      0: count (size_t)
+      1: sizeof(<expr>) (unsigned long)
+
+Control Flow Information:
+  Control flow node at line 38
+
+Data Flow Information:
+  No data flow information found
+"

@@ -1,0 +1,968 @@
+[
+  {
+    "function_name": "MagickWriteImagesFile",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickWriteImagesFile",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickRemoveImage",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickRemoveImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ListColorInfo",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "ListColorInfo",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ListColorInfo",
+    "data": [
+      "",
+      "",
+      false,
+      "ListColorInfo",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickDisplayImages",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickDisplayImages",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetGreen",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetGreen",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetBlackQuantum",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetBlackQuantum",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "SyncAuthenticPixels",
+    "data": [
+      "",
+      "",
+      false,
+      "SyncAuthenticPixels",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickDeleteOption",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickDeleteOption",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickStripImage",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickStripImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DestroyImageView",
+    "data": [
+      "",
+      "",
+      false,
+      "DestroyImageView",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetBlueQuantum",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetBlueQuantum",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickIdentifyImage",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickIdentifyImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickWriteImages",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickWriteImages",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DestroyMagickWand",
+    "data": [
+      "",
+      "",
+      false,
+      "DestroyMagickWand",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "WriteImages",
+    "data": [
+      "",
+      "",
+      false,
+      "WriteImages",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "WriteImages",
+    "data": [
+      "",
+      "",
+      false,
+      "WriteImages",
+      "MagickBooleanType",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickClearException",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickClearException",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DeleteImages",
+    "data": [
+      "",
+      "",
+      false,
+      "DeleteImages",
+      "",
+      "",
+      "Argument[*1]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DeleteImages",
+    "data": [
+      "",
+      "",
+      false,
+      "DeleteImages",
+      "",
+      "",
+      "Argument[1]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DeleteImages",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "DeleteImages",
+      "",
+      "",
+      "Argument[*0]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DeleteImages",
+    "data": [
+      "",
+      "",
+      false,
+      "DeleteImages",
+      "",
+      "",
+      "Argument[*2]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DeleteImages",
+    "data": [
+      "",
+      "",
+      false,
+      "DeleteImages",
+      "",
+      "",
+      "Argument[*0]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DeleteImages",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "DeleteImages",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DeleteImages",
+    "data": [
+      "",
+      "",
+      false,
+      "DeleteImages",
+      "",
+      "",
+      "Argument[0]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickWriteImage",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickWriteImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickWriteImageFile",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickWriteImageFile",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DeleteImageProperty",
+    "data": [
+      "",
+      "",
+      false,
+      "DeleteImageProperty",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DeleteImageProperty",
+    "data": [
+      "",
+      "",
+      false,
+      "DeleteImageProperty",
+      "",
+      "",
+      "Argument[0]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickGetImageBorderColor",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickGetImageBorderColor",
+      "",
+      "",
+      "Argument[*1]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickGetImageBorderColor",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickGetImageBorderColor",
+      "",
+      "",
+      "Argument[0]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickGetImageBorderColor",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickGetImageBorderColor",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "RelinquishVirtualMemory",
+    "data": [
+      "",
+      "",
+      false,
+      "RelinquishVirtualMemory",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "RelinquishVirtualMemory",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "RelinquishVirtualMemory",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "RelinquishVirtualMemory",
+    "data": [
+      "",
+      "",
+      false,
+      "RelinquishVirtualMemory",
+      "MemoryInfo *",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickDisplayImage",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickDisplayImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickDisplayImage",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickDisplayImage",
+      "MagickBooleanType",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickSteganoImage",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickSteganoImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DestroyImageProperties",
+    "data": [
+      "",
+      "",
+      false,
+      "DestroyImageProperties",
+      "",
+      "",
+      "Argument[0]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DestroyImageProperties",
+    "data": [
+      "",
+      "",
+      false,
+      "DestroyImageProperties",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ImageToFile",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "ImageToFile",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ImageToFile",
+    "data": [
+      "",
+      "",
+      false,
+      "ImageToFile",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ImageToFile",
+    "data": [
+      "",
+      "",
+      false,
+      "ImageToFile",
+      "MagickBooleanType",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetRed",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetRed",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DeleteImageProfile",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "DeleteImageProfile",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DeleteImageProfile",
+    "data": [
+      "",
+      "",
+      false,
+      "DeleteImageProfile",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ImageToBlob",
+    "data": [
+      "",
+      "",
+      false,
+      "ImageToBlob",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickGetImageSignature",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickGetImageSignature",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "RemoveImageProperty",
+    "data": [
+      "",
+      "",
+      false,
+      "RemoveImageProperty",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetYellowQuantum",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetYellowQuantum",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ListMagickResourceInfo",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "ListMagickResourceInfo",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ListMagickResourceInfo",
+    "data": [
+      "",
+      "",
+      false,
+      "ListMagickResourceInfo",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DestroyWandView",
+    "data": [
+      "",
+      "",
+      false,
+      "DestroyWandView",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickGetImageWidth",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickGetImageWidth",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "RelinquishUniqueFileResource",
+    "data": [
+      "",
+      "",
+      false,
+      "RelinquishUniqueFileResource",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "RelinquishUniqueFileResource",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "RelinquishUniqueFileResource",
+      "MagickBooleanType",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "WriteImage",
+    "data": [
+      "",
+      "",
+      false,
+      "WriteImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetBlack",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetBlack",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DestroyImageList",
+    "data": [
+      "",
+      "",
+      false,
+      "DestroyImageList",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickGetImageBackgroundColor",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickGetImageBackgroundColor",
+      "",
+      "",
+      "Argument[0]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickGetImageBackgroundColor",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickGetImageBackgroundColor",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickSetImageAlpha",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickSetImageAlpha",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickDeleteImageArtifact",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickDeleteImageArtifact",
+      "",
+      "",
+      "Argument[0]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickDeleteImageArtifact",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickDeleteImageArtifact",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetYellow",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetYellow",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DestroyCacheView",
+    "data": [
+      "",
+      "",
+      false,
+      "DestroyCacheView",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetRedQuantum",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetRedQuantum",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "MagickRemoveImageProfile",
+    "data": [
+      "",
+      "",
+      false,
+      "MagickRemoveImageProfile",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ListModuleInfo",
+    "data": [
+      "",
+      "",
+      false,
+      "ListModuleInfo",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  }
+]

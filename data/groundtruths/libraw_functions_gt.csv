@@ -1,0 +1,920 @@
+project,cve,cwe,commit_sha,is_file_vulnerable,is_function_vulnerable,file_name,function_name,function_start_line,function_end_line,function_nloc
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_gps_libraw( int base),10710,10756,46
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_broadcom(),2570,2608,35
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,sinar_4shot_load_raw(),2435,2484,43
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,lossless_jpeg_load_raw(),1240,1308,54
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,samsung_load_raw(),3963,4005,40
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,remove_zeroes(),4457,4480,18
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,my_roundf( float x),7808,7825,18
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"cielab( ushort rgb [ 3 ] , short lab [ 3 ])",6876,6920,33
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"crw_init_tables( unsigned table , ushort * huff [ 2 ])",916,961,46
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,remove_zeroes(),5571,5594,18
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_gps_libraw( int base),12032,12078,46
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"local_strnlen( const char * s , size_t n)",48,52,5
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,kodak_ycbcr_load_raw(),3955,3992,35
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,ljpeg_idct( struct jhead * jh),1504,1539,34
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"my_memmem( char * haystack , size_t haystacklen , char * needle , size_t needlelen)",325,332,8
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,getreal( int type),220,256,36
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"getwords( char * line , char * words [ ] , int maxwords , int maxlen)",102,123,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"foveon_camf_param( const char * block , const char * param)",4881,4906,25
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"fMAX( float a , float b)",223,223,1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"foveon_camf_matrix( unsigned dim [ 3 ] , const char * name)",4908,4949,39
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,redcine_load_raw(),4257,4353,76
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,blend_highlights(),6308,6353,39
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,kodak_dc120_load_raw(),3383,3402,17
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"parse_thumb_note( int base , unsigned toff , unsigned tlen)",7782,7796,14
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"Kodak_WB_0x08tags( int wb , unsigned type)",10956,10966,11
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"parse_makernote( int base , int uptag)",10233,11845,1502
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,crop_masked_pixels(),4354,4452,88
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_minolta( int base),13912,13987,73
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"raw( unsigned row , unsigned col)",1718,1718,1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"ljpeg_start( struct jhead * jh , int info_only)",787,857,70
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_cine(),13551,13617,66
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,derror(),357,368,12
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_exif( int base),10551,10706,143
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,canon_600_load_raw(),756,784,26
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,lossless_jpeg_load_raw(),949,1017,54
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,sget2( uchar * s),89,95,7
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,foveon_thumb(),4690,4734,43
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,samsung2_load_raw(),4007,4035,26
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_rollei(),14331,14368,37
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,setPentaxBodyFeatures( unsigned id),7358,7424,66
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,guess_byte_order( int words),16126,16144,18
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"cubic_spline( const int * x_ , const int * y_ , const int len)",548,609,61
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,bcd2dec( uchar data),436,444,9
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,make_decoder_ref( const uchar ** source),894,912,18
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"processCanonCameraInfo( unsigned id , uchar * CameraInfo , unsigned maxlen)",6601,6830,230
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,canon_rmf_load_raw(),2719,2769,43
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,_CanonConvertEV( short in),7834,7863,28
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"lin_interpolate_loop( int code [ 16 ] [ 16 ] [ 32 ] , int size)",5254,5274,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,lin_interpolate(),6593,6642,40
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"foveon_decoder( unsigned size , unsigned code)",4654,4688,33
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,ciff_block_1030(),14111,14132,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_fuji( int offset),14654,14750,88
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,PentaxISO( ushort c),8748,8771,23
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,bad_pixels( const char * cfname),5612,5714,83
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"powf64( float a , float b)",7804,7804,1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,lossless_dng_load_raw(),1250,1324,64
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"Kodak_WB_0x08tags( int wb , unsigned type)",12278,12288,11
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,make_decoder_ref( const uchar ** source),612,630,18
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,minolta_z2(),1616,1627,11
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"parseCanonMakernotes( unsigned tag , unsigned type , unsigned len)",8383,8678,281
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"parse_ciff( int offset , int length , int depth)",12810,13001,174
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,border_interpolate( int border),5231,5252,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"foveon_make_curves( short ** curvep , float dq [ 3 ] , float div [ 3 ] , float filt)",5006,5014,8
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"getbithuff( int nbits , ushort * huff)",542,581,28
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,vng_interpolate(),5337,5485,143
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,xtrans_interpolate( int passes),5611,5888,252
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"ph1_bithuff( int nbits , ushort * huff)",2122,2154,23
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,android_tight_load_raw(),2679,2695,16
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"getbithuff( int nbits , ushort * huff)",824,863,28
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"saneSonyCameraInfo( uchar a , uchar b , uchar c , uchar d , uchar e , uchar f)",407,434,28
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,sget4( uchar * s),192,198,7
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,sget4( uchar * s),474,480,7
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,wavelet_denoise(),4710,4807,94
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_phase_one( int base),13080,13324,232
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,nokia_load_raw(),2632,2677,39
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,imacon_full_load_raw(),2782,2815,24
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,ppm16_thumb(),1936,1949,14
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_gps( int base),10759,10790,31
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,kodak_rgb_load_raw(),3994,4021,23
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,setSonyBodyFeatures( unsigned id),7780,7878,94
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,getint( int type),490,490,1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"parse_makernote_0xc634( int base , int uptag , unsigned dng_writer)",8908,8908,1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,get_timestamp( int reversed),10529,10549,20
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,,-1,-1,-1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,colorcheck(),4621,4695,69
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,lossless_dng_load_raw(),1541,1615,64
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,canon_600_auto_wb(),677,726,49
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,foveon_dp_load_raw(),4796,4826,28
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,sony_arw2_load_raw(),4122,4257,120
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,wavelet_denoise(),6027,6124,94
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,fill_input_buffer( j_decompress_ptr cinfo),3444,3454,10
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,ahd_interpolate(),7415,7473,40
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"smal_decode_segment( unsigned seg [ 2 ] [ 2 ] , int holes)",4396,4472,74
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,int_to_float( int i),210,218,9
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,wavelet_denoise(),4809,4932,98
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,wavelet_denoise(),6126,6249,98
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,jpegErrorExit( j_common_ptr cinfo),3501,3505,5
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,Canon_WBCTpresets( short WBCTversion),8203,8247,45
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,canon_600_load_raw(),474,502,26
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,_CanonConvertAperture( ushort in),7827,7832,6
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"cam_xyz_coeff( float _rgb_cam [ 3 ] [ 4 ] , double cam_xyz [ 4 ] [ 3 ])",5904,5935,30
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,setPhaseOneFeatures( unsigned id),7540,7699,157
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,median_filter(),6271,6306,31
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"ahd_interpolate_combine_homogeneous_pixels( int top , int left , ushort(*rgb) [ TS ] [ TS ] [ 3 ] , char(*homogeneity_map) [ TS ] [ 2 ])",6043,6097,51
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,nikon_e2100(),1867,1880,13
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_phase_one( int base),14408,14652,232
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,ppg_interpolate(),5490,5557,46
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,scale_colors(),4991,5165,152
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,kodak_c330_load_raw(),3437,3478,35
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,get4(),483,488,6
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"pseudoinverse( double(*in) [ 3 ] , double(*out) [ 3 ] , int size)",5871,5902,31
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"smal_decode_segment( unsigned seg [ 2 ] [ 2 ] , int holes)",4100,4176,74
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,samsung_load_raw(),4259,4301,40
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,linear_table( unsigned len),10943,10952,10
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"parse_makernote( int base , int uptag)",8911,10523,1502
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"parseFujiMakernotes( unsigned tag , unsigned type)",9023,9100,78
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,guess_byte_order( int words),14641,14659,18
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,smal_v9_load_raw(),4532,4551,19
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,sony_arw_load_raw(),3798,3824,24
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"adobe_copy_pixel( unsigned row , unsigned col , ushort ** rp)",1190,1211,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,kodak_65000_load_raw(),3637,3657,18
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"adobe_copy_pixel( unsigned row , unsigned col , ushort ** rp)",1481,1502,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"hat_transform( float * temp , float * base , int st , int size , int sc)",4698,4707,10
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,sget2Rev( uchar * s),458,464,7
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,get_timestamp( int reversed),11851,11871,20
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,get2(),185,190,6
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"foveon_gets( int offset , char * str , int len)",14983,14992,10
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,samsung2_load_raw(),4303,4331,26
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,ppg_interpolate(),6807,6874,46
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,scale_colors(),6308,6482,152
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"gamma_curve( double pwr , double ts , int mode , int imax)",4512,4552,40
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"remove_trailing_spaces( char * string , size_t len)",14691,14706,16
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_foveon(),14994,15134,137
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_tiff( int base),13627,13642,16
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_tiff_ifd( int base),12438,13625,1070
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,median4( int * p),4190,4204,14
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,setPhaseOneFeatures( unsigned id),8862,9021,157
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"PentaxLensInfo( unsigned id , unsigned len)",8774,8860,84
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,my_roundf( float x),6486,6503,18
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,canon_load_raw(),704,785,75
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,apply_tiff(),13644,13910,257
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,unpacked_load_raw_reversed(),2713,2729,15
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"hat_transform( float * temp , float * base , int st , int size , int sc)",6015,6024,10
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,canon_has_lowbits(),969,984,15
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"powf_lim( float a , float b , float limup)",7803,7803,1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,unpacked_load_raw(),2695,2711,15
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,setOlympusBodyFeatures( unsigned long long id),8353,8381,29
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,nikon_yuv_load_raw(),1818,1844,24
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,green_matching(),4937,4989,49
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"foveon_fixed( void * ptr , int size , const char * name)",4951,4964,13
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,redcine_load_raw(),4553,4649,76
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,romm_coeff( float romm_cam [ 3 ] [ 3 ]),10792,10802,10
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,packed_dng_load_raw(),1617,1653,30
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_kodak_ifd( int base),10969,11058,86
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,canon_600_correct(),504,527,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,getreal( int type),502,538,36
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,rollei_thumb(),1671,1688,17
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"kodak_65000_decode( short * out , int bsize)",3882,3931,49
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,nikon_e2100(),1576,1589,13
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,minolta_rd175_load_raw(),3187,3229,40
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,kodak_radc_load_raw(),3331,3432,99
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,canon_s2is(),529,540,11
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,kodak_262_load_raw(),3818,3880,56
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_exif( int base),11873,12028,143
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"kodak_65000_decode( short * out , int bsize)",3586,3635,49
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_broadcom(),2866,2904,35
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,hasselblad_load_raw(),2261,2346,79
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_kodak_ifd( int base),12291,12380,86
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,rollei_load_raw(),1690,1716,24
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,nokia_load_raw(),2928,2973,39
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"ahd_interpolate_r_and_b_and_convert_to_cielab( int top , int left , ushort(*inout_rgb) [ TS ] [ TS ] [ 3 ] , short(*out_lab) [ TS ] [ TS ] [ 3 ])",5973,5981,9
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,minolta_rd175_load_raw(),2891,2933,40
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"ljpeg_row( int jrow , struct jhead * jh)",885,947,62
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"my_strcasestr( char * haystack , const char * needle)",76,83,8
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,unpacked_load_raw(),2399,2415,15
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"parse_smal( int offset , int fsize)",14856,14877,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"tiff_get( unsigned base , unsigned * tag , unsigned * type , unsigned * len , unsigned * save)",6455,6463,9
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,_CanonConvertEV( short in),6512,6541,28
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,ljpeg_diff( ushort * huff),866,883,14
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,olympus_load_raw(),3127,3185,56
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,border_interpolate( int border),6548,6569,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"lin_interpolate_loop( int code [ 16 ] [ 16 ] [ 32 ] , int size)",6571,6591,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,_CanonConvertAperture( ushort in),6505,6510,6
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,pre_interpolate(),5167,5229,59
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,canon_600_correct(),786,809,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"phase_one_flat_field( int is_float , int nc)",1720,1778,56
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"cubic_spline( const int * x_ , const int * y_ , const int len)",266,327,61
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"canon_600_color( int ratio [ 2 ] , int mar)",349,393,44
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,kodak_thumb_load_raw(),4023,4031,9
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,kodak_c603_load_raw(),3480,3520,34
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"ahd_interpolate_r_and_b_and_convert_to_cielab( int top , int left , ushort(*inout_rgb) [ TS ] [ TS ] [ 3 ] , short(*out_lab) [ TS ] [ TS ] [ 3 ])",7290,7298,9
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_gps( int base),12081,12112,31
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,setSonyBodyFeatures( unsigned id),9102,9200,94
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,process_Sony_0x940c( uchar * buf),9319,9341,23
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"adobe_coeff( const char * t_make , const char * t_model , int internal_only)",15142,16107,951
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,olympus_load_raw(),2831,2889,56
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"my_memmem( char * haystack , size_t haystacklen , char * needle , size_t needlelen)",67,74,8
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"tiff_get( unsigned base , unsigned * tag , unsigned * type , unsigned * len , unsigned * save)",7772,7780,9
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"processNikonLensData( uchar * LensData , unsigned len)",6927,7029,97
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_qt( int end),14836,14854,18
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,ppm_thumb(),1628,1638,11
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_qt( int end),13508,13526,18
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"fcol( int row , int col)",288,305,17
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,samsung3_load_raw(),4037,4095,56
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,Canon_CameraSettings(),6832,6857,26
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,foveon_load_camf(),4828,4879,49
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,nikon_3700(),1882,1902,20
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"gamma_curve( double pwr , double ts , int mode , int imax)",5829,5869,40
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,median_filter(),7588,7623,31
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"parseFujiMakernotes( unsigned tag , unsigned type)",7701,7778,78
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_redcine(),14947,14980,31
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"read_shorts( ushort * pixel , int count)",258,264,7
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,make_decoder( const uchar * source),914,914,1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_cine(),14879,14945,66
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_riff(),13459,13506,47
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,vng_interpolate(),6654,6802,143
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,getint( int type),208,208,1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_external_jpeg(),13994,14105,92
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,pre_interpolate(),6484,6546,59
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,xtrans_interpolate( int passes),6928,7205,252
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,nikon_load_raw(),1437,1525,82
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,sony_load_raw(),3766,3796,28
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,setOlympusBodyFeatures( unsigned long long id),7031,7059,29
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,foveon_interpolate(),5025,5462,394
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"local_strnlen( const char * s , size_t n)",306,310,5
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,canon_600_auto_wb(),395,444,49
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,nikon_coolscan_load_raw(),1693,1725,33
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,canon_600_coeff(),446,472,26
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,pentax_load_raw(),1364,1398,32
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"ph1_bithuff( int nbits , ushort * huff)",2418,2450,23
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,broadcom_load_raw(),2906,2925,17
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,apply_tiff(),12316,12582,257
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,canon_rmf_load_raw(),3015,3065,43
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"adobe_coeff( const char * t_make , const char * t_model , int internal_only)",13657,14622,951
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,canon_600_coeff(),728,754,26
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,kodak_rgb_load_raw(),3698,3725,23
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,setCanonBodyFeatures( unsigned id),6543,6599,56
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,,-1,-1,-1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,sget2Rev( uchar * s),176,182,7
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"parseSonyLensType2( uchar a , uchar b)",7880,7915,36
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"saneSonyCameraInfo( uchar a , uchar b , uchar c , uchar d , uchar e , uchar f)",125,152,28
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_sinar_ia(),13042,13078,36
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,simple_coeff( int index),14624,14639,12
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,quicktake_100_load_raw(),2935,3018,75
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,subtract( const char * fname),5716,5794,64
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,minolta_z2(),1907,1918,11
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,sony_arw2_load_raw(),3826,3961,120
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"parse_smal( int offset , int fsize)",13528,13549,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"ahd_interpolate_green_h_and_v( int top , int left , ushort(*out_rgb) [ TS ] [ TS ] [ 3 ])",5897,5917,20
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,leaf_hdr_load_raw(),2348,2397,43
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,kodak_jpeg_load_raw(),3508,3572,58
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,phase_one_correct(),2076,2376,280
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,jpegErrorExit( j_common_ptr cinfo),3205,3209,5
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_mos( int offset),12126,12263,132
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,layer_thumb(),1951,1965,14
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,quicktake_100_load_raw(),3231,3314,75
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,lossy_dng_load_raw(),3283,3380,88
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"parse_makernote_0xc634( int base , int uptag , unsigned dng_writer)",9441,10227,745
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"parseSonyLensFeatures( uchar a , uchar b)",7919,7994,62
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,nikon_coolscan_load_raw(),1402,1434,33
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"Canon_WBpresets( int skip1 , int skip2)",8181,8201,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,ljpeg_end( struct jhead * jh),859,864,6
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,get4(),201,206,6
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,canon_sraw_load_raw(),1310,1479,143
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"ahd_interpolate_combine_homogeneous_pixels( int top , int left , ushort(*rgb) [ TS ] [ TS ] [ 3 ] , char(*homogeneity_map) [ TS ] [ 2 ])",7360,7414,51
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,linear_table( unsigned len),12265,12274,10
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,layer_thumb(),1655,1669,14
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,smal_v6_load_raw(),4474,4484,10
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"ljpeg_row( int jrow , struct jhead * jh)",1176,1238,62
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,sony_arw_load_raw(),4094,4120,24
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"ahd_interpolate_green_h_and_v( int top , int left , ushort(*out_rgb) [ TS ] [ TS ] [ 3 ])",7214,7234,20
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"parseCanonMakernotes( unsigned tag , unsigned type , unsigned len)",7061,7356,281
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,hasselblad_load_raw(),2557,2642,79
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,unpacked_load_raw_reversed(),2417,2433,15
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_kodak_ifd( int base),11060,11108,48
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"ahd_interpolate_r_and_b_in_rgb_and_convert_to_cielab( int top , int left , ushort(*inout_rgb) [ TS ] [ 3 ] , short(*out_lab) [ TS ] [ 3 ])",7235,7289,51
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,nikon_3700(),1591,1611,20
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,ljpeg_diff( ushort * huff),1157,1174,14
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,ciff_block_1030(),12783,12804,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_fuji( int offset),13326,13422,88
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"processNikonLensData( uchar * LensData , unsigned len)",8249,8351,97
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"stread( char * buf , size_t len , LibRaw_abstract_datastream * fp)",57,62,6
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,Canon_WBCTpresets( short WBCTversion),6881,6925,45
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"parse_thumb_note( int base , unsigned toff , unsigned tlen)",6465,6479,14
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,sinar_4shot_load_raw(),2731,2780,43
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"ahd_interpolate_r_and_b_in_rgb_and_convert_to_cielab( int top , int left , ushort(*inout_rgb) [ TS ] [ 3 ] , short(*out_lab) [ TS ] [ 3 ])",5918,5972,51
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,blend_highlights(),7625,7670,39
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,bcd2dec( uchar data),154,162,9
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,median4( int * p),4486,4500,14
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,process_Sony_0x940c( uchar * buf),7997,8019,23
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,nikon_e995(),1849,1862,13
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_jpeg( int offset),13424,13457,31
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"fcol( int row , int col)",30,47,17
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,PentaxISO( ushort c),7426,7449,23
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,packed_load_raw(),2521,2564,41
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,rollei_thumb(),1967,1984,17
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"powf64( float a , float b)",6482,6482,1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,pana_bits( int nbits),3067,3092,16
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,kodak_ycbcr_load_raw(),3659,3696,35
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"parse_makernote_0xc634( int base , int uptag , unsigned dng_writer)",10230,10230,1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"foveon_avg( short * pix , int range [ 2 ] , float cfilt)",4966,4982,16
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_external_jpeg(),12666,12777,92
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"parseSonyLensType2( uchar a , uchar b)",9202,9237,36
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"cielab( ushort rgb [ 3 ] , short lab [ 3 ])",5559,5603,33
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,kodak_262_load_raw(),3522,3584,56
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,packed_load_raw(),2817,2860,41
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"find_green( int bps , int bite , int off0 , int off1)",16146,16173,27
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,kodak_dc120_load_raw(),3679,3698,17
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,eight_bit_load_raw(),3404,3435,25
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"crw_init_tables( unsigned table , ushort * huff [ 2 ])",634,679,46
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,lin_interpolate(),5276,5325,40
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,setPentaxBodyFeatures( unsigned id),8680,8746,66
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,green_matching(),6254,6306,49
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,pana_bits( int nbits),2771,2796,16
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,fill_holes( int holes),4206,4234,28
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,canon_has_lowbits(),687,702,15
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"getwords( char * line , char * words [ ] , int maxwords , int maxlen)",384,405,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"foveon_make_curve( double max , double mul , double filt)",4984,5004,20
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,nikon_e995(),1558,1571,13
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_kodak_ifd( int base),12382,12430,48
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,ljpeg_idct( struct jhead * jh),1213,1248,34
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,android_loose_load_raw(),2993,3013,20
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,kodak_radc_load_raw(),3035,3136,99
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,simple_coeff( int index),16109,16124,12
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_jpeg( int offset),14752,14785,31
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,canon_600_fixed_wb( int temp),611,628,17
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"parseSonyLensFeatures( uchar a , uchar b)",9241,9316,62
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,ahd_interpolate(),6098,6156,40
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,fill_holes( int holes),4502,4530,28
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,kodak_jpeg_load_raw(),3159,3197,37
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,nikon_yuv_load_raw(),1527,1553,24
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"remove_trailing_spaces( char * string , size_t len)",16176,16191,16
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_mos( int offset),10804,10941,132
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,nikon_load_raw(),1728,1816,82
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,kodak_c603_load_raw(),3776,3816,34
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,canon_sraw_load_raw(),1019,1188,143
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,make_decoder( const uchar * source),632,632,1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"parse_makernote_0xc634( int base , int uptag , unsigned dng_writer)",8119,8905,745
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"parse_ciff( int offset , int length , int depth)",14138,14329,174
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,kodak_thumb_load_raw(),3727,3735,9
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"Canon_WBpresets( int skip1 , int skip2)",6859,6879,21
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,kodak_65000_load_raw(),3933,3953,18
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,ahd_interpolate(),7476,7584,98
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,phase_one_load_raw_c(),2454,2555,85
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,romm_coeff( float romm_cam [ 3 ] [ 3 ]),12114,12124,10
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,rollei_load_raw(),1986,2012,24
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"stread( char * buf , size_t len , LibRaw_abstract_datastream * fp)",315,320,6
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,kodak_jpeg_load_raw(),3455,3493,37
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,pentax_load_raw(),1655,1689,32
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,samsung3_load_raw(),4333,4391,56
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,ppm16_thumb(),1640,1653,14
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,sget2( uchar * s),371,377,7
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,android_tight_load_raw(),2975,2991,16
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,Canon_CameraSettings(),8154,8179,26
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"ahd_interpolate_build_homogeneity_map( int top , int left , short(*lab) [ TS ] [ TS ] [ 3 ] , char(*out_homogeneity_map) [ TS ] [ 2 ])",5983,6042,56
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"process_Sony_0x9050( uchar * buf , unsigned id)",8021,8117,86
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_sinar_ia(),14370,14406,36
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,canon_s2is(),811,822,11
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,sony_load_raw(),4062,4092,28
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"phase_one_flat_field( int is_float , int nc)",2016,2074,56
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,eight_bit_load_raw(),3700,3731,25
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,phase_one_load_raw_c(),2158,2259,85
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,smal_v9_load_raw(),4236,4255,19
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"ljpeg_start( struct jhead * jh , int info_only)",1078,1148,70
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,recover_highlights(),6356,6452,91
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_rollei(),13003,13040,37
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"sony_decrypt( unsigned * data , int len , int start , int key)",4033,4060,19
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,phase_one_load_raw(),2378,2416,36
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,fill_input_buffer( j_decompress_ptr cinfo),3148,3158,10
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,broadcom_load_raw(),2610,2629,17
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"powf_lim( float a , float b , float limup)",6481,6481,1
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,android_loose_load_raw(),2697,2717,20
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,packed_dng_load_raw(),1326,1362,30
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"read_shorts( ushort * pixel , int count)",540,546,7
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,setCanonBodyFeatures( unsigned id),7865,7921,56
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,ppm_thumb(),1924,1934,11
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_tiff_ifd( int base),11110,12297,1070
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,get2(),467,472,6
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,ljpeg_end( struct jhead * jh),1150,1155,6
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,foveon_huff( ushort * huff),4781,4794,13
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"ahd_interpolate_build_homogeneity_map( int top , int left , short(*lab) [ TS ] [ TS ] [ 3 ] , char(*out_homogeneity_map) [ TS ] [ 2 ])",7300,7359,56
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"cam_xyz_coeff( float _rgb_cam [ 3 ] [ 4 ] , double cam_xyz [ 4 ] [ 3 ])",4587,4618,30
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"canon_600_color( int ratio [ 2 ] , int mar)",631,675,44
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"foveon_apply_curve( short * curve , int i)",5016,5021,6
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"merror( void * ptr , const char * where)",349,355,7
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"sony_decrypt( unsigned * data , int len , int start , int key)",3737,3764,19
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,phase_one_load_raw(),2082,2120,36
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,canon_600_fixed_wb( int temp),329,346,17
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,imacon_full_load_raw(),2486,2519,24
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,ahd_interpolate(),6159,6267,98
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,kodak_jpeg_load_raw(),3212,3276,58
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,phase_one_correct(),1780,2080,280
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"pseudoinverse( double(*in) [ 3 ] , double(*out) [ 3 ] , int size)",4554,4585,31
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,lossy_dng_load_raw(),3579,3676,88
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"process_Sony_0x9050( uchar * buf , unsigned id)",9343,9439,86
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,panasonic_load_raw(),3094,3125,29
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,foveon_sd_load_raw(),4736,4779,40
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,int_to_float( int i),492,500,9
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"PentaxLensInfo( unsigned id , unsigned len)",7452,7538,84
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"processCanonCameraInfo( unsigned id , uchar * CameraInfo , unsigned maxlen)",7923,8152,230
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,parse_riff(),14787,14834,47
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_minolta( int base),12584,12659,73
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,"find_green( int bps , int bite , int off0 , int off1)",14661,14688,27
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,panasonic_load_raw(),2798,2829,29
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,colorcheck(),5938,6012,69
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"my_strcasestr( char * haystack , const char * needle)",334,341,8
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_tiff( int base),12299,12314,16
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,smal_v6_load_raw(),4178,4188,10
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,leaf_hdr_load_raw(),2644,2693,43
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,canon_load_raw(),986,1067,75
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,kodak_c330_load_raw(),3733,3774,35
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,internal/dcraw_common.cpp,parse_redcine(),13619,13652,31
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,recover_highlights(),7673,7769,91
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,crop_masked_pixels(),5468,5566,88
+libraw/libraw,CVE-2017-6887,664,7ed16d4d5f039f009dd84e99f98ee5b7f2bdabc8,True,False,dcraw/dcraw.c,"raw( unsigned row , unsigned col)",2014,2014,1
+libraw/libraw,CVE-2017-6887,664,a6b58744e331df0824bc11939cb70fc5c49894a9,True,True,internal/dcraw_common.cpp,parse_tiff_ifd,5740,6340,575
+libraw/libraw,CVE-2017-6887,664,dc7499b711417a8f547a9087466147115d121198,True,True,internal/dcraw_common.cpp,parse_tiff_ifd,5740,6342,575
+libraw/libraw,CVE-2017-6887,664,dc7499b711417a8f547a9087466147115d121198,True,True,dcraw/dcraw.c,parse_tiff_ifd,6921,7523,575
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,,-1,-1,-1
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,"flip_index( int row , int col)",8022,8028,7
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,convert_to_rgb(),7807,7928,108
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,fuji_rotate,8639,8684,37
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,parse_redcine,5915,5944,27
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,parse_rollei(),5095,5131,36
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,parse_jpeg( int offset),5267,5291,23
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,stretch(),7977,8020,37
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,parse_sinar_ia(),5133,5163,30
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,parse_redcine(),5401,5430,27
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,parse_riff(),5293,5331,38
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,"parse_ciff( int offset , int length)",4991,5093,99
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,ciff_block_1030(),4967,4986,19
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,"tiff_head( struct tiff_hdr * th , int full)",8049,8121,72
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,jpeg_thumb(),8140,8149,9
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,"adobe_coeff( const char * t_make , const char * t_model)",5435,6141,704
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,tiff_head,8783,8855,72
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,,-1,-1,-1
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,parse_foveon,5957,6048,87
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,parse_phase_one,5679,5744,65
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,"find_green( int bps , int bite , int off0 , int off1)",6182,6205,23
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,identify,6831,8425,1571
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,write_ppm_tiff,8908,8956,48
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,fuji_rotate(),7930,7975,37
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,write_ppm_tiff(),8174,8222,48
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,simple_coeff( int index),6143,6161,14
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,identify(),6211,7805,1571
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,guess_byte_order( int words),6163,6180,17
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,jpeg_thumb(),8151,8171,20
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,"jpeg_thumb_writer( FILE * tfp , char * t_humb , int t_humb_length)",8124,8138,15
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,parse_cine(),5352,5399,47
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,apply_profile,8430,8511,62
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,jpeg_thumb_writer,8858,8872,15
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,"parse_smal( int offset , int fsize)",5333,5350,17
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,parse_fuji( int offset),5232,5265,33
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,jpeg_thumb,8874,8883,9
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,adobe_coeff,6055,6761,704
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,"tiff_set( ushort * ntag , ushort tag , ushort type , int count , int val)",8030,8045,15
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,internal/dcraw_common.cpp,parse_phase_one( int base),5165,5230,65
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,stretch,8686,8729,37
+libraw/libraw,CVE-2017-6887,664,597ad1baab7ff36f0140f897af6fc86d71781004,True,False,dcraw/dcraw.c,convert_to_rgb,8516,8637,108
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,vng_interpolate,3663,3793,125
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,parse_mos,4080,4146,66
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,parse_makernote,3680,3986,303
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,blend_highlights,3528,3571,37
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,apply_tiff,4700,4826,124
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,remove_zeroes,2595,2610,15
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,True,dcraw/dcraw.c,parse_tiff_ifd,4709,5197,481
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,ppg_interpolate,3798,3867,48
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,ahd_interpolate,3370,3492,114
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,tiff_get,3656,3665,10
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,scale_colors,3411,3534,111
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,pseudoinverse,2647,2674,27
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,cam_xyz_coeff,2676,2697,20
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,scale_colors,2906,3029,111
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,lin_interpolate,3093,3146,44
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,colorcheck,2700,2766,61
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,parse_minolta,4828,4861,33
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,vng_interpolate,3158,3288,125
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,median_filter,4000,4031,27
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,bad_pixels,2971,3054,64
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,parse_thumb_note,3667,3678,11
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,get_timestamp,3992,4012,20
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,linear_table,4148,4156,9
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,,-1,-1,-1
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,True,internal/dcraw_common.cpp,parse_tiff_ifd,4195,4683,481
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,green_matching,3366,3409,40
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,parse_kodak_ifd,4158,4193,35
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,gamma_curve,2612,2645,33
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,phase_one_load_raw,1610,1628,18
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,border_interpolate,3071,3091,20
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,wavelet_denoise,2780,2858,75
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,recover_highlights,3574,3653,74
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,recover_highlights,4079,4158,74
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,ppg_interpolate,3293,3362,48
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,parse_external_jpeg,5382,5475,78
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,blend_highlights,4033,4076,37
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,pre_interpolate,3031,3069,35
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,parse_external_jpeg,4868,4961,78
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,phase_one_load_raw,1341,1359,18
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,green_matching,2861,2904,40
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,median_filter,3495,3526,27
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,pre_interpolate,3536,3574,35
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,fcol,35,65,30
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,parse_gps,4045,4064,19
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,wavelet_denoise,3285,3363,75
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,parse_exif,4014,4043,29
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,parse_tiff,4685,4698,13
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,lin_interpolate,3598,3651,44
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,apply_tiff,5214,5340,124
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,hat_transform,2769,2778,10
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,internal/dcraw_common.cpp,romm_coeff,4066,4078,12
+libraw/libraw,CVE-2017-6887,664,7b1b8241bd8acd4826703492dfb9ce2b625453ed,True,False,dcraw/dcraw.c,subtract,3056,3113,45
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,fill_input_buffer( j_decompress_ptr cinfo),2571,2588,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,smal_v9_load_raw(),3269,3287,18
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,sinar_4shot_load_raw(),1748,1781,33
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"bayer( unsigned row , unsigned col)",1578,1581,4
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,fuji_load_raw(),1161,1211,47
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""Fotoman Pixtura""))",8113,8120,8
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,sony_arw_load_raw(),3055,3090,31
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"find_green( int bps , int bite , int off0 , int off1)",6763,6786,23
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_sinar_ia(),6346,6376,30
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""EX-P700""))",8242,8246,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_sinar_ia(),5894,5924,30
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,imacon_full_load_raw(),1783,1796,11
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,nikon_e2100(),1379,1392,13
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,ljpeg_end( struct jhead * jh),647,652,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,wavelet_denoise(),3293,3397,79
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,canon_compressed_load_raw(),512,594,76
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_minolta( int base),5581,5617,34
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,ljpeg_end( struct jhead * jh),921,926,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,rollei_thumb(),1520,1536,16
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,ljpeg_diff( ushort * huff),928,939,11
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,green_matching(),3849,3890,38
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"ljpeg_row( int jrow , struct jhead * jh)",667,704,37
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,wavelet_denoise(),3213,3291,75
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,canon_has_lowbits(),496,510,14
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"ljpeg_row( int jrow , struct jhead * jh)",941,978,37
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,linear_table( unsigned len),5334,5345,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,identify(),6792,8022,1207
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,canon_s2is(),588,597,9
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,sony_arw2_load_raw(),3092,3133,38
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"fc( int row , int col)",240,262,22
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,colorcheck(),3575,3643,61
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,unpacked_load_raw(),2141,2180,34
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"parse_smal( int offset , int fsize)",6106,6123,17
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""EX-Z850""))",8223,8228,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_tiff_ifd( int base),4945,5445,470
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,sget4( uchar * s),325,331,7
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,sget2( uchar * s),49,55,7
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"getbithuff( int nbits , ushort * huff)",603,636,22
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,kodak_radc_load_raw(),2458,2561,100
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,getreal( int type),92,114,22
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,canon_600_load_raw(),249,299,46
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,get4(),73,78,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,romm_coeff( float romm_cam [ 3 ] [ 3 ]),5249,5264,13
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"ahd_interpolate_r_and_b_in_rgb_and_convert_to_cielab( int top , int left , ushort(*inout_rgb) [ TS ] [ 3 ] , short(*out_lab) [ TS ] [ 3 ] , const float(&xyz_cam) [ 3 ] [ 4 ])",3959,4025,59
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,kodak_jpeg_load_raw(),2309,2362,44
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,unpacked_load_raw(),1860,1899,34
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""EX-P700""))",8703,8707,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"ahd_interpolate_r_and_b_and_convert_to_cielab( int top , int left , ushort(*inout_rgb) [ TS ] [ TS ] [ 3 ] , short(*out_lab) [ TS ] [ TS ] [ 3 ] , const float(&xyz_cam) [ 3 ] [ 4 ])",4471,4477,7
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_jpeg( int offset),6036,6060,23
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,crop_pixels(),3454,3481,22
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,phase_one_load_raw(),1475,1529,51
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,kodak_262_load_raw(),2483,2548,57
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,eight_bit_load_raw(),2390,2452,56
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,rollei_load_raw(),1538,1576,34
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(make,""Rollei"") && ! load_raw)",8139,8155,17
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,if( fsize == 3217760),8627,8632,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"sony_decrypt( unsigned * data , int len , int start , int key)",2692,2716,15
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,sony_load_raw(),2999,3053,49
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""EX-P505""))",8694,8699,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"ahd_interpolate_build_homogeneity_map( int top , int left , short(*lab) [ TS ] [ TS ] [ 3 ] , char(*out_homogeneity_map) [ TS ] [ 2 ])",4033,4086,50
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,calc_64cbrt( float f),3922,3937,14
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,kodak_jpeg_load_raw(),2590,2643,44
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,quicktake_100_load_raw(),2096,2168,70
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,fill_holes( int holes),3243,3267,24
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"ahd_interpolate_combine_homogeneous_pixels( int top , int left , ushort(*rgb) [ TS ] [ TS ] [ 3 ] , char(*homogeneity_map) [ TS ] [ 2 ])",4532,4577,42
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""EX-Z50""))",8660,8664,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,if( fsize == 9313536),8699,8703,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"gamma_curve( double pwr , double ts , int mode , int imax)",3038,3071,33
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"hat_transform( float * temp , float * base , int st , int size , int sc)",3201,3210,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""QV-5700""))",8637,8642,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,if( thumb_offset && ! thumb_height),8715,8721,7
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"sony_decrypt( unsigned * data , int len , int start , int key)",2973,2997,15
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"ljpeg_start( struct jhead * jh , int info_only)",597,645,48
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""QV-R41""))",8642,8647,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""EX-S20""))",8651,8656,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_jpeg( int offset),6488,6512,23
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,remove_zeroes(),565,586,17
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,quicktake_100_load_raw(),2377,2449,70
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,ciff_block_1030(),5713,5732,19
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,layer_thumb(),1225,1240,15
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"read_shorts( ushort * pixel , int count)",116,121,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,if( thumb_offset && ! thumb_height),8254,8260,7
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""EX-Z1050""))",8689,8694,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"parse_makernote( int base , int uptag)",4844,5170,296
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,kodak_ycbcr_load_raw(),2624,2659,32
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_tiff_ifd( int base),5397,5897,470
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,,-1,-1,-1
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,kodak_yrgb_load_raw(),2735,2762,25
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"find_green( int bps , int bite , int off0 , int off1)",7224,7247,23
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,canon_600_load_raw(),513,563,46
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,scale_colors(),3893,4030,118
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"ljpeg_start( struct jhead * jh , int info_only)",871,919,48
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_cine(),6577,6627,48
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_gps( int base),4780,4799,19
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,olympus_load_raw(),2007,2059,49
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"phase_one_flat_field( int is_float , int nc)",1583,1625,42
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"adobe_coeff( const char * p_make , const char * p_model)",6177,6717,538
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,vng_interpolate(),3711,3839,124
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,green_matching(),3404,3445,38
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,panasonic_load_raw(),1969,2005,30
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""QV-5700""))",8176,8181,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"ph1_bithuff( int nbits , ushort * huff)",1531,1560,20
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strncasecmp(model,""EasyShare"",9))",8483,8486,4
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,ppm_thumb(),1491,1501,11
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,rollei_load_raw(),1260,1298,34
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,pentax_load_raw(),929,973,37
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,border_interpolate( int border),3627,3647,20
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,smal_v6_load_raw(),3218,3228,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"parse_ciff( int offset , int length)",6189,6306,104
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""PC-CAM 600""))",8616,8621,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""EX-P505""))",8233,8238,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,pana_bits( int nbits),1944,1967,14
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"bayer( unsigned row , unsigned col)",1300,1303,4
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"ahd_interpolate_combine_homogeneous_pixels( int top , int left , ushort(*rgb) [ TS ] [ TS ] [ 3 ] , char(*homogeneity_map) [ TS ] [ 2 ])",4087,4132,42
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,border_interpolate( int border),4072,4092,20
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,median_filter(),4655,4686,27
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,packed_load_raw(),1798,1858,53
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""EX-Z60""))",8668,8674,7
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,hasselblad_load_raw(),1947,1985,34
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_mos( int offset),5266,5332,64
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,sinar_4shot_load_raw(),2029,2062,33
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,kodak_262_load_raw(),2764,2829,57
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_riff(),6062,6104,42
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,kodak_ycbcr_load_raw(),2905,2940,32
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,kodak_65000_load_raw(),2877,2903,23
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,ppm_thumb(),1213,1223,11
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""Fotoman Pixtura""))",8574,8581,8
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,packed_load_raw(),2079,2139,53
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,imacon_full_load_raw(),2064,2077,11
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,minolta_rd175_load_raw(),2061,2094,31
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""EX-Z55""))",8664,8668,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,guess_byte_order( int words),6742,6759,17
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,adobe_dng_load_raw_nc(),1182,1201,19
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,int_to_float( int i),346,351,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,colorcheck(),3130,3198,61
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,if(load_raw==&CLASS kodak_jpeg_load_raw),8727,8735,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,lossless_jpeg_load_raw(),980,1033,46
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_minolta( int base),6033,6069,34
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,remove_zeroes(),301,322,17
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"canon_600_color( int ratio [ 2 ] , int mar)",412,439,27
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"ahd_interpolate_r_and_b_and_convert_to_cielab( int top , int left , ushort(*inout_rgb) [ TS ] [ TS ] [ 3 ] , short(*out_lab) [ TS ] [ TS ] [ 3 ] , const float(&xyz_cam) [ 3 ] [ 4 ])",4026,4032,7
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"kodak_65000_decode( short * out , int bsize)",2831,2875,44
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,crop_pixels(),3009,3036,22
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,sget4( uchar * s),64,70,7
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,leaf_hdr_load_raw(),1709,1745,34
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,getint( int type),341,344,4
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,nikon_e995(),1361,1374,13
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,adobe_dng_load_raw_lj(),879,906,27
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,make_decoder( const uchar * source),686,689,4
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,pentax_load_raw(),1203,1247,37
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"tiff_get( unsigned base , unsigned * tag , unsigned * type , unsigned * len , unsigned * save)",4371,4380,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,ljpeg_diff( ushort * huff),654,665,11
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,canon_600_coeff(),486,511,23
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,ahd_interpolate(),4133,4204,50
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,make_decoder( const uchar * source),422,425,4
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,minolta_z2(),1420,1430,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"smal_decode_segment( unsigned seg [ 2 ] [ 2 ] , int holes)",3138,3216,74
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,panasonic_load_raw(),2250,2286,30
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"parse_smal( int offset , int fsize)",6558,6575,17
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""QV-2000UX""))",8622,8627,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,derror(),297,307,11
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_rollei(),5856,5892,36
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""QuickTake 150""))",8132,8139,8
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,minolta_z2(),1146,1156,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,phase_one_correct(),1627,1751,122
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"smal_decode_segment( unsigned seg [ 2 ] [ 2 ] , int holes)",2857,2935,74
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,if(load_raw==&CLASS kodak_jpeg_load_raw),8266,8274,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,median4( int * p),2949,2960,11
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,adobe_dng_load_raw_lj(),1153,1180,27
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,canon_600_coeff(),222,247,23
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"phase_one_flat_field( int is_float , int nc)",1305,1347,42
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"ahd_interpolate_green_h_and_v( int top , int left , ushort(*out_rgb) [ TS ] [ TS ] [ 3 ])",3938,3958,20
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,identify(),7253,8483,1207
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,nikon_compressed_load_raw(),975,1065,82
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,canon_sraw_load_raw(),1035,1108,69
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,phase_one_load_raw_c(),1842,1945,88
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_phase_one( int base),5926,5994,66
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""QV-R51""))",8647,8651,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,nikon_is_compressed(),1346,1356,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"ahd_interpolate_build_homogeneity_map( int top , int left , short(*lab) [ TS ] [ TS ] [ 3 ] , char(*out_homogeneity_map) [ TS ] [ 2 ])",4478,4531,50
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,get2(),318,323,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,bad_pixels( const char * cfname),3307,3390,64
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,blend_highlights(),4243,4286,37
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,sget2( uchar * s),310,316,7
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"tiff_get( unsigned base , unsigned * tag , unsigned * type , unsigned * len , unsigned * save)",4816,4825,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,kodak_dc120_load_raw(),2365,2388,20
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,lin_interpolate(),3649,3699,41
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""EX-Z750""))",8679,8684,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_rollei(),6308,6344,36
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"merror( void * ptr , const char * where)",290,295,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"ahd_interpolate_green_h_and_v( int top , int left , ushort(*out_rgb) [ TS ] [ TS ] [ 3 ])",4383,4403,20
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""EX-S100""))",8656,8660,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""QuickTake 150""))",8593,8600,8
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"read_shorts( ushort * pixel , int count)",377,382,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,cam_xyz_coeff( double cam_xyz [ 4 ] [ 3 ]),3547,3572,22
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""QV-4000""))",8632,8637,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,canon_s2is(),324,333,9
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,nokia_load_raw(),1901,1942,36
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,phase_one_correct(),1349,1473,122
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,,-1,-1,-1
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,get_timestamp( int reversed),5176,5195,19
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_tiff( int base),5447,5460,13
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,minolta_rd175_load_raw(),2342,2375,31
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,blend_highlights(),4688,4731,37
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,get_timestamp( int reversed),4728,4747,19
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(make,""Rollei"") && ! load_raw)",8600,8616,17
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_gps( int base),5228,5247,19
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,guess_byte_order( int words),7200,7217,17
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,ciff_block_1030(),6165,6184,19
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,eight_bit_load_raw(),2671,2733,56
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,kodak_thumb_load_raw(),2682,2690,9
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"kodak_65000_decode( short * out , int bsize)",2550,2594,44
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"pseudoinverse( double(*in) [ 3 ] , double(*out) [ 3 ] , int size)",3518,3545,27
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""EX-Z50""))",8199,8203,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,phase_one_load_raw_c(),1564,1667,88
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_kodak_ifd( int base),5347,5390,39
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,canon_compressed_load_raw(),776,858,76
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"my_memmem( char * haystack , size_t haystacklen , char * needle , size_t needlelen)",35,43,9
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"canon_600_color( int ratio [ 2 ] , int mar)",148,175,27
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,nikon_3700(),1394,1415,21
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""EX-S20""))",8190,8195,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,rollei_thumb(),1242,1258,16
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,olympus_load_raw(),2288,2340,49
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,kodak_thumb_load_raw(),2963,2971,9
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""QuickTake 100""))",8581,8593,13
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""EX-Z1050""))",8228,8233,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_tiff( int base),5899,5912,13
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,if( fsize == 3217760),8166,8171,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,make_decoder_ref( const uchar ** source),403,420,17
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_fuji( int offset),6448,6486,36
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,recover_highlights(),4289,4368,74
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,ppg_interpolate(),4289,4358,48
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_exif( int base),4749,4778,29
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,canon_sraw_load_raw(),761,834,69
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,simple_coeff( int index),6719,6740,15
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,pre_interpolate(),3587,3625,34
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,kodak_jpeg_load_raw(),2286,2286,1
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,nikon_e2100(),1105,1118,13
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,pana_bits( int nbits),2225,2248,14
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_kodak_ifd( int base),4899,4942,39
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,getint( int type),80,83,4
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,leaf_hdr_load_raw(),1987,2023,34
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""EX-Z60""))",8207,8213,7
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,canon_600_fixed_wb( int temp),388,409,19
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,simple_coeff( int index),7177,7198,15
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,canon_600_auto_wb(),441,484,41
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"adobe_copy_pixel( int row , int col , ushort ** rp)",836,877,36
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,pre_interpolate(),4032,4070,34
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,kodak_jpeg_load_raw(),2567,2567,1
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"adobe_copy_pixel( int row , int col , ushort ** rp)",1110,1151,36
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,sony_arw2_load_raw(),2811,2852,38
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""EX-Z75""))",8674,8679,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_riff(),6514,6556,42
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""QV-2000UX""))",8161,8166,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,canon_600_fixed_wb( int temp),124,145,19
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,kodak_rgb_load_raw(),2661,2680,17
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcmp(model,""EX-Z850""))",8684,8689,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,lossless_jpeg_load_raw(),706,759,46
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,wavelet_denoise(),3658,3736,75
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,linear_table( unsigned len),4886,4897,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_external_jpeg(),5624,5707,66
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,nokia_load_raw(),2182,2223,36
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""PC-CAM 600""))",8155,8160,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,nikon_compressed_load_raw(),1249,1339,82
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,int_to_float( int i),85,90,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,make_decoder_ref( const uchar ** source),667,684,17
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,nikon_e995(),1087,1100,13
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,kodak_radc_load_raw(),2177,2280,100
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"if( ! strcasecmp(make,""KODAK""))",8486,8574,87
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"crw_init_tables( unsigned table , ushort * huff [ 2 ])",691,752,61
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcasecmp(make,""KODAK""))",8025,8113,87
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,cam_xyz_coeff( double cam_xyz [ 4 ] [ 3 ]),3102,3127,22
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"getbithuff( int nbits , ushort * huff)",339,372,22
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""EX-Z55""))",8203,8207,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_exif( int base),5197,5226,29
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,sony_arw_load_raw(),2774,2809,31
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strncasecmp(model,""EasyShare"",9))",8022,8025,4
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_fuji( int offset),5996,6034,36
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,sony_load_raw(),2718,2772,49
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_mos( int offset),4818,4884,64
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"crw_init_tables( unsigned table , ushort * huff [ 2 ])",427,488,61
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,wavelet_denoise(),3738,3842,79
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,fill_holes( int holes),2962,2986,24
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,recover_highlights(),4734,4813,74
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,kodak_dc120_load_raw(),2646,2669,20
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"adobe_coeff( const char * p_make , const char * p_model)",6635,7175,538
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,nikon_is_compressed(),1072,1082,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,vng_interpolate(),4156,4284,124
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"ahd_interpolate_r_and_b_in_rgb_and_convert_to_cielab( int top , int left , ushort(*inout_rgb) [ TS ] [ 3 ] , short(*out_lab) [ TS ] [ 3 ] , const float(&xyz_cam) [ 3 ] [ 4 ])",4404,4470,59
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,apply_tiff(),5914,6031,117
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,fill_input_buffer( j_decompress_ptr cinfo),2290,2307,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,kodak_65000_load_raw(),2596,2622,23
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,canon_600_auto_wb(),177,220,41
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,calc_64cbrt( float f),4367,4382,14
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,fuji_load_raw(),1435,1485,47
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,median4( int * p),3230,3241,11
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,if( fsize == 9313536),8238,8242,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_external_jpeg(),6076,6159,66
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"parse_thumb_note( int base , unsigned toff , unsigned tlen)",4382,4393,11
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,kodak_rgb_load_raw(),2942,2961,17
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"hat_transform( float * temp , float * base , int st , int size , int sc)",3646,3655,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"pseudoinverse( double(*in) [ 3 ] , double(*out) [ 3 ] , int size)",3073,3100,27
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""QV-R41""))",8181,8186,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,scale_colors(),3448,3585,118
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,parse_cine(),6125,6175,48
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,kodak_yrgb_load_raw(),2454,2481,25
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,getreal( int type),353,375,22
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,romm_coeff( float romm_cam [ 3 ] [ 3 ]),4801,4816,13
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,ppg_interpolate(),3844,3913,48
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"ph1_bithuff( int nbits , ushort * huff)",1809,1838,20
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,get2(),57,62,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,smal_v9_load_raw(),2988,3006,18
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""QV-R51""))",8186,8190,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,phase_one_load_raw(),1753,1807,51
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,subtract( const char * fname),3392,3449,45
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"parse_makernote( int base , int uptag)",4396,4722,296
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,canon_has_lowbits(),760,774,14
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,parse_phase_one( int base),6378,6446,66
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,adobe_dng_load_raw_nc(),908,927,19
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,lin_interpolate(),4094,4144,41
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,nikon_3700(),1120,1141,21
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,hasselblad_load_raw(),1669,1707,34
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,ahd_interpolate(),4578,4649,50
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"parse_ciff( int offset , int length)",5737,5854,104
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,apply_tiff(),5462,5579,117
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,get4(),334,339,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,layer_thumb(),1503,1518,15
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,smal_v6_load_raw(),2937,2947,10
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""QuickTake 100""))",8120,8132,13
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,median_filter(),4210,4241,27
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"parse_thumb_note( int base , unsigned toff , unsigned tlen)",4827,4838,11
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""EX-Z75""))",8213,8218,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""EX-Z750""))",8218,8223,6
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"gamma_curve( double pwr , double ts , int mode , int imax)",3483,3516,33
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""EX-S100""))",8195,8199,5
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,dcraw/dcraw.c,"my_memmem( char * haystack , size_t haystacklen , char * needle , size_t needlelen)",277,285,9
+libraw/libraw,CVE-2017-6887,664,701847c3da8dd447872074aca94d6cc7bad4c2e3,True,False,internal/dcraw_common.cpp,"if( ! strcmp(model,""QV-4000""))",8171,8176,6
+libraw/libraw,CVE-2013-2127,664,a667bb32cf9c8a7e553af91e25f84303a5caf7ad,True,False,src/libraw_cxx.cpp,LibRaw::LibRaw,173,211,35
+libraw/libraw,CVE-2013-2127,664,a667bb32cf9c8a7e553af91e25f84303a5caf7ad,True,False,src/libraw_cxx.cpp,LibRaw::scale_colors_loop,1763,1787,24
+libraw/libraw,CVE-2013-2127,664,a667bb32cf9c8a7e553af91e25f84303a5caf7ad,True,True,src/libraw_cxx.cpp,LibRaw::subtract_black,1635,1677,28
+libraw/libraw,CVE-2013-2127,664,d7fda156ff7e54f1b93bc24ce921f73c8f7109ec,True,False,src/libraw_cxx.cpp,LibRaw::adjust_maximum,522,542,18
+libraw/libraw,CVE-2013-2127,664,d7fda156ff7e54f1b93bc24ce921f73c8f7109ec,True,False,src/libraw_cxx.cpp,LibRaw::get_decoder_info,280,520,224
+libraw/libraw,CVE-2013-2127,664,d7fda156ff7e54f1b93bc24ce921f73c8f7109ec,True,True,src/libraw_cxx.cpp,LibRaw::exp_bef,1676,1728,47
+libraw/libraw,CVE-2013-2127,664,d7fda156ff7e54f1b93bc24ce921f73c8f7109ec,True,False,src/libraw_cxx.cpp,LibRaw::raw2image_ex,972,1042,60
+libraw/libraw,CVE-2013-2127,664,d7fda156ff7e54f1b93bc24ce921f73c8f7109ec,True,True,src/libraw_cxx.cpp,LibRaw::subtract_black,1635,1672,32
+libraw/libraw,CVE-2013-2127,664,d7fda156ff7e54f1b93bc24ce921f73c8f7109ec,True,True,src/libraw_cxx.cpp,LibRaw::dcraw_process,1770,1996,174
+libraw/libraw,CVE-2013-2127,664,c2c12e10745c2749d21cb8d6a8e9a11aae96820a,True,False,src/libraw_cxx.cpp,LibRaw::unpack,732,894,136
+libraw/libraw,CVE-2013-2127,664,c2c12e10745c2749d21cb8d6a8e9a11aae96820a,True,False,src/libraw_cxx.cpp,LibRaw::raw2image,896,993,82
+libraw/libraw,CVE-2013-2127,664,c2c12e10745c2749d21cb8d6a8e9a11aae96820a,True,True,src/libraw_cxx.cpp,LibRaw::dcraw_process,1852,2058,158
+libraw/libraw,CVE-2013-2127,664,c2c12e10745c2749d21cb8d6a8e9a11aae96820a,True,True,src/libraw_cxx.cpp,LibRaw::subtract_black,1735,1795,54
+libraw/libraw,CVE-2013-2127,664,c2c12e10745c2749d21cb8d6a8e9a11aae96820a,True,False,src/libraw_cxx.cpp,LibRaw::dcraw_document_mode_processing,996,1104,83
+libraw/libraw,CVE-2013-2127,664,97b1bd7db833ff6c303ef0871b8e31f4434bf33c,True,True,src/libraw_cxx.cpp,LibRaw::exp_bef,1576,1624,45
+libraw/libraw,CVE-2013-2127,664,97b1bd7db833ff6c303ef0871b8e31f4434bf33c,True,False,src/libraw_cxx.cpp,,-1,-1,-1
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,False,src/postprocessing/mem_image.cpp,LibRaw::dcraw_clear_mem,256,260,5
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,True,src/decoders/unpack_thumb.cpp,LibRaw::unpack_thumb,31,321,267
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,False,src/utils/thumb_utils.cpp,LibRaw::thumbOK,228,262,35
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,False,src/postprocessing/mem_image.cpp,,-1,-1,-1
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,True,src/utils/thumb_utils.cpp,LibRaw::kodak_thumb_loader,18,224,162
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,False,src/postprocessing/mem_image.cpp,LibRaw::get_mem_image_format,118,134,16
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,False,src/utils/thumb_utils.cpp,,-1,-1,-1
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,False,src/postprocessing/mem_image.cpp,LibRaw::copy_mem_image,136,223,74
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,False,src/utils/thumb_utils.cpp,LibRaw::dcraw_thumb_writer,264,305,36
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,False,src/postprocessing/mem_image.cpp,LibRaw::dcraw_make_mem_image,227,254,24
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,False,src/decoders/unpack_thumb.cpp,,-1,-1,-1
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,False,libraw/libraw_const.h,,-1,-1,-1
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,True,src/postprocessing/mem_image.cpp,LibRaw::dcraw_make_mem_thumb,17,111,86
+libraw/libraw,CVE-2020-15503,707,d1975cb0e055d2bfe58c9d845c9a3e57c346a2f9,True,False,src/decoders/unpack_thumb.cpp,jpegErrorExit,24,28,5
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,,-1,-1,-1
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,canon_rmf_load_raw,1740,1758,18
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,ahd_interpolate,4503,4604,94
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,ppm16_thumb,1233,1246,14
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,parse_tiff_ifd,5290,5764,474
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,adobe_coeff,6581,7386,805
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,nikon_3700,1181,1202,21
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,my_strcasestr,271,278,8
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,getbithuff,544,567,23
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,ljpeg_start,769,818,49
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,foveon_dp_load_raw,2809,2831,22
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,recover_highlights,4673,4747,73
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,samsung_load_raw,2474,2500,26
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,imacon_full_load_raw,1673,1681,8
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,main,9010,9424,397
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,nokia_load_raw,1721,1738,17
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,parse_jpeg,6314,6338,23
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,fuji_rotate,8740,8776,35
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,parse_ciff,6033,6136,101
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,packed_dng_load_raw,1032,1051,19
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,fcol,235,258,23
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,pre_interpolate,3937,3982,45
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,cielab,4240,4269,29
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,stretch,8778,8813,35
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,redcine_load_raw,2637,2687,48
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,True,dcraw/dcraw.c,xtrans_interpolate,4277,4496,196
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,parse_makernote,4776,5078,299
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,vng_interpolate,4059,4184,124
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,packed_load_raw,1683,1719,36
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,kodak_ycbcr_load_raw,2320,2346,26
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,apply_tiff,5781,5916,135
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,sinar_4shot_load_raw,1636,1671,35
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,identify,7456,8581,1115
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,scale_colors,3829,3935,106
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,parse_foveon,6487,6576,87
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,parse_fuji,6275,6312,37
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,lossless_jpeg_load_raw,879,911,31
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,lin_interpolate,4006,4047,41
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,foveon_interpolate,2993,3388,356
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,canon_sraw_load_raw,913,983,69
+libraw/libraw,CVE-2017-16910,664,430c874b48ac70b1d8e8261aea40344a4abdbe23,True,False,dcraw/dcraw.c,crop_masked_pixels,3393,3459,66

@@ -1,0 +1,855 @@
+project,cve,cwe,commit_sha,is_file_vulnerable,is_function_vulnerable,file_name,function_name,function_start_line,function_end_line,function_nloc
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,ReadPSDChannelZip,870,992,103
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,GetPSDRowSize,460,466,7
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,ConvertPSDCompression,268,281,14
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,ReadPSDChannel,994,1049,48
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,ReadPSDLayer,1051,1137,72
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,GetPSDPacketSize,437,451,14
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,ReadPSDChannelRLE,794,868,61
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,ReadPSDChannelRaw,727,769,34
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,ReadPSDChannelPixels,605,725,114
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,ReadPSDRLEOffsets,771,792,20
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,True,coders/psd.c,ReadPSDImage,1557,1782,181
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,ReadPSDMergedImage,1498,1555,47
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,ReadPSDLayers,1139,1496,302
+imagemagick/imagemagick,CVE-2016-7522,664,b41f080d52a5ff2d9c235cffac1419b84028bd31,True,False,coders/psd.c,CorrectPSDOpacity,283,316,29
+imagemagick/imagemagick,CVE-2016-4564,664,9cdadd93510445e657e40e7877f2d85279683049,True,True,MagickCore/draw.c,DrawImage,1664,3175,1429
+imagemagick/imagemagick,CVE-2016-4564,664,9cdadd93510445e657e40e7877f2d85279683049,True,True,MagickCore/draw.c,DrawDashPolygon,1471,1611,133
+imagemagick/imagemagick,CVE-2016-4564,664,8bedb4edca01599dfd0612cb0daa35b09c67d736,True,False,MagickCore/draw.c,TracePath,5324,5691,341
+imagemagick/imagemagick,CVE-2016-4564,664,8bedb4edca01599dfd0612cb0daa35b09c67d736,True,True,MagickCore/draw.c,DrawImage,1664,3174,1428
+imagemagick/imagemagick,CVE-2016-4564,664,341d2ec5994279dcc8dad238b75fdceddc5b0437,True,True,MagickCore/draw.c,DrawImage,1664,3168,1423
+imagemagick/imagemagick,CVE-2016-4564,664,5acf702fa2aa906dc44bd26edc57023344e8b77a,True,True,MagickCore/draw.c,GetDrawInfo,4837,4939,96
+imagemagick/imagemagick,CVE-2016-4564,664,151b66dffc9e3c2e8c4f8cdaca37ff987ca0f497,True,True,MagickCore/draw.c,DrawImage,1654,3125,1392
+imagemagick/imagemagick,CVE-2016-4564,664,151b66dffc9e3c2e8c4f8cdaca37ff987ca0f497,True,True,MagickCore/draw.c,DrawClipPath,1378,1428,46
+imagemagick/imagemagick,CVE-2016-4564,664,151b66dffc9e3c2e8c4f8cdaca37ff987ca0f497,True,False,MagickCore/draw.c,TracePath,5240,5607,341
+imagemagick/imagemagick,CVE-2016-4564,664,151b66dffc9e3c2e8c4f8cdaca37ff987ca0f497,True,False,MagickCore/draw.c,DrawPatternPath,3470,3525,51
+imagemagick/imagemagick,CVE-2016-4564,664,151b66dffc9e3c2e8c4f8cdaca37ff987ca0f497,True,True,MagickCore/draw.c,DrawPrimitive,4130,4596,418
+imagemagick/imagemagick,CVE-2016-4564,664,10a6c61544fb48d72f29ec8f9573bdcd52abf1b7,True,True,MagickCore/draw.c,DrawClipPath,1391,1441,46
+imagemagick/imagemagick,CVE-2016-4564,664,10a6c61544fb48d72f29ec8f9573bdcd52abf1b7,True,True,MagickCore/draw.c,DrawImage,1667,3114,1371
+imagemagick/imagemagick,CVE-2016-4564,664,0245b5d8db153787bddebd170deaa51b23c5f939,True,True,MagickCore/draw.c,GetDrawInfo,4762,4848,82
+imagemagick/imagemagick,CVE-2016-4564,664,4c08aed51c5899665ade97263692328eea4af106,True,True,MagickCore/draw.c,DrawPrimitive,4119,4568,401
+imagemagick/imagemagick,CVE-2016-4564,664,4c08aed51c5899665ade97263692328eea4af106,True,True,MagickCore/draw.c,GetDrawInfo,4726,4807,76
+imagemagick/imagemagick,CVE-2016-4564,664,4c08aed51c5899665ade97263692328eea4af106,True,False,MagickCore/draw.c,DrawPolygonPrimitive,3783,3987,169
+imagemagick/imagemagick,CVE-2016-4564,664,4c08aed51c5899665ade97263692328eea4af106,True,True,MagickCore/draw.c,DrawImage,1660,3136,1400
+imagemagick/imagemagick,CVE-2016-4564,664,4c08aed51c5899665ade97263692328eea4af106,True,False,MagickCore/draw.c,DrawAffineImage,1077,1219,119
+imagemagick/imagemagick,CVE-2016-4564,664,4c08aed51c5899665ade97263692328eea4af106,True,False,MagickCore/draw.c,DrawGradientImage,3218,3449,209
+imagemagick/imagemagick,CVE-2016-4564,664,4c08aed51c5899665ade97263692328eea4af106,True,False,MagickCore/draw.c,GetPixelOpacity,3612,3781,149
+imagemagick/imagemagick,CVE-2016-4564,664,4c08aed51c5899665ade97263692328eea4af106,True,True,MagickCore/draw.c,DrawStrokePolygon,4620,4668,42
+imagemagick/imagemagick,CVE-2016-4564,664,4c08aed51c5899665ade97263692328eea4af106,True,True,MagickCore/draw.c,DrawClipPath,1386,1439,49
+imagemagick/imagemagick,CVE-2016-4564,664,4c08aed51c5899665ade97263692328eea4af106,True,False,MagickCore/draw.c,CloneDrawInfo,234,335,99
+imagemagick/imagemagick,CVE-2016-4564,664,4c08aed51c5899665ade97263692328eea4af106,True,False,MagickCore/draw.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2018-16644,664,38fb2aaffb2013478c6a48c7264ab0b8095485fe,True,True,coders/dcm.c,ReadDCMImage,2976,4209,1055
+imagemagick/imagemagick,CVE-2018-16644,664,ce6b1224b32707d1eaeb77be461f76fe4e245e04,True,True,coders/pict.c,ReadPICTImage,800,1458,573
+imagemagick/imagemagick,CVE-2018-16644,664,ce6b1224b32707d1eaeb77be461f76fe4e245e04,True,True,coders/dcm.c,ReadDCMImage,2779,4117,1175
+imagemagick/imagemagick,CVE-2018-16644,664,e11ddbd1db03b2672c50a072930f76d22848916b,True,True,coders/pict.c,ReadPICTImage,805,1490,600
+imagemagick/imagemagick,CVE-2016-9559,710,b5be932a981d49ab719b6a3a04041df3a492e4ed,True,False,coders/tiff.c,ReadTIFFImage,1060,2109,951
+imagemagick/imagemagick,CVE-2016-9559,710,b5be932a981d49ab719b6a3a04041df3a492e4ed,True,True,coders/tiff.c,TIFFGetProperties,611,694,80
+imagemagick/imagemagick,CVE-2016-9559,710,2c992db0525c6bfcc8d10b6bce3008ae91ec2be1,True,True,coders/txt.c,WriteTXTImage,651,796,132
+imagemagick/imagemagick,CVE-2016-9559,710,e913961573cd6c95fa84ed380a4ab920663cdd78,True,True,coders/txt.c,WriteTXTImage,633,751,109
+imagemagick/imagemagick,CVE-2016-9559,710,e913961573cd6c95fa84ed380a4ab920663cdd78,True,False,coders/txt.c,ReadTXTImage,361,533,157
+imagemagick/imagemagick,CVE-2016-9559,710,98ca0f530ec4b2cdf478bc7cc3fe0b2ddf94b2a4,True,True,coders/tiff.c,TIFFGetProperties,547,597,49
+imagemagick/imagemagick,CVE-2016-9559,710,98ca0f530ec4b2cdf478bc7cc3fe0b2ddf94b2a4,True,False,coders/tiff.c,WritePTIFImage,2074,2120,37
+imagemagick/imagemagick,CVE-2016-9559,710,98ca0f530ec4b2cdf478bc7cc3fe0b2ddf94b2a4,True,False,coders/tiff.c,TIFFSetProperties,2344,2383,39
+imagemagick/imagemagick,CVE-2016-9559,710,98ca0f530ec4b2cdf478bc7cc3fe0b2ddf94b2a4,True,False,coders/tiff.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2018-16642,664,32cc0db28a4b84a8624c4da69b3f0c2c89b1e151,True,True,coders/cut.c,InsertRow,98,224,123
+imagemagick/imagemagick,CVE-2018-16642,664,ccad00b02d1242dc1c039f9979337e00f69212e8,True,True,coders/cut.c,InsertRow,98,223,122
+imagemagick/imagemagick,CVE-2018-16642,664,c82a27bb8e3138ff9bbf0f696663bdf3e704cede,True,False,coders/cut.c,ReadCUTImage,293,607,266
+imagemagick/imagemagick,CVE-2018-16642,664,c82a27bb8e3138ff9bbf0f696663bdf3e704cede,True,True,coders/cut.c,InsertRow,98,228,126
+imagemagick/imagemagick,CVE-2018-16642,664,c82a27bb8e3138ff9bbf0f696663bdf3e704cede,True,False,coders/cut.c,GetCutColors,233,265,30
+imagemagick/imagemagick,CVE-2018-16642,664,acd2ed254c18c254a0ab5aafa06d1645e5d079d8,True,True,coders/cut.c,InsertRow,97,229,127
+imagemagick/imagemagick,CVE-2018-16642,664,ed2315769b26818ed9d0c1291dc0457f0d8da0a4,True,False,coders/cut.c,GetCutColors,234,270,33
+imagemagick/imagemagick,CVE-2018-16642,664,ed2315769b26818ed9d0c1291dc0457f0d8da0a4,True,False,coders/cut.c,ReadCUTImage,298,612,266
+imagemagick/imagemagick,CVE-2018-16642,664,ed2315769b26818ed9d0c1291dc0457f0d8da0a4,True,True,coders/cut.c,InsertRow,97,229,127
+imagemagick/imagemagick,CVE-2015-8897,664,46ff2676b1044ea4101ac7a59b83289cd8f6cfda,True,True,MagickCore/transform.c,SpliceImage,1661,1986,275
+imagemagick/imagemagick,CVE-2015-8897,664,46ff2676b1044ea4101ac7a59b83289cd8f6cfda,True,False,MagickCore/transform.c,TransposeImage,2184,2307,99
+imagemagick/imagemagick,CVE-2015-8897,664,46ff2676b1044ea4101ac7a59b83289cd8f6cfda,True,False,MagickCore/transform.c,TransverseImage,2334,2464,105
+imagemagick/imagemagick,CVE-2015-8897,664,46ff2676b1044ea4101ac7a59b83289cd8f6cfda,True,False,MagickCore/transform.c,ConsolidateCMYKImages,335,423,77
+imagemagick/imagemagick,CVE-2015-8897,664,46ff2676b1044ea4101ac7a59b83289cd8f6cfda,True,False,MagickCore/transform.c,ChopImage,97,308,167
+imagemagick/imagemagick,CVE-2015-8897,664,46ff2676b1044ea4101ac7a59b83289cd8f6cfda,True,False,MagickCore/transform.c,FlipImage,1121,1241,96
+imagemagick/imagemagick,CVE-2015-8897,664,46ff2676b1044ea4101ac7a59b83289cd8f6cfda,True,False,MagickCore/transform.c,ExcerptImage,911,1031,94
+imagemagick/imagemagick,CVE-2015-8897,664,46ff2676b1044ea4101ac7a59b83289cd8f6cfda,True,False,MagickCore/transform.c,CropImage,455,669,180
+imagemagick/imagemagick,CVE-2015-8897,664,46ff2676b1044ea4101ac7a59b83289cd8f6cfda,True,False,MagickCore/transform.c,FlopImage,1268,1388,96
+imagemagick/imagemagick,CVE-2015-8897,664,46ff2676b1044ea4101ac7a59b83289cd8f6cfda,True,False,MagickCore/transform.c,CopyImageRegion,1420,1506,70
+imagemagick/imagemagick,CVE-2015-8897,664,13d07043243e0c8c151aad7db5240b75e76ca281,True,True,magick/transform.c,SpliceImage,1392,1664,233
+imagemagick/imagemagick,CVE-2015-8897,664,b5d5f725fef80ff5d50db3111c05a1a521b81e7f,True,False,magick/transform.c,TransverseImage,1968,2077,88
+imagemagick/imagemagick,CVE-2015-8897,664,b5d5f725fef80ff5d50db3111c05a1a521b81e7f,True,False,magick/transform.c,CropImage,457,646,160
+imagemagick/imagemagick,CVE-2015-8897,664,b5d5f725fef80ff5d50db3111c05a1a521b81e7f,True,True,magick/transform.c,SpliceImage,1330,1597,229
+imagemagick/imagemagick,CVE-2015-8897,664,b5d5f725fef80ff5d50db3111c05a1a521b81e7f,True,False,magick/transform.c,CopyImageRegion,1108,1175,54
+imagemagick/imagemagick,CVE-2015-8897,664,b5d5f725fef80ff5d50db3111c05a1a521b81e7f,True,False,magick/transform.c,TransposeImage,1840,1941,82
+imagemagick/imagemagick,CVE-2015-8897,664,b5d5f725fef80ff5d50db3111c05a1a521b81e7f,True,False,magick/transform.c,FlipImage,863,954,72
+imagemagick/imagemagick,CVE-2015-8897,664,b5d5f725fef80ff5d50db3111c05a1a521b81e7f,True,False,magick/transform.c,FlopImage,981,1076,75
+imagemagick/imagemagick,CVE-2015-8897,664,b5d5f725fef80ff5d50db3111c05a1a521b81e7f,True,False,magick/transform.c,ExcerptImage,676,772,75
+imagemagick/imagemagick,CVE-2019-15140,664,8f3d6011cc3fb59a22a21e767bad14e889930e4e,True,True,coders/mat.c,ReadMATImage,858,1470,531
+imagemagick/imagemagick,CVE-2019-15140,664,32fa22a7d6b9afa9c21818f94618a90c85316c2c,True,True,coders/mat.c,ReadMATImage,845,1356,431
+imagemagick/imagemagick,CVE-2015-8894,"710,664",c9eb04ca2174d8500f59e7e3e32148069610223e,True,False,coders/tga.c,WriteTGAImage,705,975,237
+imagemagick/imagemagick,CVE-2015-8894,"710,664",c9eb04ca2174d8500f59e7e3e32148069610223e,True,True,coders/tga.c,ReadTGAImage,143,543,343
+imagemagick/imagemagick,CVE-2015-8894,"710,664",c9eb04ca2174d8500f59e7e3e32148069610223e,True,False,coders/tga.c,WriteTGAPixel,665,703,38
+imagemagick/imagemagick,CVE-2015-8894,"710,664",018f07f7333b25743d0afff892450cebdb905c1a,True,True,coders/tga.c,ReadTGAImage,100,478,316
+imagemagick/imagemagick,CVE-2015-8957,664,6a59acc8bd967c85fd2c8a343c31c71dcb7c3f07,True,True,MagickCore/threshold.c,ClampPixel,683,694,9
+imagemagick/imagemagick,CVE-2015-8957,664,ddcbde65cf72da283471304e1df31e4ebb99bbf0,True,False,MagickCore/threshold.c,ClampImage,696,804,85
+imagemagick/imagemagick,CVE-2015-8957,664,ddcbde65cf72da283471304e1df31e4ebb99bbf0,True,True,MagickCore/threshold.c,ClampPixel,683,694,9
+imagemagick/imagemagick,CVE-2015-8957,664,e4a404711bf20d9062d11ab28bc12e5acd307f9c,True,False,MagickCore/composite.c,CompositeImage,493,2169,1397
+imagemagick/imagemagick,CVE-2015-8957,664,e4a404711bf20d9062d11ab28bc12e5acd307f9c,True,False,MagickCore/composite.c,CompositeOverImage,271,491,166
+imagemagick/imagemagick,CVE-2015-8957,664,e4a404711bf20d9062d11ab28bc12e5acd307f9c,True,False,MagickCore/composite.c,CompositeHSB,138,180,38
+imagemagick/imagemagick,CVE-2015-8957,664,e4a404711bf20d9062d11ab28bc12e5acd307f9c,True,False,MagickCore/composite.c,HSBComposite,182,256,71
+imagemagick/imagemagick,CVE-2018-16641,664,b40ea40a35b8b5d011b4543bcfb8f8adfc9bb581,True,False,coders/tiff.c,TIFFAcquireCustomStreamForReading,1107,1121,14
+imagemagick/imagemagick,CVE-2018-16641,664,b40ea40a35b8b5d011b4543bcfb8f8adfc9bb581,True,False,coders/tiff.c,TIFFSeekCustomStream,240,274,33
+imagemagick/imagemagick,CVE-2018-16641,664,b40ea40a35b8b5d011b4543bcfb8f8adfc9bb581,True,False,coders/tiff.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2018-16641,664,b40ea40a35b8b5d011b4543bcfb8f8adfc9bb581,True,False,coders/tiff.c,TIFFAcquireCustomStreamForWriting,3077,3091,14
+imagemagick/imagemagick,CVE-2018-16641,664,b40ea40a35b8b5d011b4543bcfb8f8adfc9bb581,True,False,coders/tiff.c,TIFFTellCustomStream,276,283,7
+imagemagick/imagemagick,CVE-2018-16641,664,b40ea40a35b8b5d011b4543bcfb8f8adfc9bb581,True,False,coders/tiff.c,InitPSDInfo,285,297,12
+imagemagick/imagemagick,CVE-2018-16641,664,b40ea40a35b8b5d011b4543bcfb8f8adfc9bb581,True,True,coders/tiff.c,TIFFWritePhotoshopLayers,3093,3185,84
+imagemagick/imagemagick,CVE-2018-16641,664,b40ea40a35b8b5d011b4543bcfb8f8adfc9bb581,True,False,coders/tiff.c,TIFFWriteCustomStream,3056,3075,19
+imagemagick/imagemagick,CVE-2018-16641,664,b40ea40a35b8b5d011b4543bcfb8f8adfc9bb581,True,False,coders/tiff.c,TIFFReadPhotoshopLayers,1123,1205,76
+imagemagick/imagemagick,CVE-2018-16641,664,b40ea40a35b8b5d011b4543bcfb8f8adfc9bb581,True,False,coders/tiff.c,TIFFSetProperties,3250,3316,65
+imagemagick/imagemagick,CVE-2018-16641,664,b40ea40a35b8b5d011b4543bcfb8f8adfc9bb581,True,False,coders/tiff.c,TIFFReadCustomStream,1084,1105,19
+imagemagick/imagemagick,CVE-2018-16641,664,b40ea40a35b8b5d011b4543bcfb8f8adfc9bb581,True,False,coders/tiff.c,WriteTIFFImage,3387,4233,738
+imagemagick/imagemagick,CVE-2015-8895,682,6fef95b1594ff2b0228a0b25cbb062943d9e82ce,True,False,MagickCore/version.h,,-1,-1,-1
+imagemagick/imagemagick,CVE-2015-8895,682,3b0097d3a6a4c56cde046a2fa01c6c419f2e7f91,True,False,MagickCore/version.h,,-1,-1,-1
+imagemagick/imagemagick,CVE-2015-8895,682,841f915b32169234a3b1f836ad54eda3e8cccf2d,True,True,coders/icon.c,AutoResizeImage,152,211,47
+imagemagick/imagemagick,CVE-2015-8895,682,501a11e6e582db752c80a35d2444e6a689a400ad,True,False,coders/icon.c,WriteICONImage,844,1372,464
+imagemagick/imagemagick,CVE-2015-8895,682,501a11e6e582db752c80a35d2444e6a689a400ad,True,False,coders/icon.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2015-8895,682,501a11e6e582db752c80a35d2444e6a689a400ad,True,True,coders/icon.c,AutoResizeImage,152,211,47
+imagemagick/imagemagick,CVE-2015-8895,682,acdadeb3e82041bda23251110ca13ffe9e9fa58a,True,False,MagickCore/memory.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2015-8895,682,acdadeb3e82041bda23251110ca13ffe9e9fa58a,True,True,MagickCore/memory.c,AcquireVirtualMemory,547,619,64
+imagemagick/imagemagick,CVE-2015-8895,682,acdadeb3e82041bda23251110ca13ffe9e9fa58a,True,True,MagickCore/memory.c,RelinquishVirtualMemory,995,1027,33
+imagemagick/imagemagick,CVE-2015-8895,682,e5292baa905de5dbfa377409d21853f622cd2c1c,True,True,MagickCore/memory.c,AcquireVirtualMemory,539,606,59
+imagemagick/imagemagick,CVE-2015-8895,682,a321eb7fb3b35eed694d0366543450d023900b5b,True,True,MagickCore/memory.c,RelinquishVirtualMemory,969,988,20
+imagemagick/imagemagick,CVE-2015-8895,682,a321eb7fb3b35eed694d0366543450d023900b5b,True,False,MagickCore/memory.c,AcquireQuantumMemory,500,512,12
+imagemagick/imagemagick,CVE-2015-8895,682,a321eb7fb3b35eed694d0366543450d023900b5b,True,False,MagickCore/memory.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2015-8895,682,a321eb7fb3b35eed694d0366543450d023900b5b,True,True,MagickCore/memory.c,AcquireVirtualMemory,539,593,46
+imagemagick/imagemagick,CVE-2015-8895,682,4e09e0312060a073162b0e5a796495e61fccada5,True,True,coders/icon.c,ReadICONImage,172,660,434
+imagemagick/imagemagick,CVE-2015-8895,682,f054ee74c237471da2f9be084079112f3c89669c,True,True,coders/icon.c,ReadICONImage,172,653,427
+imagemagick/imagemagick,CVE-2015-8895,682,81af570751f5cb9d11c0aff036d5776820bdca51,True,False,MagickCore/version.h,,-1,-1,-1
+imagemagick/imagemagick,CVE-2015-8895,682,aff6d807f839a998fff6e87198f2418868ab508e,True,False,coders/pict.c,DecodeImage,427,556,112
+imagemagick/imagemagick,CVE-2015-8895,682,aff6d807f839a998fff6e87198f2418868ab508e,True,False,coders/pict.c,ReadPICTImage,789,1424,551
+imagemagick/imagemagick,CVE-2015-8895,682,aff6d807f839a998fff6e87198f2418868ab508e,True,True,coders/pict.c,WritePICTImage,1527,1967,376
+imagemagick/imagemagick,CVE-2016-10061,703,3d7f80646114c797310e86e3360ffe876b7b9dcf,True,False,coders/tiff.c,RegisterTIFFImage,1653,1756,83
+imagemagick/imagemagick,CVE-2016-10061,703,3d7f80646114c797310e86e3360ffe876b7b9dcf,True,False,coders/tiff.c,UnregisterTIFFImage,1777,1791,15
+imagemagick/imagemagick,CVE-2016-10061,703,3d7f80646114c797310e86e3360ffe876b7b9dcf,True,True,coders/tiff.c,ReadGROUP4Image,276,384,92
+imagemagick/imagemagick,CVE-2016-10061,703,3d7f80646114c797310e86e3360ffe876b7b9dcf,True,False,coders/tiff.c,WriteGROUP4Image,1819,1957,118
+imagemagick/imagemagick,CVE-2016-10061,703,3d7f80646114c797310e86e3360ffe876b7b9dcf,True,False,coders/tiff.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2016-10061,703,3d7f80646114c797310e86e3360ffe876b7b9dcf,True,False,coders/tiff.c,WriteLSBLong,264,274,10
+imagemagick/imagemagick,CVE-2016-7530,682,8738cd420a7b8c6e9a9e00c57d203e2bdb0e7af3,True,True,MagickCore/quantum.c,SetQuantumDepth,656,690,31
+imagemagick/imagemagick,CVE-2016-7530,682,56d8854d35f28716299844f42f9d42a7b4395938,True,True,MagickCore/quantum.c,SetQuantumDepth,645,679,31
+imagemagick/imagemagick,CVE-2016-7530,682,c9672a94adef17dee351f074e7c9915405ef29e1,True,True,magick/quantum.c,SetQuantumDepth,540,571,28
+imagemagick/imagemagick,CVE-2016-7530,682,c9672a94adef17dee351f074e7c9915405ef29e1,True,True,magick/quantum.c,GetQuantumExtent,294,318,24
+imagemagick/imagemagick,CVE-2017-12427,664,5f6f01c9161e82bbcf876100f7b233b5aad4bba4,True,True,coders/msl.c,ProcessMSLScript,7539,7668,115
+imagemagick/imagemagick,CVE-2016-5841,682,ef069c2d90468c58e889d5089bd9b4fc55ecbc3f,True,True,MagickCore/property.c,ReadPropertyUnsignedLong,756,771,15
+imagemagick/imagemagick,CVE-2016-5841,682,ef069c2d90468c58e889d5089bd9b4fc55ecbc3f,True,True,MagickCore/property.c,ReadPropertySignedShort,773,798,23
+imagemagick/imagemagick,CVE-2016-5841,682,ef069c2d90468c58e889d5089bd9b4fc55ecbc3f,True,True,MagickCore/property.c,ReadPropertyUnsignedShort,800,814,14
+imagemagick/imagemagick,CVE-2016-5841,682,ef069c2d90468c58e889d5089bd9b4fc55ecbc3f,True,True,MagickCore/property.c,ReadPropertySignedLong,728,754,24
+imagemagick/imagemagick,CVE-2016-5841,682,ef069c2d90468c58e889d5089bd9b4fc55ecbc3f,True,True,MagickCore/property.c,GetEXIFProperty,816,1625,679
+imagemagick/imagemagick,CVE-2016-5841,682,1fe0b879964fa7797e3d68574d297922a47c4034,True,False,MagickCore/property.c,ReadPropertyShort,727,752,23
+imagemagick/imagemagick,CVE-2016-5841,682,1fe0b879964fa7797e3d68574d297922a47c4034,True,False,MagickCore/profile.c,ReadProfileMSBLong,1772,1783,11
+imagemagick/imagemagick,CVE-2016-5841,682,1fe0b879964fa7797e3d68574d297922a47c4034,True,True,MagickCore/profile.c,ReadProfileShort,1717,1742,23
+imagemagick/imagemagick,CVE-2016-5841,682,1fe0b879964fa7797e3d68574d297922a47c4034,True,True,MagickCore/property.c,GetEXIFProperty,782,1590,678
+imagemagick/imagemagick,CVE-2016-5841,682,1fe0b879964fa7797e3d68574d297922a47c4034,True,True,MagickCore/profile.c,ReadProfileLong,1744,1770,24
+imagemagick/imagemagick,CVE-2016-5841,682,1fe0b879964fa7797e3d68574d297922a47c4034,True,True,MagickCore/property.c,ReadPropertyMSBLong,501,539,33
+imagemagick/imagemagick,CVE-2016-5841,682,1fe0b879964fa7797e3d68574d297922a47c4034,True,False,MagickCore/property.c,Get8BIMProperty,579,725,126
+imagemagick/imagemagick,CVE-2016-5841,682,1fe0b879964fa7797e3d68574d297922a47c4034,True,False,MagickCore/property.c,TraceSVGClippath,1949,2116,139
+imagemagick/imagemagick,CVE-2016-5841,682,1fe0b879964fa7797e3d68574d297922a47c4034,True,False,MagickCore/property.c,TracePSClippath,1742,1947,173
+imagemagick/imagemagick,CVE-2016-5841,682,1fe0b879964fa7797e3d68574d297922a47c4034,True,True,MagickCore/property.c,ReadPropertyMSBShort,541,577,31
+imagemagick/imagemagick,CVE-2016-5841,682,1fe0b879964fa7797e3d68574d297922a47c4034,True,False,MagickCore/property.c,ReadPropertyLong,754,780,24
+imagemagick/imagemagick,CVE-2016-5841,682,1fe0b879964fa7797e3d68574d297922a47c4034,True,False,MagickCore/profile.c,ReadProfileMSBShort,1785,1797,12
+imagemagick/imagemagick,CVE-2016-5841,682,1fe0b879964fa7797e3d68574d297922a47c4034,True,True,MagickCore/profile.c,SyncExifProfile,1900,2109,180
+imagemagick/imagemagick,CVE-2016-5841,682,26c14ef5bb3a1d60b5644848812f0c6c35cd8347,True,False,MagickCore/profile.c,Sync8BimProfile,1858,1917,56
+imagemagick/imagemagick,CVE-2016-5841,682,26c14ef5bb3a1d60b5644848812f0c6c35cd8347,True,True,MagickCore/profile.c,ReadProfileLong,1774,1789,15
+imagemagick/imagemagick,CVE-2016-5841,682,26c14ef5bb3a1d60b5644848812f0c6c35cd8347,True,False,MagickCore/profile.c,ReadProfileMSBLong,1791,1802,11
+imagemagick/imagemagick,CVE-2016-5841,682,9f4f3548063f1758389aa5e53ea5dba8383c9cf1,True,False,MagickCore/profile.c,RemoveImageProfile,1027,1042,15
+imagemagick/imagemagick,CVE-2016-5841,682,9f4f3548063f1758389aa5e53ea5dba8383c9cf1,True,False,MagickCore/profile.c,GetProfilesFromResourceBlock,1263,1408,115
+imagemagick/imagemagick,CVE-2016-5841,682,9f4f3548063f1758389aa5e53ea5dba8383c9cf1,True,True,MagickCore/profile.c,ReadResourceShort,1143,1149,7
+imagemagick/imagemagick,CVE-2016-5841,682,9f4f3548063f1758389aa5e53ea5dba8383c9cf1,True,False,MagickCore/profile.c,DeleteImageProfile,209,219,11
+imagemagick/imagemagick,CVE-2016-5841,682,9f4f3548063f1758389aa5e53ea5dba8383c9cf1,True,False,MagickCore/profile.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2016-5841,682,9f4f3548063f1758389aa5e53ea5dba8383c9cf1,True,True,MagickCore/profile.c,WriteResourceLong,1149,1160,11
+imagemagick/imagemagick,CVE-2016-5841,682,9f4f3548063f1758389aa5e53ea5dba8383c9cf1,True,False,MagickCore/profile.c,SetImageProfileInternal,1410,1445,31
+imagemagick/imagemagick,CVE-2016-5841,682,9f4f3548063f1758389aa5e53ea5dba8383c9cf1,True,False,MagickCore/profile.c,SetImageProfile,1447,1451,5
+imagemagick/imagemagick,CVE-2016-5841,682,9f4f3548063f1758389aa5e53ea5dba8383c9cf1,True,False,MagickCore/profile.c,WriteTo8BimProfile,1162,1261,88
+imagemagick/imagemagick,CVE-2016-5841,682,1715f7998cc7a3ac9ab8e1d367f8c6c9ac7c3e6e,True,True,MagickCore/profile.c,ReadProfileShort,1327,1341,14
+imagemagick/imagemagick,CVE-2016-5841,682,1715f7998cc7a3ac9ab8e1d367f8c6c9ac7c3e6e,True,False,MagickCore/profile.c,WriteProfileShort,1382,1398,16
+imagemagick/imagemagick,CVE-2016-5841,682,1715f7998cc7a3ac9ab8e1d367f8c6c9ac7c3e6e,True,False,MagickCore/profile.c,WriteProfileLong,1360,1380,20
+imagemagick/imagemagick,CVE-2016-5841,682,1715f7998cc7a3ac9ab8e1d367f8c6c9ac7c3e6e,True,False,MagickCore/property.c,ReadPropertyShort,697,711,14
+imagemagick/imagemagick,CVE-2016-5841,682,1715f7998cc7a3ac9ab8e1d367f8c6c9ac7c3e6e,True,False,MagickCore/property.c,ReadPropertyLong,713,728,15
+imagemagick/imagemagick,CVE-2016-5841,682,1715f7998cc7a3ac9ab8e1d367f8c6c9ac7c3e6e,True,True,MagickCore/profile.c,ReadProfileLong,1343,1358,15
+imagemagick/imagemagick,CVE-2016-5841,682,d228c03fa334bae897eee6c2d8721fa48e1577ba,True,False,MagickCore/profile.c,SyncImageProfiles,1753,1966,181
+imagemagick/imagemagick,CVE-2016-5841,682,d228c03fa334bae897eee6c2d8721fa48e1577ba,True,False,MagickCore/property.c,SetImageProperty,3392,3813,391
+imagemagick/imagemagick,CVE-2016-5841,682,d228c03fa334bae897eee6c2d8721fa48e1577ba,True,False,MagickCore/property.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2016-5841,682,4d14d5934ea878baefc9c0f63386515e4aae9aa4,True,False,MagickCore/profile.c,SyncImageProfiles,6577,6780,171
+imagemagick/imagemagick,CVE-2016-5841,682,5f06bc16f4dd3a2c1aa2d8e0f2d8eb6dc1a0049f,True,True,MagickCore/property.c,GetEXIFProperty,723,1517,664
+imagemagick/imagemagick,CVE-2016-5841,682,9d314ff2c17a77996c05413c2013880387e50f0e,True,True,magick/property.c,GetEXIFProperty,712,1491,651
+imagemagick/imagemagick,CVE-2019-7395,664,5eb9e15c1c647644030240d8fd9d0805e2828342,True,False,coders/psd.c,WriteCompressionStart,2438,2462,21
+imagemagick/imagemagick,CVE-2019-7395,664,5eb9e15c1c647644030240d8fd9d0805e2828342,True,True,coders/psd.c,WritePSDChannel,2464,2592,108
+imagemagick/imagemagick,CVE-2015-8958,664,754c21577805b3ee321b10778681ff80a757c0ef,True,True,coders/sun.c,ReadSUNImage,211,629,365
+imagemagick/imagemagick,CVE-2015-8958,664,01daf94e30f244893cac0fff34c4aa8705ffed25,True,True,coders/sun.c,ReadSUNImage,211,626,362
+imagemagick/imagemagick,CVE-2015-8958,664,22a6f21a09bcd0a9a23ac917826173316f90ef6b,True,False,coders/sun.c,WriteSUNImage,722,1000,225
+imagemagick/imagemagick,CVE-2015-8958,664,22a6f21a09bcd0a9a23ac917826173316f90ef6b,True,True,coders/sun.c,ReadSUNImage,211,624,359
+imagemagick/imagemagick,CVE-2015-8958,664,1aa0c6dab6dcef4d9bc3571866ae1c1ddbec7d8f,True,True,coders/sun.c,ReadSUNImage,211,612,355
+imagemagick/imagemagick,CVE-2015-8958,664,b8f17d08b7418204bf8a05a5c24e87b2fc395b75,True,True,coders/sun.c,ReadSUNImage,211,621,360
+imagemagick/imagemagick,CVE-2015-8958,664,0fa1546bf351bd6a459a5ad9695e49ebc592ddd1,True,True,coders/sun.c,ReadSUNImage,211,628,363
+imagemagick/imagemagick,CVE-2015-8958,664,1f30ce48a3cc192bc67b083136910f238db5794f,True,True,coders/sun.c,ReadSUNImage,211,625,361
+imagemagick/imagemagick,CVE-2015-8958,664,815b2dd3ef1f43a602ee1d6dfe5d979c98946c27,True,True,coders/sun.c,ReadSUNImage,211,603,338
+imagemagick/imagemagick,CVE-2016-7520,664,ebc891a1d9621a19c509200d7bf3470ca18dde7f,True,False,coders/hdr.c,ReadHDRImage,133,490,324
+imagemagick/imagemagick,CVE-2016-7520,664,ebc891a1d9621a19c509200d7bf3470ca18dde7f,True,True,coders/hdr.c,WriteHDRImage,643,808,147
+imagemagick/imagemagick,CVE-2019-13296,664,e863c054d49031af35b73066f5394af223de7df5,True,True,MagickWand/operation.c,CLIListOperatorImages,3510,4329,702
+imagemagick/imagemagick,CVE-2019-7397,664,2ad9ed3b3247fc96a47d488cd40db2f63f08d4e3,True,True,coders/pdf.c,WritePDFImage,1156,2985,1617
+imagemagick/imagemagick,CVE-2019-7397,664,bd40cc5f53067322861b881485cbd70f509f3829,True,True,coders/pdf.c,WritePDFImage,1155,2982,1621
+imagemagick/imagemagick,CVE-2019-7397,664,0553bd5babdbdf65b95f91ed401c98fead17ab54,True,True,coders/pdf.c,WritePDFImage,935,2638,1506
+imagemagick/imagemagick,CVE-2016-7514,664,18c0e4dff391a0a98e7f478d0d86bbd08f7708d0,True,True,coders/psd.c,ReadPSDImage,1549,1787,193
+imagemagick/imagemagick,CVE-2016-7514,664,18c0e4dff391a0a98e7f478d0d86bbd08f7708d0,True,False,coders/psd.c,ParseImageResourceBlocks,508,585,69
+imagemagick/imagemagick,CVE-2016-7514,664,18c0e4dff391a0a98e7f478d0d86bbd08f7708d0,True,False,coders/psd.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2016-7514,664,e14fd0a2801f73bdc123baf4fbab97dec55919eb,True,True,coders/psd.c,ReadPSDChannelPixels,767,889,116
+imagemagick/imagemagick,CVE-2016-7514,664,a41d97fa7de942f144af6cfcceba24c523775c54,True,False,coders/psd.c,ReadPSDLayers,1241,1595,302
+imagemagick/imagemagick,CVE-2016-7514,664,a41d97fa7de942f144af6cfcceba24c523775c54,True,False,coders/psd.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2016-7514,664,a41d97fa7de942f144af6cfcceba24c523775c54,True,False,coders/psd.c,DestroyLayerInfo,470,485,14
+imagemagick/imagemagick,CVE-2016-7514,664,a41d97fa7de942f144af6cfcceba24c523775c54,True,True,coders/psd.c,ReadPSDChannelPixels,681,802,115
+imagemagick/imagemagick,CVE-2016-7514,664,a41d97fa7de942f144af6cfcceba24c523775c54,True,False,coders/psd.c,ReadPSDLayer,1161,1239,65
+imagemagick/imagemagick,CVE-2016-7514,664,a41d97fa7de942f144af6cfcceba24c523775c54,True,True,coders/psd.c,ReadPSDImage,1656,1928,225
+imagemagick/imagemagick,CVE-2016-7514,664,a41d97fa7de942f144af6cfcceba24c523775c54,True,False,coders/psd.c,ReadPSDChannel,1061,1159,84
+imagemagick/imagemagick,CVE-2016-7514,664,11a06d3f2cac0f17af7963e83bc6e9ebd2a377c0,True,True,coders/psd.c,ReadPSDChannelPixels,666,786,114
+imagemagick/imagemagick,CVE-2016-7514,664,17f11b056210f082a6d0e54ac5d68e6d72fa76b2,True,False,coders/psd.c,WritePSDImage,2474,2815,310
+imagemagick/imagemagick,CVE-2016-7514,664,17f11b056210f082a6d0e54ac5d68e6d72fa76b2,True,True,coders/psd.c,WriteImageChannels,2190,2317,113
+imagemagick/imagemagick,CVE-2016-7514,664,17f11b056210f082a6d0e54ac5d68e6d72fa76b2,True,True,coders/psd.c,ReadPSDChannelPixels,673,793,114
+imagemagick/imagemagick,CVE-2016-7514,664,f432c635c526259b858c9aad3d409c5c44545686,True,False,coders/psd.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2016-7514,664,f432c635c526259b858c9aad3d409c5c44545686,True,False,coders/psd.c,ReadPSDChannelRLE,853,927,61
+imagemagick/imagemagick,CVE-2016-7514,664,f432c635c526259b858c9aad3d409c5c44545686,True,False,coders/psd.c,ReadPSDChannelRaw,786,828,34
+imagemagick/imagemagick,CVE-2016-7514,664,f432c635c526259b858c9aad3d409c5c44545686,True,True,coders/psd.c,ReadPSDChannelPixels,664,784,114
+imagemagick/imagemagick,CVE-2016-7514,664,d9795a19984ae1bae9205b7c0fe5de75461978b3,True,False,coders/psd.c,ReadPSDLayer,1106,1175,56
+imagemagick/imagemagick,CVE-2016-7514,664,d9795a19984ae1bae9205b7c0fe5de75461978b3,True,True,coders/psd.c,ReadPSDChannelPixels,663,783,114
+imagemagick/imagemagick,CVE-2016-7514,664,d9795a19984ae1bae9205b7c0fe5de75461978b3,True,False,coders/psd.c,ReadPSDMergedImage,1520,1577,47
+imagemagick/imagemagick,CVE-2016-7514,664,d9795a19984ae1bae9205b7c0fe5de75461978b3,True,True,coders/psd.c,WriteImageChannels,2167,2294,113
+imagemagick/imagemagick,CVE-2016-7514,664,d9795a19984ae1bae9205b7c0fe5de75461978b3,True,False,coders/psd.c,NegateCMYK,518,527,9
+imagemagick/imagemagick,CVE-2016-7514,664,3d9f5ba107b160e1819bb6baeeb3a9f521e9f450,True,False,coders/psd.c,WritePSDImage,2077,2415,308
+imagemagick/imagemagick,CVE-2016-7514,664,3d9f5ba107b160e1819bb6baeeb3a9f521e9f450,True,False,coders/psd.c,ReadPSDLayer,522,726,194
+imagemagick/imagemagick,CVE-2016-7514,664,374b8ad2958410591db2e8c42e9b65ef89655e00,True,False,coders/psd.c,ReadPSDLayer,522,726,194
+imagemagick/imagemagick,CVE-2016-7514,664,374b8ad2958410591db2e8c42e9b65ef89655e00,True,False,coders/psd.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2016-7514,664,374b8ad2958410591db2e8c42e9b65ef89655e00,True,True,coders/psd.c,ReadPSDImage,728,1466,628
+imagemagick/imagemagick,CVE-2016-7514,664,af6eb93f6c4778637c09a41eaa5a3e541836a622,True,False,coders/psd.c,ReadPSDLayer,521,722,191
+imagemagick/imagemagick,CVE-2016-7514,664,b6cabe8b75f4d9f9b9903f23ff2c0e39d7f7dd60,True,False,coders/psd.c,ReadPSDLayer,517,727,199
+imagemagick/imagemagick,CVE-2016-7514,664,dede49f1361cdf0a7aa29aa281b6f6e9a565f0fa,True,True,coders/psd.c,ReadPSDImage,716,1422,596
+imagemagick/imagemagick,CVE-2016-7514,664,dede49f1361cdf0a7aa29aa281b6f6e9a565f0fa,True,False,coders/psd.c,ReadPSDLayer,517,714,186
+imagemagick/imagemagick,CVE-2016-7514,664,3b004088b80d63b528724a279531806703aa9ea0,True,False,coders/psd.c,ReadPSDLayer,517,712,184
+imagemagick/imagemagick,CVE-2016-7514,664,56ed31cc763800a9fb1f0df96104c354b40d2cbc,True,False,coders/psd.c,WriteResolutionResourceBlock,1739,1767,27
+imagemagick/imagemagick,CVE-2016-7514,664,56ed31cc763800a9fb1f0df96104c354b40d2cbc,True,False,coders/psd.c,PSDPackbitsEncodeImage,1408,1515,95
+imagemagick/imagemagick,CVE-2016-7514,664,56ed31cc763800a9fb1f0df96104c354b40d2cbc,True,False,coders/psd.c,SetPSDOffset,1392,1398,7
+imagemagick/imagemagick,CVE-2016-7514,664,56ed31cc763800a9fb1f0df96104c354b40d2cbc,True,False,coders/psd.c,DecodePSDPixels,389,447,55
+imagemagick/imagemagick,CVE-2016-7514,664,56ed31cc763800a9fb1f0df96104c354b40d2cbc,True,True,coders/psd.c,ReadPSDImage,605,1293,578
+imagemagick/imagemagick,CVE-2016-7514,664,56ed31cc763800a9fb1f0df96104c354b40d2cbc,True,False,coders/psd.c,ReadPSDLayer,449,603,145
+imagemagick/imagemagick,CVE-2016-7514,664,56ed31cc763800a9fb1f0df96104c354b40d2cbc,True,False,coders/psd.c,SetPSDSize,1400,1406,7
+imagemagick/imagemagick,CVE-2016-7514,664,56ed31cc763800a9fb1f0df96104c354b40d2cbc,True,False,coders/psd.c,WritePSDImage,1769,2056,247
+imagemagick/imagemagick,CVE-2016-7514,664,a20214eef4b9c5e1797527b0a6273899a9062f9c,True,False,coders/psd.c,WritePSDImage,2022,2354,302
+imagemagick/imagemagick,CVE-2016-7514,664,a20214eef4b9c5e1797527b0a6273899a9062f9c,True,False,coders/psd.c,WritePascalString,1870,1894,20
+imagemagick/imagemagick,CVE-2016-7514,664,a20214eef4b9c5e1797527b0a6273899a9062f9c,True,False,coders/psd.c,WritePackbitsLength,1645,1681,32
+imagemagick/imagemagick,CVE-2016-7514,664,a20214eef4b9c5e1797527b0a6273899a9062f9c,True,False,coders/psd.c,WriteOneChannel,1683,1739,50
+imagemagick/imagemagick,CVE-2016-7514,664,a20214eef4b9c5e1797527b0a6273899a9062f9c,True,True,coders/psd.c,WriteImageChannels,1741,1868,113
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelY,620,624,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelIndex,530,535,6
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,True,MagickCore/pixel-accessor.h,GetPixelChannel,80,86,7
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelCyan,116,120,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelInfoIntensity,162,172,8
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,IsPixelInfoEquivalent,309,334,26
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelY,251,255,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelYellowTraits,268,271,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelGreen,519,523,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelInfoLuminance,174,188,11
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelAlphaTraits,40,43,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelTraits,245,249,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelRedTraits,217,220,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelCyan,502,506,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,IsPixelGray,283,307,21
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,IsPixelInfoMonochrome,390,413,20
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelBlue,439,443,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelMetacontentExtent,206,209,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,IsPixelMonochrome,336,366,27
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelInfoPixel,559,574,16
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelAlpha,32,38,7
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelRed,598,602,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelCyanTraits,122,125,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelInfoPixel,222,243,22
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelCb,69,73,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelChannel,461,466,6
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelGrayTraits,133,136,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelLuminance,662,674,10
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelChannels,100,103,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelBlack,427,432,6
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelChannelMapChannel,468,472,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelCbTraits,75,78,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelMagenta,190,194,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,IsPixelInfoGray,368,388,17
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelBlue,58,62,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelCb,450,454,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelAlpha,415,420,6
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelGreen,138,142,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelCr,105,109,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelBlack,45,51,7
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelMagentaTraits,196,199,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelRed,211,215,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelIntensity,631,660,26
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelChannelMapTraits,94,98,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelChannelMapChannel,88,92,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelInfo,542,557,16
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelMetaChannels,201,204,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,IsPixelEquivalent,273,281,9
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelGreenTraits,144,147,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelGray,127,131,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelGray,508,512,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelYellow,609,613,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelIndexTraits,157,160,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelYellow,262,266,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelMagenta,576,580,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelYTraits,257,260,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,SetPixelCr,491,495,5
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelBlueTraits,64,67,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelCrTraits,111,114,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelBlackTraits,53,56,4
+imagemagick/imagemagick,CVE-2019-13299,664,803640d20a6a664315eddfff6f8531d0c5e0871d,True,False,MagickCore/pixel-accessor.h,GetPixelIndex,149,155,7
+imagemagick/imagemagick,CVE-2019-17547,664,492b1e98b1d9b5b4172802f45b288060f1805f98,True,False,MagickCore/draw.c,RenderMVGContent,2411,4401,1881
+imagemagick/imagemagick,CVE-2019-17547,664,492b1e98b1d9b5b4172802f45b288060f1805f98,True,True,MagickCore/draw.c,TraceBezier,6106,6239,119
+imagemagick/imagemagick,CVE-2018-16323,664,d9a8234d211da30baf9526fbebe9a8438ea7e11c,True,True,coders/xbm.c,ReadXBMImage,171,402,197
+imagemagick/imagemagick,CVE-2018-16323,664,d9a8234d211da30baf9526fbebe9a8438ea7e11c,True,False,coders/xbm.c,XBMInteger,134,169,28
+imagemagick/imagemagick,CVE-2017-15033,664,9950d57e1124b73f684fb5946e206994cefda628,True,True,coders/yuv.c,ReadYUVImage,99,458,327
+imagemagick/imagemagick,CVE-2016-10066,664,134463b926fa965571aa4febd61b810be5e7da05,True,True,coders/viff.c,CheckMemoryOverflow,141,154,13
+imagemagick/imagemagick,CVE-2016-10066,664,134463b926fa965571aa4febd61b810be5e7da05,True,True,coders/viff.c,ReadVIFFImage,156,785,533
+imagemagick/imagemagick,CVE-2016-10066,664,2174484dfa68a594e2f9ad17f46217b6120db18d,True,True,MagickCore/memory.c,AcquireQuantumMemory,540,549,9
+imagemagick/imagemagick,CVE-2016-10066,664,2174484dfa68a594e2f9ad17f46217b6120db18d,True,True,MagickCore/memory.c,AcquireAlignedMemory,251,295,35
+imagemagick/imagemagick,CVE-2016-10066,664,2174484dfa68a594e2f9ad17f46217b6120db18d,True,True,MagickCore/memory.c,ResizeQuantumMemory,1213,1226,13
+imagemagick/imagemagick,CVE-2016-10066,664,2174484dfa68a594e2f9ad17f46217b6120db18d,True,True,MagickCore/memory.c,AcquireVirtualMemory,576,660,71
+imagemagick/imagemagick,CVE-2016-10066,664,2174484dfa68a594e2f9ad17f46217b6120db18d,True,True,coders/viff.c,ReadVIFFImage,140,761,525
+imagemagick/imagemagick,CVE-2016-10066,664,2174484dfa68a594e2f9ad17f46217b6120db18d,True,True,MagickCore/memory.c,CheckMemoryOverflow,236,249,13
+imagemagick/imagemagick,CVE-2016-10066,664,e1c94d9d25db6b0dd7a5028ffee31d1057855d73,True,True,coders/label.c,ReadLABELImage,89,252,146
+imagemagick/imagemagick,CVE-2016-10066,664,e1c94d9d25db6b0dd7a5028ffee31d1057855d73,True,False,MagickCore/exception.c,InitializeExceptionInfo,664,672,9
+imagemagick/imagemagick,CVE-2016-10066,664,e1c94d9d25db6b0dd7a5028ffee31d1057855d73,True,False,MagickCore/exception.c,DestroyExceptionInfo,400,429,29
+imagemagick/imagemagick,CVE-2016-10066,664,e1c94d9d25db6b0dd7a5028ffee31d1057855d73,True,True,MagickCore/exception.c,CatchException,192,218,26
+imagemagick/imagemagick,CVE-2016-10066,664,e1c94d9d25db6b0dd7a5028ffee31d1057855d73,True,False,MagickCore/exception.c,ThrowMagickExceptionList,990,1039,42
+imagemagick/imagemagick,CVE-2016-10066,664,e1c94d9d25db6b0dd7a5028ffee31d1057855d73,True,False,coders/viff.c,WriteVIFFImage,850,1238,322
+imagemagick/imagemagick,CVE-2016-10066,664,e1c94d9d25db6b0dd7a5028ffee31d1057855d73,True,False,MagickCore/memory.c,RelinquishVirtualMemory,1029,1064,36
+imagemagick/imagemagick,CVE-2016-10066,664,e1c94d9d25db6b0dd7a5028ffee31d1057855d73,True,False,MagickCore/memory.c,GetVirtualMemoryBlob,895,900,6
+imagemagick/imagemagick,CVE-2016-10066,664,e1c94d9d25db6b0dd7a5028ffee31d1057855d73,True,False,MagickCore/exception.c,InheritException,616,640,24
+imagemagick/imagemagick,CVE-2016-10066,664,e1c94d9d25db6b0dd7a5028ffee31d1057855d73,True,True,MagickCore/memory.c,AcquireVirtualMemory,567,653,78
+imagemagick/imagemagick,CVE-2016-10066,664,e1c94d9d25db6b0dd7a5028ffee31d1057855d73,True,False,MagickCore/exception.c,ClearMagickException,153,167,15
+imagemagick/imagemagick,CVE-2016-10066,664,e1c94d9d25db6b0dd7a5028ffee31d1057855d73,True,True,coders/viff.c,ReadVIFFImage,140,756,521
+imagemagick/imagemagick,CVE-2016-10066,664,e1c94d9d25db6b0dd7a5028ffee31d1057855d73,True,False,MagickCore/exception.c,ThrowException,909,949,40
+imagemagick/imagemagick,CVE-2016-10066,664,b05c534220753d20f28f816e99357d4a930e2a86,True,True,coders/label.c,ReadLABELImage,89,249,146
+imagemagick/imagemagick,CVE-2016-10066,664,e275ada1a7f4f90e73328c35e9f02464bafed8be,True,True,coders/label.c,ReadLABELImage,89,246,143
+imagemagick/imagemagick,CVE-2016-10066,664,a492593efccb08b72392d64966b5c7728e56f16a,True,True,coders/label.c,ReadLABELImage,89,240,137
+imagemagick/imagemagick,CVE-2017-9098,664,13db820f5e24cd993ee554e99377fea02a904e18,True,True,coders/rle.c,ReadRLEImage,127,657,449
+imagemagick/imagemagick,CVE-2017-9098,664,b64823d5e9d6def353c863a1464867f1bf5caca5,True,True,coders/rle.c,ReadRLEImage,126,595,389
+imagemagick/imagemagick,CVE-2017-14174,691,13663fd5798bbad267eae51a08da2dc8d40ef62b,True,True,coders/psd.c,ReadPSDLayersInternal,1485,1868,329
+imagemagick/imagemagick,CVE-2017-14174,691,6661998e7693ff84516ebb520a8db0f262b2444b,True,False,coders/psd.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2017-14174,691,6661998e7693ff84516ebb520a8db0f262b2444b,True,False,coders/psd.c,ReadPSDLayers,1345,1710,311
+imagemagick/imagemagick,CVE-2017-14174,691,6661998e7693ff84516ebb520a8db0f262b2444b,True,False,coders/psd.c,WritePSDImage,2747,3093,316
+imagemagick/imagemagick,CVE-2017-14174,691,6661998e7693ff84516ebb520a8db0f262b2444b,True,False,coders/psd.c,DestroyLayerInfo,539,556,16
+imagemagick/imagemagick,CVE-2017-14174,691,6661998e7693ff84516ebb520a8db0f262b2444b,True,False,coders/psd.c,FilterAdditionalLayerInformation,2656,2745,75
+imagemagick/imagemagick,CVE-2017-14174,691,87038d5d4cc04fb99d6560ae95f3f07a87563323,True,False,coders/psd.c,ReadPSDImage,1649,1922,226
+imagemagick/imagemagick,CVE-2017-14174,691,87038d5d4cc04fb99d6560ae95f3f07a87563323,True,False,coders/psd.c,ReadPSDLayers,1238,1588,296
+imagemagick/imagemagick,CVE-2017-14174,691,87038d5d4cc04fb99d6560ae95f3f07a87563323,True,False,coders/psd.c,ReversePSDString,661,676,14
+imagemagick/imagemagick,CVE-2017-14174,691,87038d5d4cc04fb99d6560ae95f3f07a87563323,True,False,coders/psd.c,ReadPSDLayer,1158,1236,65
+imagemagick/imagemagick,CVE-2017-14174,691,87038d5d4cc04fb99d6560ae95f3f07a87563323,True,False,coders/psd.c,ReadPSDRLEOffsets,845,866,20
+imagemagick/imagemagick,CVE-2017-14174,691,87038d5d4cc04fb99d6560ae95f3f07a87563323,True,False,coders/psd.c,GetPSDSize,483,488,6
+imagemagick/imagemagick,CVE-2017-14174,691,245cc757e4d673ce07b090b09064951f3d029896,True,False,coders/psd.c,ReadPSDChannelZip,885,1007,103
+imagemagick/imagemagick,CVE-2017-14174,691,245cc757e4d673ce07b090b09064951f3d029896,True,True,coders/psd.c,ReadPSDChannel,1009,1071,53
+imagemagick/imagemagick,CVE-2017-15277,664,cc3a7e7b06455f06fd2497d3ac9ab73efb5c20c5,True,False,coders/gif.c,WriteGIFImage,1477,1919,368
+imagemagick/imagemagick,CVE-2017-15277,664,cc3a7e7b06455f06fd2497d3ac9ab73efb5c20c5,True,True,coders/gif.c,ReadGIFImage,944,1373,370
+imagemagick/imagemagick,CVE-2017-15277,664,cc3a7e7b06455f06fd2497d3ac9ab73efb5c20c5,True,False,coders/gif.c,DecodeImage,390,502,103
+imagemagick/imagemagick,CVE-2018-16643,703,29a97ee49ac5269ce55f483da7f4345f51aac885,True,True,coders/dcm.c,ReadDCMImage,2997,4277,1093
+imagemagick/imagemagick,CVE-2018-16643,703,2d6ccc32baf7e3e71a566f4c55ac9342ccc9b5e0,True,False,coders/cals.c,WriteCALSImage,429,578,131
+imagemagick/imagemagick,CVE-2018-16643,703,2d6ccc32baf7e3e71a566f4c55ac9342ccc9b5e0,True,True,coders/cals.c,ReadCALSImage,140,282,126
+imagemagick/imagemagick,CVE-2017-11310,664,868fff35aea4233c40dca33989293cb5bc91601a,True,False,coders/png.c,RegisterPNGImage,7473,7674,133
+imagemagick/imagemagick,CVE-2017-11310,664,868fff35aea4233c40dca33989293cb5bc91601a,True,True,coders/png.c,ReadOnePNGImage,2064,4033,1428
+imagemagick/imagemagick,CVE-2017-11310,664,868fff35aea4233c40dca33989293cb5bc91601a,True,False,coders/png.c,WriteOnePNGImage,7931,11424,2581
+imagemagick/imagemagick,CVE-2017-11310,664,868fff35aea4233c40dca33989293cb5bc91601a,True,False,coders/png.c,UnregisterPNGImage,7695,7711,14
+imagemagick/imagemagick,CVE-2017-11310,664,868fff35aea4233c40dca33989293cb5bc91601a,True,False,coders/png.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2019-10714,664,d55f5ceb934a4f8b8b725330943b02e28145b855,True,True,MagickCore/locale.c,LocaleUppercase,1662,1669,6
+imagemagick/imagemagick,CVE-2019-10714,664,d55f5ceb934a4f8b8b725330943b02e28145b855,True,True,MagickCore/locale.c,LocaleLowercase,1524,1531,6
+imagemagick/imagemagick,CVE-2019-10714,664,fd7794d7de6a481fc3086fe496c95476fd473ee2,True,True,MagickCore/locale.c,LocaleUppercase,1663,1668,6
+imagemagick/imagemagick,CVE-2019-10714,664,fd7794d7de6a481fc3086fe496c95476fd473ee2,True,True,MagickCore/locale.c,LocaleLowercase,1527,1532,6
+imagemagick/imagemagick,CVE-2019-10714,664,edc7d3035883ddca8413e4fe7689aa2e579ef04a,True,True,MagickCore/locale.c,LocaleLowercase,1522,1531,8
+imagemagick/imagemagick,CVE-2019-10714,664,edc7d3035883ddca8413e4fe7689aa2e579ef04a,True,True,MagickCore/locale.c,LocaleUppercase,1662,1671,8
+imagemagick/imagemagick,CVE-2019-10714,664,07eebcd72f45c8fd7563d3f9ec5d2bed48f65f36,True,True,MagickCore/locale.c,LocaleLowercase,1522,1529,6
+imagemagick/imagemagick,CVE-2019-10714,664,07eebcd72f45c8fd7563d3f9ec5d2bed48f65f36,True,True,MagickCore/locale.c,LocaleUppercase,1660,1667,6
+imagemagick/imagemagick,CVE-2019-10714,664,d8bcdf1138d422274359da8d775514dee936495a,True,True,MagickCore/locale.c,LocaleLowercase,1527,1536,9
+imagemagick/imagemagick,CVE-2019-10714,664,d8bcdf1138d422274359da8d775514dee936495a,True,False,MagickCore/locale.c,LocaleLower,1495,1503,8
+imagemagick/imagemagick,CVE-2019-10714,664,d8bcdf1138d422274359da8d775514dee936495a,True,False,MagickCore/locale.c,LocaleUpper,1635,1643,8
+imagemagick/imagemagick,CVE-2019-10714,664,d8bcdf1138d422274359da8d775514dee936495a,True,True,MagickCore/locale.c,LocaleUppercase,1667,1676,9
+imagemagick/imagemagick,CVE-2016-9298,664,1a295fe7ffda4878bda19a21162e41f7890a4365,True,True,MagickCore/fx.c,WaveletDenoiseImage,5804,6045,191
+imagemagick/imagemagick,CVE-2016-9298,664,1a295fe7ffda4878bda19a21162e41f7890a4365,True,False,MagickCore/fx.c,HatTransform,5767,5802,34
+imagemagick/imagemagick,CVE-2016-9298,664,2d830eda5e2bbf51dd93c2ead7e1cd4291530f73,True,True,MagickCore/fx.c,WaveletDenoiseImage,5775,5993,172
+imagemagick/imagemagick,CVE-2016-7534,664,c4e63ad30bc42da691f2b5f82a24516dd6b4dc70,True,True,MagickCore/quantum.c,GetQuantumExtent,303,330,27
+imagemagick/imagemagick,CVE-2016-7534,664,c4e63ad30bc42da691f2b5f82a24516dd6b4dc70,True,False,MagickCore/quantum.c,SetQuantumDepth,658,693,32
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportCMYKQuantum,1265,1433,160
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportBGRAQuantum,685,920,224
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportRGBQuantum,2945,3256,301
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportRGBAQuantum,3258,3493,224
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportBlueQuantum,1048,1166,110
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportAlphaQuantum,252,370,110
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportBGRQuantum,372,683,301
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportQuantumPixels,3495,3726,215
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportIndexQuantum,2271,2483,201
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportGrayAlphaQuantum,1938,2149,200
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,True,MagickCore/quantum-import.c,ImportCbYCrYQuantum,1168,1263,88
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportRedQuantum,2826,2943,109
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportOpacityQuantum,2707,2825,110
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportBlackQuantum,922,1046,116
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportGreenQuantum,2151,2269,110
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportIndexAlphaQuantum,2485,2705,208
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportGrayQuantum,1621,1936,303
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,ImportCMYKAQuantum,1435,1619,176
+imagemagick/imagemagick,CVE-2016-7534,664,f9f2ff451b98b43ff5606bd46e694f61b6401d1c,True,False,MagickCore/quantum-import.c,PushColormapIndex,113,120,8
+imagemagick/imagemagick,CVE-2016-7534,664,1f9852b2b9c0c623a972174f720d8ee366245e1b,True,True,magick/quantum.c,GetQuantumExtent,297,322,25
+imagemagick/imagemagick,CVE-2019-7396,664,2cab95f4a237d473e771cbf691fd29b6c969e221,True,False,coders/sixel.c,sixel_decode,229,574,305
+imagemagick/imagemagick,CVE-2019-7396,664,2cab95f4a237d473e771cbf691fd29b6c969e221,True,True,coders/sixel.c,ReadSIXELImage,978,1119,116
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,WriteSIXELImage,1209,1337,108
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,sixel_advance,582,590,9
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,RegisterSIXELImage,1128,1154,22
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,sixel_put_flash,592,626,28
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,hls_to_rgb,172,194,21
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,get_params,196,227,31
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,sixel_put_pixel,628,643,14
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,sixel_output_create,565,580,14
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,IsSIXEL,919,936,16
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,sixel_decode,230,563,292
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,True,coders/sixel.c,ReadSIXELImage,965,1102,110
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,sixel_put_node,667,693,21
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,sixel_node_del,645,665,18
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,UnregisterSIXELImage,1175,1179,5
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,sixel_encode_impl,695,891,158
+imagemagick/imagemagick,CVE-2019-7396,664,77f78f717887854fb1198e080efe31bfe32f19c0,True,False,coders/sixel.c,hue_to_rgb,148,170,20
+imagemagick/imagemagick,CVE-2019-13298,664,8187d2d8fd010d2d6b1a3a8edd935beec404dddc,True,True,MagickCore/pixel-accessor.h,GetPixelChannel,111,117,7
+imagemagick/imagemagick,CVE-2019-13298,664,0bb4457b290d708d48bf35f667b810a0195fcb7b,True,True,MagickCore/enhance.c,EnhanceImage,1298,1469,113
+imagemagick/imagemagick,CVE-2019-11470,664,bdc73bd6d6dcd7ccb156530a096ee739cd9e9a27,True,True,coders/cin.c,ReadCINImage,379,782,362
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,WriteJNGImage,12209,12257,34
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,ReadJNGImage,4505,4598,65
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,LosslessReduceDepthOK,950,1051,73
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,True,coders/png.c,WriteOnePNGImage,7458,10792,2473
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,WriteMNGImage,12260,13141,659
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,WritePNGImage,10940,11630,478
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,ReadOnePNGImage,1984,3634,1206
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,WriteOneJNGImage,11635,12176,415
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,ImageIsGray,1130,1165,33
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,MagickPNGWarningHandler,1763,1785,18
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,ReadMNGImage,4601,7019,1790
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,ReadOneJNGImage,3789,4472,499
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,Magick_png_read_raw_profile,1810,1906,71
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,ReadPNGImage,3636,3752,79
+imagemagick/imagemagick,CVE-2017-11522,710,16ea139d53d867211d3bb0fa859a83de653f687e,True,False,coders/png.c,MagickPNGErrorHandler,1732,1761,18
+imagemagick/imagemagick,CVE-2018-16640,664,6387479aa974709d5c329c8efbde38175f386844,True,True,coders/png.c,ReadOneJNGImage,4363,5098,554
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"ReadJNGImage( const ImageInfo * image_info , ExceptionInfo * exception)",4939,5026,60
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"ReadOneJNGImage( MngInfo * mng_info , const ImageInfo * image_info , ExceptionInfo * exception)",4226,4906,502
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"ReadPNGImage( const ImageInfo * image_info , ExceptionInfo * exception)",4066,4189,89
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"WriteOnePNGImage( MngInfo * mng_info , const ImageInfo * IMimage_info , Image * IMimage , ExceptionInfo * exception)",8032,11600,2634
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"WriteOneJNGImage( MngInfo * mng_info , const ImageInfo * image_info , Image * image , ExceptionInfo * exception)",12464,13023,430
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"WriteJNGImage( const ImageInfo * image_info , Image * image , ExceptionInfo * exception)",13056,13106,36
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"ReadPNGImage( const ImageInfo * image_info , ExceptionInfo * exception)",7484,7494,9
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"WritePNGImage( const ImageInfo * image_info , Image * image , ExceptionInfo * exception)",11767,12459,490
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"ReadOnePNGImage( MngInfo * mng_info , const ImageInfo * image_info , ExceptionInfo * exception)",2006,4064,1487
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,RegisterPNGImage( void),7527,7713,118
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"mng_read_box( MngBox previous_box , char delta_type , unsigned char * p)",1584,1606,18
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"read_user_chunk_callback( png_struct * ping , png_unknown_chunkp chunk)",1819,1954,84
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"ReadMNGImage( const ImageInfo * image_info , ExceptionInfo * exception)",7496,7500,5
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"ReadMNGImage( const ImageInfo * image_info , ExceptionInfo * exception)",5029,7482,1824
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,"LosslessReduceDepthOK( Image * image , ExceptionInfo * exception)",853,954,73
+imagemagick/imagemagick,CVE-2018-16640,664,1c79788fb05b29478f6aa53f6ca518eb9197c8f5,True,False,coders/png.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2017-12877,664,b76b2ffff70f2c314a069ea953f4a45b1e2ce5e6,True,True,coders/mat.c,ReadMATImage,845,1352,427
+imagemagick/imagemagick,CVE-2017-12877,664,9df12af3fd1fb7caba5cad600b5b84e10773b9dd,True,False,coders/mat.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2017-12877,664,9df12af3fd1fb7caba5cad600b5b84e10773b9dd,True,False,coders/mat.c,ReadMATImageV4,569,751,162
+imagemagick/imagemagick,CVE-2017-12877,664,9df12af3fd1fb7caba5cad600b5b84e10773b9dd,True,True,coders/mat.c,ReadMATImage,783,1279,416
+imagemagick/imagemagick,CVE-2019-13301,664,84a30c031e3dd4117a7db00813bafc911164a06a,True,True,MagickCore/annotate.c,AnnotateImage,222,524,280
+imagemagick/imagemagick,CVE-2016-5688,664,acabb847a592ca5e430c1c0949d03acfc0b78bb9,True,True,coders/wpg.c,ReadWPGImage,831,1446,507
+imagemagick/imagemagick,CVE-2016-5688,664,74f7d4186c9e083042541fe6c6fd6d2e6b8d73ae,True,True,coders/wpg.c,ReadWPGImage,831,1443,504
+imagemagick/imagemagick,CVE-2017-13143,664,1bc1fd0ff8c555841c78829217ac81fa0598255d,True,True,coders/mat.c,ReadMATImage,598,1083,405
+imagemagick/imagemagick,CVE-2017-13143,664,d9e30a4e766944973b4531f0b9debac7a0eebb85,True,True,coders/mat.c,ReadMATImage,601,1081,400
+imagemagick/imagemagick,CVE-2016-7515,664,b9123347cc2cfdb6816ef31d663d037dd52408ad,True,True,coders/rle.c,ReadRLEImage,127,659,451
+imagemagick/imagemagick,CVE-2016-7515,664,7131d8ff451a1d5163e7e35b7a910df80cb54fab,True,True,coders/rle.c,ReadRLEImage,135,646,430
+imagemagick/imagemagick,CVE-2016-7515,664,c6da28e61bb609d2b2cfdcc7752106c973415edb,True,True,coders/rle.c,ReadRLEImage,124,591,387
+imagemagick/imagemagick,CVE-2019-18853,691,c6c9ed32eca003383416914f03d79f27263499c6,True,True,coders/svg.c,ReadSVGImage,3104,3637,449
+imagemagick/imagemagick,CVE-2019-13302,664,61135001a625364e29bdce83832f043eebde7b5a,True,True,MagickCore/fourier.c,ComplexImages,130,353,198
+imagemagick/imagemagick,CVE-2019-13302,664,1042ed2a43b6a660a6f6dd803e1ee79897da4c3f,True,False,MagickCore/fourier.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2019-13302,664,1042ed2a43b6a660a6f6dd803e1ee79897da4c3f,True,True,MagickCore/fourier.c,ComplexImages,129,273,123
+imagemagick/imagemagick,CVE-2016-10060,703,3b2e6070a35b22f22409cd27951bffd5d7e29807,True,True,MagickWand/magick-cli.c,ConcatenateImages,676,714,33
+imagemagick/imagemagick,CVE-2016-10060,703,5216f82250f6a3a9fe652a6534a46e0a69f5c6f7,True,False,MagickWand/magick-cli.c,ProcessScriptOptions,167,380,156
+imagemagick/imagemagick,CVE-2016-10060,703,5216f82250f6a3a9fe652a6534a46e0a69f5c6f7,True,False,MagickWand/magick-cli.c,MagickImageCommand,744,884,94
+imagemagick/imagemagick,CVE-2016-10060,703,5216f82250f6a3a9fe652a6534a46e0a69f5c6f7,True,True,MagickWand/magick-cli.c,ConcatenateImages,713,742,27
+imagemagick/imagemagick,CVE-2016-10060,703,5216f82250f6a3a9fe652a6534a46e0a69f5c6f7,True,False,MagickWand/magick-cli.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2016-10060,703,5216f82250f6a3a9fe652a6534a46e0a69f5c6f7,True,False,MagickWand/magick-cli.c,ProcessCommandOptions,425,603,126
+imagemagick/imagemagick,CVE-2016-10060,703,afa3dfccf9f0ded9a96e7cc8afb47687595a8dec,True,False,MagickWand/magick-cli.c,ProcessScriptOptions,113,287,122
+imagemagick/imagemagick,CVE-2016-10060,703,afa3dfccf9f0ded9a96e7cc8afb47687595a8dec,True,False,MagickWand/magick-cli.c,MagickImageCommand,589,686,63
+imagemagick/imagemagick,CVE-2016-10060,703,afa3dfccf9f0ded9a96e7cc8afb47687595a8dec,True,True,MagickWand/magick-cli.c,ConcatenateImages,557,587,28
+imagemagick/imagemagick,CVE-2016-10060,703,afa3dfccf9f0ded9a96e7cc8afb47687595a8dec,True,False,MagickWand/magick-cli.c,ProcessCommandOptions,325,488,109
+imagemagick/imagemagick,CVE-2016-10060,703,fa1e43d6abadec9f10938d14052df38ed570f99f,True,False,MagickWand/magick-cli.c,MagickCommandProcessOptions,162,320,99
+imagemagick/imagemagick,CVE-2016-10060,703,fa1e43d6abadec9f10938d14052df38ed570f99f,True,False,MagickWand/magick-cli.c,MagickSpecialOption,90,125,22
+imagemagick/imagemagick,CVE-2016-10060,703,fa1e43d6abadec9f10938d14052df38ed570f99f,True,False,MagickWand/magick-cli.c,MagickUsage,358,374,15
+imagemagick/imagemagick,CVE-2016-10060,703,fa1e43d6abadec9f10938d14052df38ed570f99f,True,False,MagickWand/magick-cli.c,MagickImageCommand,431,514,66
+imagemagick/imagemagick,CVE-2016-10060,703,fa1e43d6abadec9f10938d14052df38ed570f99f,True,True,MagickWand/magick-cli.c,ConcatenateImages,397,429,30
+imagemagick/imagemagick,CVE-2016-10060,703,fa1e43d6abadec9f10938d14052df38ed570f99f,True,False,MagickWand/magick-cli.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2017-15032,664,c76e4e14db2a02efdb26be2cd8c190beca68683f,True,True,coders/ycbcr.c,ReadYCBCRImage,99,899,759
+imagemagick/imagemagick,CVE-2017-15032,664,e2c4f18a7274c0c5c6231a2f3d73741a87d583fa,True,True,coders/ycbcr.c,ReadYCBCRImage,98,855,716
+imagemagick/imagemagick,CVE-2019-17541,664,912eb73afb7aef98723e1ee0ace0c9f78898878c,True,True,coders/jpeg.c,ReadICCProfile,488,598,95
+imagemagick/imagemagick,CVE-2019-17541,664,912eb73afb7aef98723e1ee0ace0c9f78898878c,True,False,coders/jpeg.c,ReadIPTCProfile,600,724,102
+imagemagick/imagemagick,CVE-2019-17541,664,912eb73afb7aef98723e1ee0ace0c9f78898878c,True,False,coders/jpeg.c,ReadProfile,726,857,112
+imagemagick/imagemagick,CVE-2019-17541,664,912eb73afb7aef98723e1ee0ace0c9f78898878c,True,False,coders/jpeg.c,GetCharacter,277,287,11
+imagemagick/imagemagick,CVE-2019-17541,664,912eb73afb7aef98723e1ee0ace0c9f78898878c,True,False,coders/jpeg.c,ReadComment,416,486,57
+imagemagick/imagemagick,CVE-2019-17541,664,04d6eb1cddf88b971dc878e6e530b94be4696737,True,False,coders/jpeg.c,ReadProfile,666,787,102
+imagemagick/imagemagick,CVE-2019-17541,664,04d6eb1cddf88b971dc878e6e530b94be4696737,True,False,coders/jpeg.c,ReadIPTCProfile,549,664,94
+imagemagick/imagemagick,CVE-2019-17541,664,04d6eb1cddf88b971dc878e6e530b94be4696737,True,True,coders/jpeg.c,ReadICCProfile,445,547,87
+imagemagick/imagemagick,CVE-2019-17541,664,04d6eb1cddf88b971dc878e6e530b94be4696737,True,False,coders/jpeg.c,ReadComment,381,443,49
+imagemagick/imagemagick,CVE-2019-17541,664,f551aee9ddbfa42697efff3f370db1e6203acb50,True,False,coders/jpeg.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2019-17541,664,f551aee9ddbfa42697efff3f370db1e6203acb50,True,True,coders/jpeg.c,ReadICCProfile,430,516,72
+imagemagick/imagemagick,CVE-2019-17541,664,f551aee9ddbfa42697efff3f370db1e6203acb50,True,False,coders/jpeg.c,ReadComment,377,428,39
+imagemagick/imagemagick,CVE-2019-17541,664,f551aee9ddbfa42697efff3f370db1e6203acb50,True,False,coders/jpeg.c,ReadJPEGImage,971,1432,413
+imagemagick/imagemagick,CVE-2019-17541,664,f551aee9ddbfa42697efff3f370db1e6203acb50,True,False,coders/jpeg.c,ReadIPTCProfile,518,618,80
+imagemagick/imagemagick,CVE-2019-17541,664,f551aee9ddbfa42697efff3f370db1e6203acb50,True,False,coders/jpeg.c,ReadProfile,620,727,89
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,Magick::Image::Image( const std :: string & imageSpec_),238,256,16
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,Magick::Image::Image( const Blob & blob_),82,100,16
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,Magick::Image::Image( const Image & image_),212,216,5
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,Magick::Image::quiet( const bool quiet_),1300,1304,5
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,Magick::Image::draw( const std :: vector<Magick::Drawable> & drawable_),2737,2763,22
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,Magick::Image::geometry( void) const,929,939,9
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,"Magick::Image::Image( const Blob & blob_ , const Geometry & size_ , const size_t depth_ , const std :: string & magick_)",143,162,17
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,"Magick::Image::Image( const Geometry & size_ , const Color & color_)",185,210,19
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,"Magick::Image::Image( const Blob & blob_ , const Geometry & size_)",102,120,16
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,Magick::Image::montageGeometry( void) const,1186,1196,9
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,Magick::Image::format( void) const,884,901,14
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,Magick::Image::draw( const Magick :: Drawable & drawable_),2716,2735,15
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,Magick::Image::Image( MagickCore :: Image * image_),4793,4796,4
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,"Magick::Image::read( MagickCore :: Image * image , MagickCore :: ExceptionInfo * exceptionInfo)",4875,4901,24
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,Magick::Image::quiet( void) const,1306,1309,4
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,"Magick::Image::Image( const Blob & blob_ , const Geometry & size_ , const size_t depth_)",122,141,17
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,"Magick::Image::Image( const size_t width_ , const size_t height_ , const std :: string & map_ , const StorageType type_ , const void * pixels_)",218,236,17
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,,-1,-1,-1
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,Magick::Image::Image( void),77,80,4
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,Magick::Image::directory( void) const,717,727,9
+imagemagick/imagemagick,CVE-2017-17499,664,07f84e72b205d18eb8ad35380af95351d9f0a1a3,True,False,Magick++/lib/Image.cpp,"Magick::Image::Image( const Blob & blob_ , const Geometry & size_ , const std :: string & magick_)",164,183,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::medianFilter( const double radius_),3380,3390,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::fillPattern( void) const,837,859,18
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::draw( const Magick :: Drawable & drawable_),2706,2725,15
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::contrastStretchChannel( const ChannelType channel_ , const double blackPoint_ , const double whitePoint_)",2528,2537,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::colorMap( const size_t index_ , const Color & color_)",2304,2327,16
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::swirl( const double degrees_),4390,4400,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::colorMap( const size_t index_) const,2329,2342,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::contrast( const size_t sharpen_),2511,2517,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::mask( const Magick :: Image & mask_),1096,1106,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::rotationalBlur( const double angle_),4033,4042,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::iptcProfile( const Magick :: Blob & iptcProfile_),1012,1027,15
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::transform( const Geometry & imageGeometry_),4462,4469,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::clamp( void),2217,2223,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::equalize( void),2796,2802,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::flop( void),2979,2988,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::transpose( void),4550,4559,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::colorMatrix( const size_t order_ , const double * color_matrix_)",2344,2371,26
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::gaussianBlurChannel( const ChannelType channel_ , const double width_ , const double sigma_)",3120,3132,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::montageGeometry( void) const,1177,1187,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::Image( const Blob & blob_ , const Geometry & size_ , const std :: string & magick_)",169,189,18
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::adaptiveResize( const Geometry & geometry_),1690,1710,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::autoGamma( void),1961,1968,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::syncPixels( void),4402,4407,6
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::Image( const Geometry & size_ , const Color & color_)",191,217,20
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::polaroid( const std :: string & caption_ , const double angle_ , const PixelInterpolateMethod method_)",3706,3717,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::sigmoidalContrast( const size_t sharpen_ , const double contrast , const double midpoint)",4256,4264,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::vignette( const double radius_ , const double sigma_ , const ssize_t x_ , const ssize_t y_)",4626,4636,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::crop( const Geometry & geometry_),2564,2576,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::morphologyChannel( const ChannelType channel_ , const MorphologyMethod method_ , const KernelInfoType kernel_ , const std :: string arguments_ , const ssize_t iterations_)",3489,3509,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::uniqueColors( void),4583,4595,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::frame( const size_t width_ , const size_t height_ , const ssize_t outerBevel_ , const ssize_t innerBevel_)",3039,3059,18
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::writePixels( const Magick :: QuantumType quantum_ , unsigned char * destination_)",4740,4752,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::cdl( const std :: string & cdl_),2209,2215,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::blur( const double radius_ , const double sigma_)",2047,2056,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::grayscale( const PixelIntensityMethod method_),3188,3194,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::Image( const size_t width_ , const size_t height_ , const std :: string & map_ , const StorageType type_ , const void * pixels_)",226,245,18
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::shear( const double xShearAngle_ , const double yShearAngle_)",4245,4254,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::deskew( const double threshold_),2653,2662,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::floodFill( const ssize_t x_ , const ssize_t y_ , const Magick :: Image * fillPattern_ , const Magick :: Color & fill_ , const MagickCore :: PixelInfo * target_ , const bool invert_)",4887,4924,32
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::edge( const double radius_),2755,2764,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::alpha( const bool matteFlag_),301,316,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::perceptible( const double epsilon_),3613,3619,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::composite( const Image & compositeImage_ , const Geometry & offset_ , const CompositeOperator compose_)",2450,2469,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::gaussianBlur( const double width_ , const double sigma_)",3109,3118,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::autoOrient( void),2001,2015,13
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::thumbnail( const Geometry & geometry_),4425,4445,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::haldClut( const Image & clutImage_),3196,3202,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::autoGammaChannel( const ChannelType channel_),1970,1979,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::brightnessContrast( const double brightness_ , const double contrast_)",2087,2094,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::quantize( const bool measureError_),3772,3784,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::stegano( const Image & watermark_),4338,4347,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::cycleColormap( const ssize_t amount_),2578,2584,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::sepiaTone( const double threshold_),4156,4165,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::charcoal( const double radius_ , const double sigma_)",2132,2141,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::write( Blob * blob_),4669,4683,13
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::modifyImage( void),4822,4830,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::linearStretch( const double blackPoint_ , const double whitePoint_)",3328,3335,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::selectiveBlurChannel( const ChannelType channel_ , const double radius_ , const double sigma_ , const double threshold_)",4127,4140,13
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::annotate( const std :: string & text_ , const GravityType gravity_)",1900,1919,15
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::autoLevel( void),1981,1988,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::draw( const std :: vector<Magick::Drawable> & drawable_),2727,2753,22
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::selectiveBlur( const double radius_ , const double sigma_ , const double threshold_)",4114,4125,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::motionBlur( const double radius_ , const double sigma_ , const double angle_)",3511,3521,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::composite( const Image & compositeImage_ , const GravityType gravity_ , const CompositeOperator compose_)",2471,2485,13
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::compare( const Image & reference_ , const MetricType metric_)",2389,2399,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::threshold( const double threshold_),4417,4423,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::Image( const Image & image_),219,224,6
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::transverse( void),4561,4570,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::strip( void),4360,4366,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::opaque( const Color & opaqueColor_ , const Color & penColor_ , const bool invert_)",3561,3592,27
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::orderedDitherChannel( const ChannelType channel_ , std :: string thresholdMap_)",3602,3611,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::levelColors( const Color & blackColor_ , const Color & whiteColor_ , const bool invert_)",3292,3307,14
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::totalColors( void) const,1574,1583,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::profile( const std :: string name_ , const Magick :: Blob & profile_)",3749,3757,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::map( const Image & mapImage_ , const bool dither_)",3370,3378,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::Image( MagickCore :: Image * image_),4776,4780,5
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::rotate( const double degrees_),4022,4031,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::Image( void),77,81,5
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::read( MagickCore :: Image * image , MagickCore :: ExceptionInfo * exceptionInfo)",4859,4885,24
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::orderedDither( std :: string thresholdMap_),3594,3600,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::affineTransform( const DrawableAffine & affine_),1776,1795,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::modulate( const double brightness_ , const double saturation_ , const double hue_)",3403,3416,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::display( void),2686,2691,6
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::sharpenChannel( const ChannelType channel_ , const double radius_ , const double sigma_)",4217,4229,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::tint( const std :: string opacity_),4447,4460,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::write( Blob * blob_ , const std :: string & magick_ , const size_t depth_)",4702,4719,16
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::quiet( const bool quiet_),1291,1294,4
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::whiteThreshold( const std :: string & threshold_),4650,4656,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::morphology( const MorphologyMethod method_ , const KernelInfoType kernel_ , const std :: string arguments_ , const ssize_t iterations_)",3443,3463,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::blackThreshold( const std :: string & threshold_),2017,2023,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::chop( const Geometry & geometry_),2143,2155,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::zoom( const Geometry & geometry_),4754,4774,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::shadow( const double percent_opacity_ , const double sigma_ , const ssize_t x_ , const ssize_t y_)",4193,4204,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::blurChannel( const ChannelType channel_ , const double radius_ , const double sigma_)",2058,2070,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::morphology( const MorphologyMethod method_ , const std :: string kernel_ , const ssize_t iterations_)",3423,3441,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::pixelColor( const ssize_t x_ , const ssize_t y_ , const Color & color_)",3658,3685,18
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::getMetacontent( void),3160,3172,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::distort( const DistortImageMethod method_ , const size_t numberArguments_ , const double * arguments_ , const bool bestfit_)",2693,2704,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::comment( const std :: string & comment_),611,619,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::transform( const Geometry & imageGeometry_ , const Geometry & cropGeometry_)",4471,4479,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::quiet( void) const,1296,1299,4
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::flip( void),2856,2865,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,,-1,-1,-1
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::clut( const Image & clutImage_ , const PixelInterpolateMethod method)",2252,2259,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::classType( const ClassType class_),513,536,20
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::type( const Magick :: ImageType type_),1613,1620,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::houghLine( const size_t width_ , const size_t height_ , const size_t threshold_)",3204,3215,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::alpha( const unsigned int alpha_),1797,1803,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::negate( const bool grayscale_),3523,3529,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::write( const ssize_t x_ , const ssize_t y_ , const size_t columns_ , const size_t rows_ , const std :: string & map_ , const StorageType type_ , void * pixels_)",4721,4729,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::wave( const double amplitude_ , const double wavelength_)",4638,4648,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::convolve( const size_t order_ , const double * kernel_)",2539,2562,22
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::attribute( const std :: string name_),1946,1959,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::randomThresholdChannel( const ChannelType channel_ , const Geometry & thresholds_)",3843,3853,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::unsharpmaskChannel( const ChannelType channel_ , const double radius_ , const double sigma_ , const double amount_ , const double threshold_)",4610,4624,14
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::decipher( const std :: string & passphrase_),2586,2592,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::border( const Geometry & geometry_),2072,2085,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::compareChannel( const ChannelType channel_ , const Image & reference_ , const MetricType metric_ , double * distortion)",2432,2448,16
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::kuwaharaChannel( const ChannelType channel_ , const double radius_ , const double sigma_)",3258,3270,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::spread( const size_t amount_),4321,4331,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::Image( const Blob & blob_),83,102,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::determineType( void) const,2675,2684,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::shave( const Geometry & geometry_),4231,4243,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::fontTypeMetrics( const std :: string & text_ , TypeMetric * metrics)",2990,3002,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::exifProfile( const Magick :: Blob & exifProfile_),751,767,15
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::normalize( void),3542,3548,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::getConstPixels( const ssize_t x_ , const ssize_t y_ , const size_t columns_ , const size_t rows_) const",3134,3144,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::reduceNoise( const double order_),3950,3960,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::colorSpaceType( const ColorspaceType colorSpace_),592,599,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::scale( const Geometry & geometry_),4080,4100,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::level( const double blackPoint_ , const double whitePoint_ , const double gamma_)",3272,3279,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::geometry( void) const,939,949,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::inverseFourierTransform( const Image & phase_ , const bool magnitude_)",3234,3245,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::roll( const size_t columns_ , const size_t rows_)",4010,4020,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::whiteThresholdChannel( const ChannelType channel_ , const std :: string & threshold_)",4658,4667,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::transparent( const Color & color_),4499,4519,18
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::trim( void),4572,4581,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::liquidRescale( const Geometry & geometry_),3337,3357,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::randomThreshold( const Geometry & thresholds_),3835,3841,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::contrastStretch( const double blackPoint_ , const double whitePoint_)",2519,2526,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::Image( const Blob & blob_ , const Geometry & size_)",104,123,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::cannyEdge( const double radius_ , const double sigma_ , const double lowerPercent_ , const double upperPercent_)",2107,2119,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::channelDepth( const ChannelType channel_ , const size_t depth_)",484,493,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::sharpen( const double radius_ , const double sigma_)",4206,4215,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::directory( void) const,727,737,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::emboss( const double radius_ , const double sigma_)",2766,2775,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::sketch( const double radius_ , const double sigma_ , const double angle_)",4271,4281,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::shade( const double azimuth_ , const double elevation_ , const bool colorShading_)",4180,4191,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::colorMapSize( const size_t entries_),555,565,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::label( const std :: string & label_),1062,1070,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::replaceImage( MagickCore :: Image * replacement_),4832,4857,20
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::gamma( const double gamma_),3086,3092,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::getConstMetacontent( void) const,3146,3158,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::blackThresholdChannel( const ChannelType channel_ , const std :: string & threshold_)",2025,2034,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::minify( void),3392,3401,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::splice( const Geometry & geometry_),4307,4319,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::clampChannel( const ChannelType channel_),2225,2233,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::posterize( const size_t levels_ , const DitherMethod method_)",3719,3725,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::alphaChannel( AlphaChannelOption alphaOption_),1805,1811,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::extent( const Geometry & geometry_),2812,2827,14
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::connectedComponents( const size_t connectivity_),2500,2509,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::format( void) const,894,911,14
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::modulusDepth( const size_t depth_),1146,1153,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::addNoise( const NoiseType noiseType_),1751,1760,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::despeckle( void),2664,2673,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::composite( const Image & compositeImage_ , const ssize_t xOffset_ , const ssize_t yOffset_ , const CompositeOperator compose_)",2487,2498,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::write( Blob * blob_ , const std :: string & magick_)",4685,4700,14
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::mask( void) const,1108,1121,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::fx( const std :: string expression_),3061,3070,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::oilPaint( const double radius_ , const double sigma_)",3550,3559,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::comment( void) const,621,634,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::boundingBox( void) const,462,471,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::adaptiveBlur( const double radius_ , const double sigma_)",1679,1688,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::setPixels( const ssize_t x_ , const ssize_t y_ , const size_t columns_ , const size_t rows_)",4167,4178,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::read( const size_t width_ , const size_t height_ , const std :: string & map_ , const StorageType type_ , const void * pixels_)",3907,3918,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::Image( const Blob & blob_ , const Geometry & size_ , const size_t depth_ , const std :: string & magick_)",147,167,18
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::compare( const Image & reference_ , const MetricType metric_ , double * distortion)",2416,2430,14
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::fx( const std :: string expression_ , const Magick :: ChannelType channel_)",3072,3084,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::adaptiveSharpenChannel( const ChannelType channel_ , const double radius_ , const double sigma_)",1723,1735,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::rotationalBlurChannel( const ChannelType channel_ , const double angle_)",4044,4056,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::channel( const ChannelType channel_),2121,2130,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::process( std :: string name_ , const ssize_t argc , const char ** argv)",3738,3747,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::perceptibleChannel( const ChannelType channel_ , const double epsilon_)",3621,3630,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::colorize( const unsigned int alphaRed_ , const unsigned int alphaGreen_ , const unsigned int alphaBlue_ , const Color & penColor_)",2277,2302,21
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::quantumOperator( const ssize_t x_ , const ssize_t y_ , const size_t columns_ , const size_t rows_ , const ChannelType channel_ , const MagickEvaluateOperator operator_ , const double rvalue_)",3796,3821,23
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::addNoiseChannel( const ChannelType channel_ , const NoiseType noiseType_)",1762,1774,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::raise( const Geometry & geometry_ , const bool raisedFlag_)",3823,3833,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::subImageSearch( const Image & reference_ , const MetricType metric_ , Geometry * offset_ , double * similarityMetric_ , const double similarityThreshold)",4368,4388,19
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::strokePattern( void) const,1446,1468,18
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::enhance( void),2785,2794,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::statistics(),4333,4336,4
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::clipPath( const std :: string pathname_ , const bool inside_)",2243,2250,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::quantumOperator( const ChannelType channel_ , const MagickEvaluateOperator operator_ , double rvalue_)",3786,3794,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::write( const std :: string & imageSpec_),4731,4738,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::blueShift( const double factor_),2036,2045,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::implode( const double factor_),3217,3227,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::channelDepth( const ChannelType channel_),495,506,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::resample( const Point & density_),3962,3972,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::stereo( const Image & rightImage_),4349,4358,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::virtualPixelMethod( const VirtualPixelMethod virtualPixelMethod_),1644,1651,8
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::fontTypeMetricsMultiline( const std :: string & text_ , TypeMetric * metrics)",3004,3016,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::moments( void),3418,3421,4
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::roll( const Geometry & roll_),3999,4008,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::resize( const Geometry & geometry_),3974,3997,18
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::colorMapSize( void) const,567,574,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::encipher( const std :: string & passphrase_),2777,2783,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::gamma( const double gammaRed_ , const double gammaGreen_ , const double gammaBlue_)",3094,3107,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::sparseColor( const ChannelType channel_ , const SparseColorMethod method_ , const size_t numberArguments_ , const double * arguments_)",4291,4305,14
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::Image( const std :: string & imageSpec_),247,266,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::levelColorsChannel( const ChannelType channel_ , const Color & blackColor_ , const Color & whiteColor_ , const bool invert_)",3309,3326,16
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::autoLevelChannel( const ChannelType channel_),1990,1999,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::adaptiveThreshold( const size_t width_ , const size_t height_ , const double bias_)",1737,1749,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::Image( const Blob & blob_ , const Geometry & size_ , const size_t depth_)",125,145,18
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::compare( const Image & reference_),2373,2387,13
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::transparentChroma( const Color & colorLow_ , const Color & colorHigh_)",4521,4548,24
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::floodFillAlpha( const ssize_t x_ , const ssize_t y_ , const unsigned int alpha_ , const bool invert_)",2867,2883,15
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::clip( void),2235,2241,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::adaptiveSharpen( const double radius_ , const double sigma_)",1712,1721,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::formatExpression( const std :: string expression),913,932,18
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::sample( const Geometry & geometry_),4058,4078,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::magnify( void),3359,3368,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::posterizeChannel( const ChannelType channel_ , const size_t levels_ , const DitherMethod method_)",3727,3736,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::annotate( const std :: string & text_ , const Geometry & boundingArea_ , const GravityType gravity_ , const double degrees_)",1825,1898,60
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::segment( const double clusterThreshold_ , const double smoothingThreshold_)",4102,4112,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::morphologyChannel( const ChannelType channel_ , const MorphologyMethod method_ , const std :: string kernel_ , const ssize_t iterations_)",3465,3487,20
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::label( void) const,1072,1085,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::readPixels( const Magick :: QuantumType quantum_ , const unsigned char * source_)",3931,3943,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::getPixels( const ssize_t x_ , const ssize_t y_ , const size_t columns_ , const size_t rows_)",3174,3186,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::negateChannel( const ChannelType channel_ , const bool grayscale_)",3531,3540,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::solarize( const double factor_),4283,4289,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::attribute( const std :: string name_ , const std :: string value_)",1938,1944,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::separate( const ChannelType channel_),4142,4154,12
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::floodFillAlpha( const ssize_t x_ , const ssize_t y_ , const unsigned int alpha_ , const Color & target_ , const bool invert_)",2885,2901,15
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::levelChannel( const ChannelType channel_ , const double blackPoint_ , const double whitePoint_ , const double gamma_)",3281,3290,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::unsharpmask( const double radius_ , const double sigma_ , const double amount_ , const double threshold_)",4597,4608,11
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::erase( void),2804,2810,7
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::compareChannel( const ChannelType channel_ , const Image & reference_ , const MetricType metric_)",2401,2414,13
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::colorSpace( const ColorspaceType colorSpace_),576,585,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::brightnessContrastChannel( const ChannelType channel_ , const double brightness_ , const double contrast_)",2096,2105,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::clutChannel( const ChannelType channel_ , const Image & clutImage_ , const PixelInterpolateMethod method)",2261,2270,10
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,"Magick::Image::kuwahara( const double radius_ , const double sigma_)",3247,3256,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::frame( const Geometry & geometry_),3018,3037,17
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::modulusDepth( void) const,1155,1164,9
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::perceptualHash(),3632,3635,4
+imagemagick/imagemagick,CVE-2017-17499,664,77328896b876314656427663695bc7b2c9be3f74,True,False,Magick++/lib/Image.cpp,Magick::Image::texture( const Image & texture_),4409,4415,7
+imagemagick/imagemagick,CVE-2016-5690,710,d483c4680af84815a38eccf4abd739f70f9e57cb,True,True,coders/dcm.c,ReadDCMImage,2791,4111,1159
+imagemagick/imagemagick,CVE-2016-5690,710,e27293e706ca05b6b121e9512a83b16f7ad887f2,True,True,coders/dcm.c,ReadDCMImage,2783,3854,918
+imagemagick/imagemagick,CVE-2016-7521,664,891df41d828a641db63d8bae45ca027d0e28341d,True,False,coders/psd.c,ReadPSDChannelRaw,795,837,34
+imagemagick/imagemagick,CVE-2016-7521,664,891df41d828a641db63d8bae45ca027d0e28341d,True,False,coders/psd.c,ReadPSDChannelRLE,862,935,60
+imagemagick/imagemagick,CVE-2016-7521,664,891df41d828a641db63d8bae45ca027d0e28341d,True,True,coders/psd.c,DecodePSDPixels,327,455,115
+imagemagick/imagemagick,CVE-2016-7521,664,cd0817764b65f779425ef95dfd90abbcf76d0a46,True,False,coders/psd.c,ModeToString,386,400,15
+imagemagick/imagemagick,CVE-2016-7521,664,cd0817764b65f779425ef95dfd90abbcf76d0a46,True,True,coders/psd.c,DecodePSDPixels,246,363,114
+imagemagick/imagemagick,CVE-2016-7521,664,cd0817764b65f779425ef95dfd90abbcf76d0a46,True,False,coders/psd.c,CompositeOperatorToPSDBlendMode,221,244,23
+imagemagick/imagemagick,CVE-2016-7521,664,cd0817764b65f779425ef95dfd90abbcf76d0a46,True,False,coders/psd.c,ReadPSDLayer,508,666,149
+imagemagick/imagemagick,CVE-2016-7529,664,101ab708b0574518ac5715da4d3915400e9df79a,True,True,coders/xcf.c,load_tile,333,403,65
+imagemagick/imagemagick,CVE-2016-7529,664,101ab708b0574518ac5715da4d3915400e9df79a,True,False,coders/xcf.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2016-7101,664,7afcf9f71043df15508e46f079387bd4689a738d,True,True,coders/sgi.c,ReadSGIImage,256,718,403
+imagemagick/imagemagick,CVE-2016-7101,664,da16f16767eb31921af855f17bda465fffc4e000,True,True,coders/sgi.c,ReadSGIImage,260,705,387
+imagemagick/imagemagick,CVE-2016-7532,664,94b11835effe9f2ded8638e50db5fb7acd92ea0b,True,True,coders/psd.c,RemoveResolutionFromResourceBlock,2001,2047,41
+imagemagick/imagemagick,CVE-2016-7532,664,3a37efd7ece979e9c63dc8f2f2d3816bab8b1156,True,True,coders/psd.c,WritePSDImage,2044,2379,305
+imagemagick/imagemagick,CVE-2016-7532,664,3a37efd7ece979e9c63dc8f2f2d3816bab8b1156,True,False,coders/psd.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2017-16546,664,8dbbd491d8f9d1db16848eceac8451b7faf3e4a4,True,True,coders/wpg.c,ReadWPGImage,859,1479,516
+imagemagick/imagemagick,CVE-2017-5509,664,cb613e9727c63201aeb043564383bd5b740909a4,True,False,coders/psd.c,WritePSDOffset,2159,2176,16
+imagemagick/imagemagick,CVE-2017-5509,664,cb613e9727c63201aeb043564383bd5b740909a4,True,False,coders/psd.c,WriteImageChannels,2423,2543,112
+imagemagick/imagemagick,CVE-2017-5509,664,cb613e9727c63201aeb043564383bd5b740909a4,True,False,coders/psd.c,ReadPSDChannel,1161,1265,90
+imagemagick/imagemagick,CVE-2017-5509,664,cb613e9727c63201aeb043564383bd5b740909a4,True,False,coders/psd.c,PSDPackbitsEncodeImage,2205,2314,97
+imagemagick/imagemagick,CVE-2017-5509,664,cb613e9727c63201aeb043564383bd5b740909a4,True,False,coders/psd.c,WriteChannelSize,2607,2616,9
+imagemagick/imagemagick,CVE-2017-5509,664,cb613e9727c63201aeb043564383bd5b740909a4,True,True,coders/psd.c,AcquireCompactPixels,2402,2421,18
+imagemagick/imagemagick,CVE-2017-5509,664,cb613e9727c63201aeb043564383bd5b740909a4,True,False,coders/psd.c,WritePSDImage,2826,3125,266
+imagemagick/imagemagick,CVE-2017-5509,664,419e5adbecfc7375751e7ac2ba30be0b1d35690f,True,True,coders/psd.c,ReadPSDLayers,1181,1525,292
+imagemagick/imagemagick,CVE-2017-5509,664,419e5adbecfc7375751e7ac2ba30be0b1d35690f,True,False,coders/psd.c,ReadPSDImage,1586,1854,223
+imagemagick/imagemagick,CVE-2016-10065,284,3b8b0b8b150e3f9bc338bb2c01af291269987f81,True,False,MagickCore/quantum-import.c,ImportQuantumPixels,4090,4301,199
+imagemagick/imagemagick,CVE-2016-10065,284,3b8b0b8b150e3f9bc338bb2c01af291269987f81,True,False,MagickCore/quantum-import.c,ImportCMYKOQuantum,1828,2007,172
+imagemagick/imagemagick,CVE-2016-10065,284,3b8b0b8b150e3f9bc338bb2c01af291269987f81,True,False,MagickCore/quantum-import.c,ImportRGBOQuantum,3856,4088,222
+imagemagick/imagemagick,CVE-2016-10065,284,3b8b0b8b150e3f9bc338bb2c01af291269987f81,True,True,MagickCore/quantum-import.c,ImportGrayQuantum,2009,2321,301
+imagemagick/imagemagick,CVE-2016-10065,284,3b8b0b8b150e3f9bc338bb2c01af291269987f81,True,False,MagickCore/quantum-import.c,ImportBGROQuantum,916,1148,222
+imagemagick/imagemagick,CVE-2016-10065,284,b0a657e13c4aefba39c51292005427b47277869d,True,True,coders/viff.c,ReadVIFFImage,139,762,529
+imagemagick/imagemagick,CVE-2018-20467,691,ecb31dbad39ccdc65868d5d2a37f0f0521250832,True,True,coders/bmp.c,ReadBMPImage,510,1478,857
+imagemagick/imagemagick,CVE-2017-12876,664,21dc0310cdaa5cc6034a1e100746706f5ec089eb,True,True,MagickCore/enhance.c,EqualizeImage,1498,1740,200
+imagemagick/imagemagick,CVE-2017-12876,664,21dc0310cdaa5cc6034a1e100746706f5ec089eb,True,False,MagickCore/enhance.c,ModulateImage,3142,3396,220
+imagemagick/imagemagick,CVE-2017-12876,664,21dc0310cdaa5cc6034a1e100746706f5ec089eb,True,False,MagickCore/enhance.c,ContrastImage,865,977,85
+imagemagick/imagemagick,CVE-2017-12876,664,21dc0310cdaa5cc6034a1e100746706f5ec089eb,True,False,MagickCore/enhance.c,GrayscaleImage,1957,2135,157
+imagemagick/imagemagick,CVE-2017-12876,664,06c4f034881895074da3f4e4f206ba06429f042b,True,True,MagickCore/enhance.c,EqualizeImage,1496,1728,193
+imagemagick/imagemagick,CVE-2017-12876,664,94190b79d7abf8261e3a1af37aa7a7f86757b2d6,True,False,MagickCore/enhance.c,ModulateImage,3124,3376,220
+imagemagick/imagemagick,CVE-2017-12876,664,94190b79d7abf8261e3a1af37aa7a7f86757b2d6,True,False,MagickCore/enhance.c,ContrastImage,865,975,85
+imagemagick/imagemagick,CVE-2017-12876,664,94190b79d7abf8261e3a1af37aa7a7f86757b2d6,True,False,MagickCore/enhance.c,GrayscaleImage,1945,2117,153
+imagemagick/imagemagick,CVE-2017-12876,664,94190b79d7abf8261e3a1af37aa7a7f86757b2d6,True,True,MagickCore/enhance.c,EqualizeImage,1496,1728,193
+imagemagick/imagemagick,CVE-2017-12876,664,94190b79d7abf8261e3a1af37aa7a7f86757b2d6,True,False,MagickCore/enhance.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2019-13303,664,65d195e5b3cdbf4a62270f403597af41a5d4b1b3,True,False,MagickCore/composite.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2019-13303,664,e8e8eff5f2414d6096195a41934fc0edee9d9212,True,False,MagickCore/composite.c,,-1,-1,-1
+imagemagick/imagemagick,CVE-2019-13303,664,e8e8eff5f2414d6096195a41934fc0edee9d9212,True,False,MagickCore/composite.c,CompositeOverImage,287,498,164
+imagemagick/imagemagick,CVE-2017-9499,691,b6781acb6da0bfccd07e5f91f5793cdfc38672a0,True,True,coders/mpc.c,ReadMPCImage,145,980,753
+imagemagick/imagemagick,CVE-2017-9499,691,b6781acb6da0bfccd07e5f91f5793cdfc38672a0,True,False,coders/mpc.c,WriteMPCImage,1074,1491,375
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,GammaImage,1759,1905,113
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,SigmoidalContrastImage,3743,3886,109
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,LevelImage,2368,2479,85
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,LevelImageColors,2676,2779,99
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,BrightnessContrastImage,220,250,24
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,GrayscaleImage,1951,2121,151
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,True,MagickCore/enhance.c,ContrastStretchImage,998,1262,218
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,LevelizeImage,2523,2633,82
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,ClutImage,297,418,100
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,EnhanceImage,1289,1453,123
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,ContrastImage,851,959,83
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,ModulateImage,3129,3378,217
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,True,MagickCore/enhance.c,EqualizeImage,1479,1717,197
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,ColorDecisionListImage,465,792,290
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,NegateImage,3408,3578,136
+imagemagick/imagemagick,CVE-2016-6520,664,cb190b747d69b577bca26a551c1227ecf2995ecb,True,False,MagickCore/enhance.c,HaldClutImage,2154,2309,130
+imagemagick/imagemagick,CVE-2016-6520,664,7d4aa38318c20a4309d855f45e3744c9f300f697,True,True,MagickCore/enhance.c,EqualizeImage,1477,1713,195
+imagemagick/imagemagick,CVE-2016-6520,664,a19f1d70e9a9f88279c4ecafe6dfafc1f9a09599,True,False,MagickCore/enhance.c,LevelImage,2202,2322,88
+imagemagick/imagemagick,CVE-2016-6520,664,a19f1d70e9a9f88279c4ecafe6dfafc1f9a09599,True,False,MagickCore/enhance.c,LinearStretchImage,2665,2738,57
+imagemagick/imagemagick,CVE-2016-6520,664,a19f1d70e9a9f88279c4ecafe6dfafc1f9a09599,True,False,MagickCore/enhance.c,GammaImage,1803,1946,106
+imagemagick/imagemagick,CVE-2016-6520,664,a19f1d70e9a9f88279c4ecafe6dfafc1f9a09599,True,False,MagickCore/enhance.c,LevelPixel,2189,2200,11
+imagemagick/imagemagick,CVE-2016-6520,664,a19f1d70e9a9f88279c4ecafe6dfafc1f9a09599,True,True,MagickCore/enhance.c,EqualizeImage,1511,1767,200
+imagemagick/imagemagick,CVE-2016-6520,664,a19f1d70e9a9f88279c4ecafe6dfafc1f9a09599,True,False,MagickCore/enhance.c,EnhanceImage,1315,1485,125
+imagemagick/imagemagick,CVE-2016-6520,664,a19f1d70e9a9f88279c4ecafe6dfafc1f9a09599,True,False,MagickCore/enhance.c,ColorDecisionListImage,471,811,295
+imagemagick/imagemagick,CVE-2016-6520,664,a19f1d70e9a9f88279c4ecafe6dfafc1f9a09599,True,False,MagickCore/enhance.c,HaldClutImage,1987,2143,131
+imagemagick/imagemagick,CVE-2016-6520,664,a19f1d70e9a9f88279c4ecafe6dfafc1f9a09599,True,True,MagickCore/enhance.c,ContrastStretchImage,1005,1288,223
+imagemagick/imagemagick,CVE-2016-6520,664,a19f1d70e9a9f88279c4ecafe6dfafc1f9a09599,True,False,MagickCore/enhance.c,SigmoidalContrastImage,3337,3506,115
+imagemagick/imagemagick,CVE-2016-6520,664,f45fec7942c9d6d02cbd672ae8ad245f7ba967f3,True,False,MagickCore/enhance.c,EnhanceImage,1287,1449,119
+imagemagick/imagemagick,CVE-2016-6520,664,f45fec7942c9d6d02cbd672ae8ad245f7ba967f3,True,True,MagickCore/enhance.c,ContrastStretchImage,1000,1260,207
+imagemagick/imagemagick,CVE-2016-6520,664,f45fec7942c9d6d02cbd672ae8ad245f7ba967f3,True,False,MagickCore/enhance.c,HaldClutImage,1919,2080,136
+imagemagick/imagemagick,CVE-2016-6520,664,f45fec7942c9d6d02cbd672ae8ad245f7ba967f3,True,True,MagickCore/enhance.c,EqualizeImage,1475,1715,191
+imagemagick/imagemagick,CVE-2019-15139,664,dabba008c570fd2fc25d6f990e65d0db28c663c7,True,True,coders/xwd.c,ReadXWDImage,151,655,443
+imagemagick/imagemagick,CVE-2019-15139,664,c9537454d3b34b8516f5c16fcb78ecc6277380b5,True,True,coders/xwd.c,ReadXWDImage,151,657,445
+imagemagick/imagemagick,CVE-2019-15139,664,08e9a113db499034abb5ad8d59b42f8eca3c641c,True,True,coders/xwd.c,RegisterXWDImage,596,612,14
+imagemagick/imagemagick,CVE-2015-8900,691,b84ca11ed968d83c68c046e85f0c29ef60212efd,True,True,coders/hdr.c,ReadHDRImage,133,478,312
+imagemagick/imagemagick,CVE-2015-8900,691,03533f2c0a4746924d8aae185e28e5a364b9a2dd,True,False,coders/hdr.c,RegisterHDRImage,434,446,12
+imagemagick/imagemagick,CVE-2015-8900,691,03533f2c0a4746924d8aae185e28e5a364b9a2dd,True,False,coders/hdr.c,IsHDR,89,97,9
+imagemagick/imagemagick,CVE-2015-8900,691,03533f2c0a4746924d8aae185e28e5a364b9a2dd,True,True,coders/hdr.c,ReadHDRImage,125,410,258
+imagemagick/imagemagick,CVE-2015-8900,691,03533f2c0a4746924d8aae185e28e5a364b9a2dd,True,False,coders/hdr.c,,-1,-1,-1

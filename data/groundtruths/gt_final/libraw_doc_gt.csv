@@ -1,0 +1,213 @@
+function_name,doc_name,content
+LibRaw::dcraw_clear_mem,API-CXX-eng.md,"### void LibRaw::dcraw_clear_mem(libraw_processed_image_t *)
+
+
+      This function will free the memory allocated by dcraw_make_mem_image or dcraw_make_mem_thumb.
+      
+
+      This is static class member, so call syntax should be LibRaw::dcraw_clear_mem(...).
+    
+
+      This call translates directly to free() system function, but it is better to use dcraw_clear_mem because
+      LibRaw (DLL) may be compiled with memory manager other than in calling application."
+LibRaw::dcraw_document_mode_processing,API-CXX-eng.md,"### int LibRaw::dcraw_document_mode_processing(void)
+
+
+     The function emulates dcraw -D: no interpolation, white balance, and color conversion. 
+It is called after calling LibRaw::unpack();
+    
+The function returns an integer number in accordance with the error
+code convention: positive if any system call has returned an error, negative (from the
+LibRaw error list) if there has been an error situation within
+LibRaw.
+    "
+LibRaw::dcraw_document_mode_processing,API-C-eng.md,"### Emulation of dcraw Behavior
+
+
+
+**int                 libraw_adjust_sizes_info_only(libraw_data_t*);**
+: SeeLibRaw::adjust_sizes_info_only()
+
+**int                 libraw_dcraw_document_mode_processing(libraw_data_t*);**
+: SeeLibRaw::dcraw_document_mode_processing()
+
+**int                 libraw_dcraw_process(libraw_data_t* lr);**
+: SeeLibRaw::dcraw_process()"
+ LibRaw::dcraw_make_mem_image, API-C-eng.md," ## Writing to Output Files
+
+
+
+**int                 libraw_dcraw_ppm_tiff_writer(libraw_data_t* lr,const char *filename);**
+: SeeLibRaw::dcraw_ppm_tiff_writer()
+
+**int                 libraw_dcraw_thumb_writer(libraw_data_t* lr,const char *fname);**
+: SeeLibRaw::dcraw_thumb_writer()
+
+
+
+## Writing processing results to memory buffer
+
+
+
+**libraw_processed_image_t *libraw_dcraw_make_mem_image(libraw_data_t* lr,int * errcode)**
+: SeeLibRaw::dcraw_make_mem_image()
+
+**libraw_processed_image_t *libraw_dcraw_make_mem_thumb(libraw_data_t* lr,int * errcode)**
+: SeeLibRaw::dcraw_make_mem_thumb()"
+ LibRaw::dcraw_make_mem_thumb, API-C-eng.md," ## Writing to Output Files
+
+
+
+**int                 libraw_dcraw_ppm_tiff_writer(libraw_data_t* lr,const char *filename);**
+: SeeLibRaw::dcraw_ppm_tiff_writer()
+
+**int                 libraw_dcraw_thumb_writer(libraw_data_t* lr,const char *fname);**
+: SeeLibRaw::dcraw_thumb_writer()
+
+
+
+## Writing processing results to memory buffer
+
+
+
+**libraw_processed_image_t *libraw_dcraw_make_mem_image(libraw_data_t* lr,int * errcode)**
+: SeeLibRaw::dcraw_make_mem_image()
+
+**libraw_processed_image_t *libraw_dcraw_make_mem_thumb(libraw_data_t* lr,int * errcode)**
+: SeeLibRaw::dcraw_make_mem_thumb()"
+ LibRaw::dcraw_process, API-C-eng.md," ### Emulation of dcraw Behavior
+
+
+
+**int                 libraw_adjust_sizes_info_only(libraw_data_t*);**
+: SeeLibRaw::adjust_sizes_info_only()
+
+**int                 libraw_dcraw_document_mode_processing(libraw_data_t*);**
+: SeeLibRaw::dcraw_document_mode_processing()
+
+**int                 libraw_dcraw_process(libraw_data_t* lr);**
+: SeeLibRaw::dcraw_process()"
+ LibRaw::dcraw_process, API-CXX-eng.md," LibRaw::dcraw_process(void)
+
+
+      The function emulates the postprocessing capabilities available in dcraw.
+      Called after calling LibRaw::unpack();
+    
+The entire functionality of dcraw (set via the field values in imgdata.params) is supported, except for
+      
+
+Dark frame subtraction
+Work with bad pixels.
+
+The function is intended solely for demonstration and testing purposes; it is assumed that its source code
+will be used in most real applications as the reference material concerning the order of RAW data processing. 
+    
+The function returns an integer number in accordance with the error
+code convention: positive if any system call has returned an error, negative (from the
+LibRaw error list) if there has been an error situation within
+LibRaw."
+LibRaw::dcraw_thumb_writer, API-C-eng.md," ## Writing to Output Files
+
+
+
+**int                 libraw_dcraw_ppm_tiff_writer(libraw_data_t* lr,const char *filename);**
+: SeeLibRaw::dcraw_ppm_tiff_writer()
+
+**int                 libraw_dcraw_thumb_writer(libraw_data_t* lr,const char *fname);**
+: SeeLibRaw::dcraw_thumb_writer()"
+LibRaw::dcraw_thumb_writer, API-CXX-eng.md," ### int LibRaw::dcraw_thumb_writer(const char *thumbfile)
+
+Writes the thumbnail to a file in the PPM format for bitmap thumbnails and in the JPEG format for JPEG thumbnails, i.e.,
+in the format completely identical to the results provided by dcraw.
+    
+The function returns an integer number in accordance with the error
+code convention: positive if any system call has returned an error, negative (from the
+LibRaw error list) if there has been an error situation within
+LibRaw."
+LibRaw::subtract_black,API-CXX-eng.md,"#### void LibRaw::subtract_black()
+
+
+      This call will subtract black level values from RAW data (for suitable RAW data).
+      colordata.channel_maximum and
+      colordata.maximum and black level data (colordata.black and colordata.cblack) will be adjusted
+      too.  
+    
+
+      This call should be used if you postprocess RAW data by your own code. LibRaw 
+      postprocessing functions will call subtract_black() by oneself.
+    "
+LibRaw::unpack,API-datastruct-eng.md,"### enum LibRaw_thumbnail_formats: Thumbnail Data Formats
+
+Thumbnail data format is written in the imgdata.thumbnail.tformat data field.
+      Presently LibRaw knows about four thumbnail formats, among which two are unpacked:
+    
+
+
+**LIBRAW_THUMBNAIL_UNKNOWN**
+: Format unknown or thumbnail  not yet read.
+
+**LIBRAW_THUMBNAIL_JPEG**
+: The thumbnail buffer contains a JPEG file (read from the RAW file ""as is,"" without any manipulations performed on it).
+
+**LIBRAW_THUMBNAIL_BITMAP**
+: The thumbnail buffer contains the gamma-adjusted RGB bitmap (for Kodak cameras, the gamma correction is performed with allowance
+       for maximum values and the white balance is set in accordance with the camera settings).In this format, each pixel of the image is represented by a 8-bit RGB triplet.
+
+**LIBRAW_THUMBNAIL_LAYER**
+: Data format is presently recognized upon opening of RAW file but not supported: not unpacked into LibRaw::unpack_thumb.
+
+**LIBRAW_THUMBNAIL_ROLLEI**
+: Data format is presently recognized upon opening of RAW file but not supported: not unpacked into LibRaw::unpack_thumb."
+LibRaw::unpack_thumb,API-CXX-eng.md,"### int LibRaw::unpack_thumb(void)
+
+
+ Reads (or unpacks) the image preview (thumbnail), placing the result into the imgdata.thumbnail.thumb buffer.
+ JPEG previews are placed into this buffer without any changes (with the header etc.). Other preview
+formats are placed into the buffer in the form of the unpacked bitmap image (three components, 8 bits per component).
+ The thumbnail format is written to the imgdata.thumbnail.tformat field; for the possible values, see
+description of constants and data structures.
+
+    
+The function returns an integer number in accordance with the return code
+convention: positive if any system call has returned an error, negative (from the
+LibRaw error list) if there has been an error situation within
+LibRaw."
+LibRaw::unpack_thumb,API-datastruct-eng.md,"### enum LibRaw_thumbnail_formats: Thumbnail Data Formats
+
+Thumbnail data format is written in the imgdata.thumbnail.tformat data field.
+      Presently LibRaw knows about four thumbnail formats, among which two are unpacked:
+    
+
+
+**LIBRAW_THUMBNAIL_UNKNOWN**
+: Format unknown or thumbnail  not yet read.
+
+**LIBRAW_THUMBNAIL_JPEG**
+: The thumbnail buffer contains a JPEG file (read from the RAW file ""as is,"" without any manipulations performed on it).
+
+**LIBRAW_THUMBNAIL_BITMAP**
+: The thumbnail buffer contains the gamma-adjusted RGB bitmap (for Kodak cameras, the gamma correction is performed with allowance
+       for maximum values and the white balance is set in accordance with the camera settings).In this format, each pixel of the image is represented by a 8-bit RGB triplet.
+
+**LIBRAW_THUMBNAIL_LAYER**
+: Data format is presently recognized upon opening of RAW file but not supported: not unpacked into LibRaw::unpack_thumb.
+
+**LIBRAW_THUMBNAIL_ROLLEI**
+: Data format is presently recognized upon opening of RAW file but not supported: not unpacked into LibRaw::unpack_thumb."
+LibRaw::unpack_thumb,API-notes-eng.md,"### Processing of Thumbnails from Kodak cameras
+
+In some Kodak cameras, the preview (thumbnail) is stored in the form of uncorrected image. During its extraction using
+   dcraw -e, the white balance, color conversion, and other settings are the same as those used for extraction of the main RAW data
+   (including defect removal and dark frame subtraction, which is erroneous, since the image size is different).
+    
+      In LibRaw::unpack_thumb() calls, the white balance taken from the camera (""as shot"") is used and no settings from
+     imgdata.params are considered.
+    
+
+      For all other cameras, thumbnails are extracted ""as is,"" without any color conversions, both in dcraw and in LibRaw."
+bad_pixels,API-datastruct-eng.md,"**char*         bad_pixels;**
+: dcraw keys:-P filePath to file with bad pixels map (in dcraw format: ""column row date-of-pixel-death-in-UNIX-format"", one pixel
+        per row)."
+green_matching,API-datastruct-eng.md,"**int         green_matching;**
+: Turns on fixing of green channels disbalance.dcraw keys:noneDefault:  0 (not use), 1 - turns on this postprocessing stage. green_matching requires additional memory for
+        image data."

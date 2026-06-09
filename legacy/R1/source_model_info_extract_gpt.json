@@ -1,0 +1,744 @@
+[
+  {
+    "function_name": "DrawGetStrokeColor",
+    "data": [
+      "",
+      "",
+      false,
+      "DrawGetStrokeColor",
+      "",
+      "",
+      "Argument[*1]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetCacheViewAuthenticPixels",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "GetCacheViewAuthenticPixels",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetCacheViewAuthenticPixels",
+    "data": [
+      "",
+      "",
+      false,
+      "GetCacheViewAuthenticPixels",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PeekDrawingWand",
+    "data": [
+      "",
+      "",
+      false,
+      "PeekDrawingWand",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DrawSetFillPatternURL",
+    "data": [
+      "",
+      "",
+      false,
+      "DrawSetFillPatternURL",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetOneVirtualPixelInfo",
+    "data": [
+      "",
+      "",
+      false,
+      "GetOneVirtualPixelInfo",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetImageEntropy",
+    "data": [
+      "",
+      "",
+      false,
+      "GetImageEntropy",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "BlobToImage",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "BlobToImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "BlobToImage",
+    "data": [
+      "",
+      "",
+      false,
+      "BlobToImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "AcquireVirtualCacheView",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "AcquireVirtualCacheView",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "AcquireVirtualCacheView",
+    "data": [
+      "",
+      "",
+      false,
+      "AcquireVirtualCacheView",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetAlphaQuantum",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetAlphaQuantum",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "AcquireImage",
+    "data": [
+      "",
+      "",
+      false,
+      "AcquireImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetCacheViewVirtualPixels",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "GetCacheViewVirtualPixels",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetCacheViewVirtualPixels",
+    "data": [
+      "",
+      "",
+      false,
+      "GetCacheViewVirtualPixels",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetNextImageProperty",
+    "data": [
+      "",
+      "",
+      false,
+      "GetNextImageProperty",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetRedQuantum",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetRedQuantum",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ReadImages",
+    "data": [
+      "",
+      "",
+      false,
+      "ReadImages",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DrawSetStrokePatternURL",
+    "data": [
+      "",
+      "",
+      false,
+      "DrawSetStrokePatternURL",
+      "",
+      "",
+      "Argument[0,1]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PingImages",
+    "data": [
+      "",
+      "",
+      false,
+      "PingImages",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetOneVirtualPixel",
+    "data": [
+      "",
+      "",
+      false,
+      "GetOneVirtualPixel",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetPixel",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetPixel",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetImageProfile",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "GetImageProfile",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetImageProfile",
+    "data": [
+      "",
+      "",
+      false,
+      "GetImageProfile",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetImageProperty",
+    "data": [
+      "",
+      "",
+      false,
+      "GetImageProperty",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "AcquireNextImage",
+    "data": [
+      "",
+      "",
+      false,
+      "AcquireNextImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "QueryColorname",
+    "data": [
+      "",
+      "",
+      false,
+      "QueryColorname",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetImageFromMagickWand",
+    "data": [
+      "",
+      "",
+      false,
+      "GetImageFromMagickWand",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetOneCacheViewVirtualPixelInfo",
+    "data": [
+      "",
+      "",
+      false,
+      "GetOneCacheViewVirtualPixelInfo",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "AcquireKernelInfo",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "AcquireKernelInfo",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "AcquireKernelInfo",
+    "data": [
+      "",
+      "",
+      false,
+      "AcquireKernelInfo",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ImagesToBlob",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "ImagesToBlob",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ImagesToBlob",
+    "data": [
+      "",
+      "",
+      false,
+      "ImagesToBlob",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "FileToImage",
+    "data": [
+      "",
+      "",
+      false,
+      "FileToImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "DrawGetFont",
+    "data": [
+      "",
+      "",
+      false,
+      "DrawGetFont",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PingImage",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "PingImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PingImage",
+    "data": [
+      "",
+      "",
+      false,
+      "PingImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ReadImage",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "ReadImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ReadImage",
+    "data": [
+      "",
+      "",
+      false,
+      "ReadImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "AcquireVirtualMemory",
+    "data": [
+      "",
+      "",
+      false,
+      "AcquireVirtualMemory",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ImageToBlob",
+    "data": [
+      "",
+      "",
+      false,
+      "ImageToBlob",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetMagentaQuantum",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetMagentaQuantum",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetVirtualMetacontent",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "GetVirtualMetacontent",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetVirtualMetacontent",
+    "data": [
+      "",
+      "",
+      false,
+      "GetVirtualMetacontent",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetMagickSignature",
+    "data": [
+      "",
+      "",
+      false,
+      "GetMagickSignature",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetAuthenticPixels",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "GetAuthenticPixels",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetAuthenticPixels",
+    "data": [
+      "",
+      "",
+      false,
+      "GetAuthenticPixels",
+      "",
+      "",
+      "Argument[0]",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "GetVirtualPixels",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "GetVirtualPixels",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ConstituteImage",
+    "data": [
+      "MagickCore",
+      "",
+      false,
+      "ConstituteImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "ConstituteImage",
+    "data": [
+      "",
+      "",
+      false,
+      "ConstituteImage",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetMagickColor",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetMagickColor",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetCyanQuantum",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetCyanQuantum",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  },
+  {
+    "function_name": "PixelGetBlueQuantum",
+    "data": [
+      "",
+      "",
+      false,
+      "PixelGetBlueQuantum",
+      "",
+      "",
+      "ReturnValue",
+      "taint",
+      "manual"
+    ]
+  }
+]

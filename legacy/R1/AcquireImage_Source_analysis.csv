@@ -1,0 +1,387 @@
+"f","col1"
+"AcquireImage","Function Analysis for: AcquireImage
+File: image.c
+Line: 151
+Return Type: Image *
+
+Namespace: 
+
+Parameters:
+  0: const ImageInfo * image_info
+  1: ExceptionInfo * exception
+
+Function Calls:
+  Called from ImageRef at ImageRef.cpp:25
+    Arg 0: call to imageInfo (ImageInfo *)
+    Arg 1: exceptionInfo (ExceptionInfo *)
+  Called from ReadDNGImage at dng.c:117
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadTILEImage at tile.c:117
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadHALDImage at hald.c:118
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadXCImage at xc.c:122
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadLABELImage at label.c:125
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadNULLImage at null.c:127
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPIXImage at pix.c:128
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadARTImage at art.c:129
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadDNGImage at dng.c:129
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMACImage at mac.c:130
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadUYVYImage at uyvy.c:130
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMONOImage at mono.c:131
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadHRZImage at hrz.c:132
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadAAIImage at aai.c:135
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadOTBImage at otb.c:135
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadRAWImage at raw.c:135
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadCAPTIONImage at caption.c:136
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMTVImage at mtv.c:136
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadAVSImage at avs.c:137
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadRGFImage at rgf.c:137
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadGRAYImage at gray.c:139
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadCMYKImage at cmyk.c:141
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadINLINEImage at inline.c:141
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadRGBImage at rgb.c:141
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadSTEGANOImage at stegano.c:141
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadVIDImage at vid.c:141
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadBGRImage at bgr.c:142
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadYUVImage at yuv.c:144
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMAPImage at map.c:146
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadYCBCRImage at ycbcr.c:148
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadFAXImage at fax.c:149
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMVGImage at mvg.c:150
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadSCRImage at scr.c:150
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadTIMImage at tim.c:152
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadWBMPImage at wbmp.c:155
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadJNXImage at jnx.c:161
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadXPSImage at xps.c:165
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPWPImage at pwp.c:168
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadSCTImage at sct.c:169
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadEXRImage at exr.c:178
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadHDRImage at hdr.c:185
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadEPTImage at ept.c:187
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadCALSImage at cals.c:189
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMPEGImage at mpeg.c:191
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadVICARImage at vicar.c:191
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadRLAImage at rla.c:200
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadTGAImage at tga.c:200
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMPCImage at mpc.c:202
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadRLEImage at rle.c:202
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMPEGImage at mpeg.c:204
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadIPLImage at ipl.c:210
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPCLImage at pcl.c:211
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadTTFImage at ttf.c:214
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadXBMImage at xbm.c:223
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadSFWImage at sfw.c:244
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadWEBPImage at webp.c:249
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPNMImage at pnm.c:267
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPCXImage at pcx.c:269
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadVIFFImage at viff.c:282
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadICONImage at icon.c:285
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadSUNImage at sun.c:287
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadXPMImage at xpm.c:289
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadFITSImage at fits.c:295
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPALMImage at palm.c:298
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadSGIImage at sgi.c:305
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadCUTImage at cut.c:319
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPDBImage at pdb.c:323
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadGROUP4Image at tiff.c:350
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from AcquireNextImage at image.c:393
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadVIPSImage at vips.c:399
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadCUTImage at cut.c:414
+    Arg 0: clone_info (ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadTXTImage at txt.c:415
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadCINImage at cin.c:434
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ClearDrawingWand at drawing-wand.c:457
+    Arg 0: 0 (int)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPDFImage at pdf.c:464
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPESImage at pes.c:481
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMIFFImage at miff.c:487
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadDIBImage at dib.c:488
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from OpenDistributeCache at distribute-cache.c:490
+    Arg 0: 0 (int)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPSImage at ps.c:507
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPCDImage at pcd.c:526
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadBMPImage at bmp.c:543
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from DecompressBlock at mat.c:552
+    Arg 0: clone_info (ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from MontageImageList at montage.c:564
+    Arg 0: 0 (int)
+    Arg 1: exception (ExceptionInfo *)
+  Called from MontageImageList at montage.c:565
+    Arg 0: clone_info (ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from MSLPushImage at msl.c:576
+    Arg 0: access to array (ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadDPXImage at dpx.c:703
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMATImage at mat.c:822
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPICTImage at pict.c:863
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadWPGImage at wpg.c:982
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadSIXELImage at sixel.c:987
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPATTERNImage at pattern.c:991
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadGIFImage at gif.c:996
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadXCFImage at xcf.c:1036
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadGIFImage at gif.c:1037
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadJPEGImage at jpeg.c:1058
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadTIFFImage at tiff.c:1147
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMETAImage at meta.c:1168
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMETAImage at meta.c:1188
+    Arg 0: 0 (int)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMETAImage at meta.c:1230
+    Arg 0: 0 (int)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMETAImage at meta.c:1256
+    Arg 0: 0 (int)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMETAImage at meta.c:1295
+    Arg 0: 0 (int)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMETAImage at meta.c:1318
+    Arg 0: 0 (int)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMETAImage at meta.c:1341
+    Arg 0: 0 (int)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadDDSImage at dds.c:1669
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPSDImage at psd.c:1798
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from NewMagickImage at image.c:2037
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from WriteMETAImage at meta.c:2281
+    Arg 0: 0 (int)
+    Arg 1: exception (ExceptionInfo *)
+  Called from WriteMETAImage at meta.c:2315
+    Arg 0: 0 (int)
+    Arg 1: exception (ExceptionInfo *)
+  Called from SetImageInfo at image.c:2732
+    Arg 0: image_info (ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadSVGImage at svg.c:2803
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadDCMImage at dcm.c:2867
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadPNGImage at png.c:3969
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadOneJNGImage at png.c:4315
+    Arg 0: color_image_info (ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadOneJNGImage at png.c:4340
+    Arg 0: alpha_image_info (ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadJNGImage at png.c:4831
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ReadMNGImage at png.c:4999
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from replaceImage at Image.cpp:5000
+    Arg 0: call to constImageInfo (const ImageInfo *)
+    Arg 1: exceptionInfo (ExceptionInfo *)
+  Called from NewDrawingWand at drawing-wand.c:6740
+    Arg 0: 0 (int)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ProcessMSLScript at msl.c:7727
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+  Called from ProcessMSLScript at msl.c:7761
+    Arg 0: image_info (const ImageInfo *)
+    Arg 1: exception (ExceptionInfo *)
+
+Location Details:
+  Start line: 151
+  End line: 151
+  Start column: 21
+  End column: 32
+Declaration:
+  AcquireImage(const ImageInfo * image_infoExceptionInfo * exception)"
